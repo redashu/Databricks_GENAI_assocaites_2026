@@ -1,5 +1,7 @@
 # Databricks GENAI Associates 2026
 
+<img src="genai.png">
+
 Databricks Certified GenAI Associates learning resources.
 
 ## Databricks GenAI Exam Practice Details
