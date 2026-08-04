@@ -10,6 +10,16 @@ Databricks Certified GenAI Associates learning resources.
 
 ## Recorded Lectures
 
+### Updated Content of Databricks GenAi 
+
+1. [chapter 1: Building RAG Agents with Agent Bricks](https://partner-academy.databricks.com/learn/courses/5857/building-rag-agents-with-agent-bricks)
+
+2. [Chapter 2: Building Agentic Applications on Databricks](https://partner-academy.databricks.com/learn/courses/5856/building-agentic-applications-on-databricks)
+
+
+
+
+
 ### The Home Page URL 
 
 [Unlock_the_Power](https://partner-academy.databricks.com/pages/97/partner-academy-home-page)
