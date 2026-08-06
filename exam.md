@@ -2,7 +2,7 @@
 
 ## Mock Test 1
 
-- Course: [Udemy Mock Test 1](https://www.udemy.com/course/databricks-genai-engineer-associate-prep-tests-2026/?couponCode=DATABRICKS-FREE)
+- Course: [Udemy Mock Test 1](https://www.udemy.com/course/databricks-genai-associate-exam-practice-2026-q/)
 - Coupon code: `DATABRICKS-FREE`
 
 ## Mock Test 2
