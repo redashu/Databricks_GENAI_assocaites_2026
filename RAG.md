@@ -1,5 +1,36 @@
 # RAG (Retrieval-Augmented Generation)
 
+### General RAG without databricks
+
+```text
+                    RAG
+        Retrieval-Augmented Generation
+                    │
+          ┌─────────┴─────────┐
+          │                   │
+   INDEXING PHASE        QUERY PHASE
+   (done beforehand)     (when user asks)
+          │                   │
+      Documents          User Question
+          ↓                   ↓
+       Chunking          Query Embedding
+          ↓                   ↓
+      Embeddings       Similarity Search
+          ↓                   ↓
+    Vector Database    Relevant Chunks
+                              ↓
+                              │
+                    Augmentation
+                              ↓
+                 User Question + Context
+                              ↓
+                             LLM
+                              ↓
+                        Generation
+                              ↓
+                       Final Answer
+```
+
 ## Basic Architecture (Databricks-Oriented)
 
 ```text
