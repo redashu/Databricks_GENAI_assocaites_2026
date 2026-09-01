@@ -4,6 +4,11 @@
 
 Databricks Certified GenAI Associates learning resources.
 
+# PreRequiste 
+
+- [Databricks fundamentals]()
+- [Databricks GenAI fundamentals]()
+
 ## Databricks GenAI Exam Practice Details
 
 - [Preparations of exam and coupon codes](exam.md)
