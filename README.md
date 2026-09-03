@@ -32,6 +32,10 @@ Databricks Certified GenAI Associates learning resources.
 
 4. [Chapter 4: Generative AI Application Deployment and Monitoring](https://partner-academy.databricks.com/learn/courses/2713/generative-ai-application-deployment-and-monitoring)
 
+## Register for Exam 
+
+- [Register for this Exam ](https://www.webassessor.com/databricks)
+
 
 
 
