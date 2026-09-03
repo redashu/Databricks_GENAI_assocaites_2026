@@ -7,7 +7,7 @@
 
 ## Mock Test 2
 
-- Course: [Udemy Mock Test 2](https://www.udemy.com/course/databricks-certified-generative-ai-engineer-practice-exams)
+- Course: [Udemy Mock Test 2](https://www.udemy.com/course/practice-exams-databricks-certified-generative-ai-engineer-o/?couponCode=MT260902G1A)
 - Coupon code: `26BBPAAO2MX`
 
 ## Exam Registration Link 
