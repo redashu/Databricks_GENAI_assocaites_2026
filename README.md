@@ -14,6 +14,10 @@ Databricks Certified GenAI Associates learning resources.
 - [Udemy Exam test and coupon codes](exam.md)
 - [check recent exam details](https://www.databricks.com/learn/certification/genai-engineer-associate)
 
+## Databricks Free Edition login / signUP 
+
+- [Register / Login to Databricks Free Edition](https://login.databricks.com/)
+
 ## Recorded Lectures
 
 ### The Home Page URL 
