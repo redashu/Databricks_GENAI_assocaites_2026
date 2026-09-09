@@ -1,0 +1,1001 @@
+ticket_id,created_date,category,priority,status,support_team,ticket_text,customer_impact,resolution_minutes
+TKT200000,2025-02-01 00:00:00,Network,High,In Progress,Security,Database query timing out,Low,996
+TKT200001,2025-02-01 18:00:00,VPN,Medium,In Progress,Application Support,Customer portal showing an error,High,561
+TKT200002,2025-02-02 12:00:00,Access,Medium,New,SRE,Unable to connect to corporate VPN,High,43
+TKT200003,2025-02-03 06:00:00,Network,High,New,Platform,Data refresh has not completed,High,898
+TKT200004,2025-02-04 00:00:00,Performance,Critical,In Progress,Platform,User cannot access required application,High,950
+TKT200005,2025-02-04 18:00:00,Application,Medium,In Progress,DBA,User cannot access required application,Low,281
+TKT200006,2025-02-05 12:00:00,Performance,Medium,In Progress,DBA,Password reset completed but login still fails,Medium,403
+TKT200007,2025-02-06 06:00:00,Network,Medium,New,Application Support,User cannot access required application,Medium,30
+TKT200008,2025-02-07 00:00:00,VPN,Medium,In Progress,Application Support,Unable to connect to corporate VPN,Critical,802
+TKT200009,2025-02-07 18:00:00,Authentication,Medium,New,Security,Data refresh has not completed,High,776
+TKT200010,2025-02-08 12:00:00,Network,High,New,Platform,Customer portal showing an error,High,25
+TKT200011,2025-02-09 06:00:00,Network,Medium,In Progress,SRE,Database query timing out,High,703
+TKT200012,2025-02-10 00:00:00,Performance,High,Resolved,Application Support,Network connectivity is intermittent,Medium,414
+TKT200013,2025-02-10 18:00:00,Network,Medium,Resolved,Application Support,Network connectivity is intermittent,Critical,547
+TKT200014,2025-02-11 12:00:00,Performance,High,Closed,Platform,Unable to connect to corporate VPN,High,222
+TKT200015,2025-02-12 06:00:00,Authentication,High,Closed,SRE,Unable to connect to corporate VPN,Critical,816
+TKT200016,2025-02-13 00:00:00,Network,Medium,Assigned,Security,Application is responding slowly,High,407
+TKT200017,2025-02-13 18:00:00,Performance,Medium,Resolved,DBA,Unable to connect to corporate VPN,High,840
+TKT200018,2025-02-14 12:00:00,VPN,Medium,New,Application Support,User cannot access required application,Low,152
+TKT200019,2025-02-15 06:00:00,Database,Medium,Closed,DBA,User cannot access required application,High,589
+TKT200020,2025-02-16 00:00:00,Performance,Low,Assigned,Security,User cannot access required application,Low,313
+TKT200021,2025-02-16 18:00:00,Application,Low,Resolved,Security,Unable to connect to corporate VPN,High,966
+TKT200022,2025-02-17 12:00:00,Performance,Low,Closed,SRE,Data refresh has not completed,High,559
+TKT200023,2025-02-18 06:00:00,Application,Medium,Resolved,SRE,Data refresh has not completed,High,721
+TKT200024,2025-02-19 00:00:00,Performance,Medium,Closed,Security,User cannot access required application,Medium,90
+TKT200025,2025-02-19 18:00:00,Data,Medium,New,Platform,Unable to connect to corporate VPN,Low,678
+TKT200026,2025-02-20 12:00:00,Data,Medium,New,Platform,Database query timing out,High,105
+TKT200027,2025-02-21 06:00:00,VPN,Medium,Resolved,Security,Customer portal showing an error,High,364
+TKT200028,2025-02-22 00:00:00,Application,Medium,In Progress,Platform,Customer portal showing an error,Medium,226
+TKT200029,2025-02-22 18:00:00,VPN,Critical,New,SRE,Password reset completed but login still fails,High,7
+TKT200030,2025-02-23 12:00:00,Authentication,Critical,Resolved,SRE,Network connectivity is intermittent,Critical,588
+TKT200031,2025-02-24 06:00:00,Database,Low,New,Network,Data refresh has not completed,High,244
+TKT200032,2025-02-25 00:00:00,Access,Critical,Closed,DBA,User cannot access required application,Low,515
+TKT200033,2025-02-25 18:00:00,Network,Medium,New,Security,Database query timing out,Critical,765
+TKT200034,2025-02-26 12:00:00,Performance,Medium,In Progress,Application Support,User cannot access required application,Medium,182
+TKT200035,2025-02-27 06:00:00,Database,High,Closed,DBA,Unable to connect to corporate VPN,High,711
+TKT200036,2025-02-28 00:00:00,Application,Low,In Progress,Security,User cannot access required application,Critical,300
+TKT200037,2025-02-28 18:00:00,Performance,High,Resolved,Platform,Unable to connect to corporate VPN,Medium,334
+TKT200038,2025-03-01 12:00:00,Data,Low,Resolved,Network,Unable to connect to corporate VPN,High,579
+TKT200039,2025-03-02 06:00:00,Authentication,Medium,Closed,Platform,User cannot access required application,Low,627
+TKT200040,2025-03-03 00:00:00,Access,High,In Progress,SRE,User cannot access required application,Critical,657
+TKT200041,2025-03-03 18:00:00,VPN,High,Closed,Application Support,Data refresh has not completed,Low,199
+TKT200042,2025-03-04 12:00:00,Application,Medium,In Progress,Platform,User cannot access required application,High,581
+TKT200043,2025-03-05 06:00:00,Network,Medium,Closed,Network,Data refresh has not completed,Medium,267
+TKT200044,2025-03-06 00:00:00,Data,High,Resolved,Network,Network connectivity is intermittent,Low,280
+TKT200045,2025-03-06 18:00:00,Performance,Low,New,SRE,Application is responding slowly,Medium,947
+TKT200046,2025-03-07 12:00:00,Data,High,Resolved,Application Support,Data refresh has not completed,Critical,105
+TKT200047,2025-03-08 06:00:00,Performance,Low,Closed,Platform,Database query timing out,Low,416
+TKT200048,2025-03-09 00:00:00,Network,High,New,SRE,User cannot access required application,Medium,442
+TKT200049,2025-03-09 18:00:00,Access,Low,Closed,Network,Unable to connect to corporate VPN,Low,248
+TKT200050,2025-03-10 12:00:00,VPN,High,New,SRE,Password reset completed but login still fails,Low,786
+TKT200051,2025-03-11 06:00:00,Application,Medium,Closed,Application Support,User cannot access required application,Low,489
+TKT200052,2025-03-12 00:00:00,VPN,Medium,Resolved,Platform,Application is responding slowly,High,720
+TKT200053,2025-03-12 18:00:00,Access,High,New,Platform,User cannot access required application,Critical,390
+TKT200054,2025-03-13 12:00:00,Data,Low,Resolved,Platform,Unable to connect to corporate VPN,High,897
+TKT200055,2025-03-14 06:00:00,Access,High,New,SRE,Application is responding slowly,Critical,730
+TKT200056,2025-03-15 00:00:00,Performance,Medium,In Progress,SRE,Customer portal showing an error,High,336
+TKT200057,2025-03-15 18:00:00,Authentication,Medium,Closed,DBA,User cannot access required application,Medium,962
+TKT200058,2025-03-16 12:00:00,Data,Medium,Assigned,Platform,Data refresh has not completed,Critical,865
+TKT200059,2025-03-17 06:00:00,Application,Critical,New,SRE,Data refresh has not completed,Low,593
+TKT200060,2025-03-18 00:00:00,Access,High,In Progress,Platform,Network connectivity is intermittent,High,21
+TKT200061,2025-03-18 18:00:00,Performance,High,Assigned,Platform,Unable to connect to corporate VPN,Low,593
+TKT200062,2025-03-19 12:00:00,Access,Medium,New,Network,User cannot access required application,Critical,692
+TKT200063,2025-03-20 06:00:00,Database,High,In Progress,Application Support,Password reset completed but login still fails,Low,368
+TKT200064,2025-03-21 00:00:00,Application,Low,Assigned,Platform,Application is responding slowly,Low,148
+TKT200065,2025-03-21 18:00:00,Access,Medium,New,Security,Password reset completed but login still fails,Medium,566
+TKT200066,2025-03-22 12:00:00,Performance,Medium,Assigned,Security,Database query timing out,High,802
+TKT200067,2025-03-23 06:00:00,Network,Medium,New,SRE,Unable to connect to corporate VPN,Low,322
+TKT200068,2025-03-24 00:00:00,Application,High,Closed,DBA,User cannot access required application,Medium,459
+TKT200069,2025-03-24 18:00:00,Application,Medium,Closed,Network,Password reset completed but login still fails,Medium,6
+TKT200070,2025-03-25 12:00:00,VPN,High,Assigned,DBA,User cannot access required application,High,705
+TKT200071,2025-03-26 06:00:00,VPN,Medium,Closed,Platform,Customer portal showing an error,Critical,866
+TKT200072,2025-03-27 00:00:00,VPN,Medium,In Progress,Network,Password reset completed but login still fails,High,777
+TKT200073,2025-03-27 18:00:00,Access,Medium,Closed,SRE,Unable to connect to corporate VPN,High,432
+TKT200074,2025-03-28 12:00:00,Network,Low,New,Application Support,Network connectivity is intermittent,Medium,49
+TKT200075,2025-03-29 06:00:00,Performance,High,Assigned,DBA,Customer portal showing an error,Critical,494
+TKT200076,2025-03-30 00:00:00,Access,Medium,Resolved,SRE,Application is responding slowly,Low,940
+TKT200077,2025-03-30 18:00:00,Authentication,High,Assigned,DBA,Data refresh has not completed,Low,88
+TKT200078,2025-03-31 12:00:00,VPN,Medium,Closed,Application Support,Password reset completed but login still fails,Low,217
+TKT200079,2025-04-01 06:00:00,Database,Medium,In Progress,Security,Data refresh has not completed,Medium,837
+TKT200080,2025-04-02 00:00:00,Data,High,In Progress,Platform,Unable to connect to corporate VPN,Medium,570
+TKT200081,2025-04-02 18:00:00,VPN,Medium,In Progress,Application Support,Customer portal showing an error,Critical,174
+TKT200082,2025-04-03 12:00:00,Authentication,Medium,Resolved,Platform,Unable to connect to corporate VPN,High,29
+TKT200083,2025-04-04 06:00:00,VPN,Critical,New,Platform,Password reset completed but login still fails,Medium,413
+TKT200084,2025-04-05 00:00:00,Network,Low,Resolved,SRE,Database query timing out,Low,596
+TKT200085,2025-04-05 18:00:00,Data,Medium,Resolved,Application Support,Unable to connect to corporate VPN,High,841
+TKT200086,2025-04-06 12:00:00,Access,Medium,Closed,Security,Database query timing out,Medium,884
+TKT200087,2025-04-07 06:00:00,Network,Medium,Closed,DBA,Password reset completed but login still fails,Critical,460
+TKT200088,2025-04-08 00:00:00,Authentication,Low,Resolved,Security,Unable to connect to corporate VPN,Medium,425
+TKT200089,2025-04-08 18:00:00,Database,High,In Progress,Platform,Data refresh has not completed,High,931
+TKT200090,2025-04-09 12:00:00,Application,Medium,In Progress,SRE,Data refresh has not completed,Critical,777
+TKT200091,2025-04-10 06:00:00,Database,Medium,Assigned,Application Support,Data refresh has not completed,Medium,213
+TKT200092,2025-04-11 00:00:00,Access,Medium,Closed,Application Support,Password reset completed but login still fails,Medium,682
+TKT200093,2025-04-11 18:00:00,Data,Medium,Assigned,SRE,Database query timing out,High,716
+TKT200094,2025-04-12 12:00:00,Authentication,Low,In Progress,SRE,Application is responding slowly,Medium,237
+TKT200095,2025-04-13 06:00:00,Database,Medium,New,DBA,Application is responding slowly,Low,978
+TKT200096,2025-04-14 00:00:00,Authentication,Medium,Assigned,SRE,Database query timing out,Medium,300
+TKT200097,2025-04-14 18:00:00,Access,Medium,Assigned,Security,User cannot access required application,Low,551
+TKT200098,2025-04-15 12:00:00,Network,Low,In Progress,Application Support,Database query timing out,High,496
+TKT200099,2025-04-16 06:00:00,Database,Low,In Progress,Platform,Application is responding slowly,Low,693
+TKT200100,2025-04-17 00:00:00,Authentication,Medium,Resolved,Platform,Data refresh has not completed,Medium,902
+TKT200101,2025-04-17 18:00:00,VPN,High,In Progress,Application Support,Data refresh has not completed,Critical,396
+TKT200102,2025-04-18 12:00:00,Network,Critical,New,Network,Application is responding slowly,High,387
+TKT200103,2025-04-19 06:00:00,Access,Medium,In Progress,Platform,Password reset completed but login still fails,High,752
+TKT200104,2025-04-20 00:00:00,Authentication,Low,New,SRE,User cannot access required application,High,952
+TKT200105,2025-04-20 18:00:00,VPN,Medium,Closed,Application Support,Application is responding slowly,Medium,909
+TKT200106,2025-04-21 12:00:00,Network,High,Resolved,Application Support,Data refresh has not completed,High,753
+TKT200107,2025-04-22 06:00:00,Access,High,Assigned,SRE,Database query timing out,Low,704
+TKT200108,2025-04-23 00:00:00,Database,Medium,Assigned,Security,Unable to connect to corporate VPN,High,769
+TKT200109,2025-04-23 18:00:00,Database,Low,New,SRE,Password reset completed but login still fails,High,936
+TKT200110,2025-04-24 12:00:00,Authentication,High,Assigned,SRE,Unable to connect to corporate VPN,Critical,15
+TKT200111,2025-04-25 06:00:00,Access,Medium,New,Network,Database query timing out,Critical,590
+TKT200112,2025-04-26 00:00:00,Performance,Medium,Closed,Network,Application is responding slowly,Low,38
+TKT200113,2025-04-26 18:00:00,Performance,Low,New,Application Support,Network connectivity is intermittent,Medium,579
+TKT200114,2025-04-27 12:00:00,Application,High,Resolved,Security,Data refresh has not completed,High,397
+TKT200115,2025-04-28 06:00:00,Access,Low,In Progress,SRE,Password reset completed but login still fails,Medium,308
+TKT200116,2025-04-29 00:00:00,Network,Medium,Assigned,DBA,Data refresh has not completed,High,891
+TKT200117,2025-04-29 18:00:00,VPN,Medium,Closed,Application Support,User cannot access required application,Critical,711
+TKT200118,2025-04-30 12:00:00,Database,Critical,New,DBA,Application is responding slowly,Medium,569
+TKT200119,2025-05-01 06:00:00,Access,Medium,Closed,Platform,Database query timing out,Critical,882
+TKT200120,2025-05-02 00:00:00,Access,Medium,Resolved,SRE,Database query timing out,Critical,102
+TKT200121,2025-05-02 18:00:00,Data,Medium,Resolved,Network,Password reset completed but login still fails,Critical,648
+TKT200122,2025-05-03 12:00:00,Data,Medium,Closed,Network,Network connectivity is intermittent,Low,160
+TKT200123,2025-05-04 06:00:00,Authentication,Medium,In Progress,Network,Unable to connect to corporate VPN,Medium,236
+TKT200124,2025-05-05 00:00:00,VPN,Medium,Assigned,SRE,Unable to connect to corporate VPN,Low,189
+TKT200125,2025-05-05 18:00:00,Database,Critical,New,SRE,Application is responding slowly,Low,546
+TKT200126,2025-05-06 12:00:00,Data,Medium,Closed,DBA,Password reset completed but login still fails,Low,630
+TKT200127,2025-05-07 06:00:00,Performance,High,In Progress,Application Support,Unable to connect to corporate VPN,Medium,757
+TKT200128,2025-05-08 00:00:00,VPN,Low,Closed,DBA,Database query timing out,Low,443
+TKT200129,2025-05-08 18:00:00,Authentication,Low,Assigned,Network,Database query timing out,Medium,939
+TKT200130,2025-05-09 12:00:00,Application,High,Closed,Application Support,Password reset completed but login still fails,Critical,376
+TKT200131,2025-05-10 06:00:00,Access,High,Closed,Security,Network connectivity is intermittent,Critical,160
+TKT200132,2025-05-11 00:00:00,Data,High,Assigned,Security,Data refresh has not completed,Critical,41
+TKT200133,2025-05-11 18:00:00,Performance,Medium,In Progress,DBA,Customer portal showing an error,Low,131
+TKT200134,2025-05-12 12:00:00,Authentication,Low,Resolved,Security,User cannot access required application,High,447
+TKT200135,2025-05-13 06:00:00,VPN,Medium,Assigned,DBA,Data refresh has not completed,High,415
+TKT200136,2025-05-14 00:00:00,Access,Critical,New,DBA,Application is responding slowly,Low,854
+TKT200137,2025-05-14 18:00:00,Application,Critical,Assigned,DBA,Database query timing out,Critical,129
+TKT200138,2025-05-15 12:00:00,Data,High,In Progress,Security,Unable to connect to corporate VPN,Medium,266
+TKT200139,2025-05-16 06:00:00,Application,Low,New,Application Support,Customer portal showing an error,Critical,980
+TKT200140,2025-05-17 00:00:00,Application,Medium,Assigned,Platform,Unable to connect to corporate VPN,Low,33
+TKT200141,2025-05-17 18:00:00,Database,Medium,Closed,Security,Customer portal showing an error,High,427
+TKT200142,2025-05-18 12:00:00,VPN,Medium,New,SRE,Network connectivity is intermittent,Low,202
+TKT200143,2025-05-19 06:00:00,Data,Low,New,DBA,Password reset completed but login still fails,Critical,535
+TKT200144,2025-05-20 00:00:00,Performance,Medium,In Progress,Application Support,User cannot access required application,High,973
+TKT200145,2025-05-20 18:00:00,Authentication,Low,New,DBA,Application is responding slowly,Low,230
+TKT200146,2025-05-21 12:00:00,Access,Low,New,Platform,Database query timing out,Low,373
+TKT200147,2025-05-22 06:00:00,Database,Medium,New,DBA,User cannot access required application,Medium,451
+TKT200148,2025-05-23 00:00:00,Network,Low,New,Network,Password reset completed but login still fails,Low,799
+TKT200149,2025-05-23 18:00:00,Performance,High,Closed,Network,Network connectivity is intermittent,Low,984
+TKT200150,2025-05-24 12:00:00,Performance,Medium,New,Platform,Database query timing out,Critical,101
+TKT200151,2025-05-25 06:00:00,Authentication,High,In Progress,DBA,Database query timing out,Critical,491
+TKT200152,2025-05-26 00:00:00,Database,Medium,Resolved,Platform,Network connectivity is intermittent,High,753
+TKT200153,2025-05-26 18:00:00,Performance,High,Resolved,Network,Password reset completed but login still fails,Critical,13
+TKT200154,2025-05-27 12:00:00,Data,Critical,Resolved,Application Support,Database query timing out,High,807
+TKT200155,2025-05-28 06:00:00,VPN,Critical,Assigned,Security,Data refresh has not completed,Low,246
+TKT200156,2025-05-29 00:00:00,Performance,Medium,Closed,Network,Database query timing out,High,520
+TKT200157,2025-05-29 18:00:00,Network,Medium,New,Application Support,Unable to connect to corporate VPN,Low,978
+TKT200158,2025-05-30 12:00:00,Application,Medium,New,SRE,Application is responding slowly,Critical,636
+TKT200159,2025-05-31 06:00:00,VPN,Medium,Closed,Application Support,Data refresh has not completed,Medium,989
+TKT200160,2025-06-01 00:00:00,Access,Low,New,Network,Network connectivity is intermittent,Low,605
+TKT200161,2025-06-01 18:00:00,Access,Low,New,Security,Network connectivity is intermittent,Medium,214
+TKT200162,2025-06-02 12:00:00,Access,High,New,Application Support,Application is responding slowly,High,694
+TKT200163,2025-06-03 06:00:00,Performance,Medium,New,DBA,Network connectivity is intermittent,Critical,617
+TKT200164,2025-06-04 00:00:00,Data,Medium,New,DBA,Database query timing out,High,314
+TKT200165,2025-06-04 18:00:00,Performance,Medium,In Progress,Security,Network connectivity is intermittent,Low,81
+TKT200166,2025-06-05 12:00:00,Access,Medium,Resolved,Platform,Data refresh has not completed,Critical,649
+TKT200167,2025-06-06 06:00:00,Data,Medium,New,Platform,Password reset completed but login still fails,Critical,579
+TKT200168,2025-06-07 00:00:00,Access,High,Closed,Network,Data refresh has not completed,Medium,774
+TKT200169,2025-06-07 18:00:00,Access,Medium,New,Network,Customer portal showing an error,High,130
+TKT200170,2025-06-08 12:00:00,Application,Medium,Resolved,Security,Customer portal showing an error,Critical,541
+TKT200171,2025-06-09 06:00:00,Performance,Medium,Closed,Platform,Network connectivity is intermittent,Medium,819
+TKT200172,2025-06-10 00:00:00,VPN,Low,In Progress,DBA,Password reset completed but login still fails,Low,891
+TKT200173,2025-06-10 18:00:00,Application,Critical,In Progress,SRE,Customer portal showing an error,Low,939
+TKT200174,2025-06-11 12:00:00,Network,High,New,SRE,Password reset completed but login still fails,High,215
+TKT200175,2025-06-12 06:00:00,Data,Critical,Assigned,Application Support,Application is responding slowly,Critical,177
+TKT200176,2025-06-13 00:00:00,VPN,High,Closed,Application Support,Unable to connect to corporate VPN,High,578
+TKT200177,2025-06-13 18:00:00,Access,Critical,Assigned,Application Support,Password reset completed but login still fails,High,465
+TKT200178,2025-06-14 12:00:00,Authentication,Medium,New,Platform,Data refresh has not completed,Medium,238
+TKT200179,2025-06-15 06:00:00,Data,Medium,Resolved,DBA,Application is responding slowly,Medium,106
+TKT200180,2025-06-16 00:00:00,Performance,Medium,Resolved,Security,Database query timing out,Low,147
+TKT200181,2025-06-16 18:00:00,Authentication,Medium,New,Platform,Database query timing out,Medium,342
+TKT200182,2025-06-17 12:00:00,Performance,Critical,New,Security,Customer portal showing an error,High,740
+TKT200183,2025-06-18 06:00:00,Network,Medium,New,Security,User cannot access required application,Critical,69
+TKT200184,2025-06-19 00:00:00,Data,Critical,New,Network,User cannot access required application,Critical,109
+TKT200185,2025-06-19 18:00:00,Access,Low,Resolved,Network,Network connectivity is intermittent,Critical,268
+TKT200186,2025-06-20 12:00:00,VPN,Critical,New,Platform,Database query timing out,Low,874
+TKT200187,2025-06-21 06:00:00,Authentication,Medium,Resolved,Security,Network connectivity is intermittent,Critical,990
+TKT200188,2025-06-22 00:00:00,Network,Low,New,Application Support,Data refresh has not completed,Low,442
+TKT200189,2025-06-22 18:00:00,Authentication,Medium,Closed,Application Support,Customer portal showing an error,High,49
+TKT200190,2025-06-23 12:00:00,Authentication,Medium,Resolved,Security,Unable to connect to corporate VPN,Critical,16
+TKT200191,2025-06-24 06:00:00,Data,Medium,Assigned,Network,Application is responding slowly,Critical,859
+TKT200192,2025-06-25 00:00:00,Performance,High,In Progress,Security,User cannot access required application,High,447
+TKT200193,2025-06-25 18:00:00,Network,Medium,New,Platform,Database query timing out,Medium,82
+TKT200194,2025-06-26 12:00:00,Authentication,Low,New,Application Support,Application is responding slowly,High,834
+TKT200195,2025-06-27 06:00:00,Authentication,Low,In Progress,Platform,Application is responding slowly,High,531
+TKT200196,2025-06-28 00:00:00,Data,Medium,New,Network,Unable to connect to corporate VPN,High,353
+TKT200197,2025-06-28 18:00:00,Database,Medium,Resolved,SRE,Password reset completed but login still fails,Medium,454
+TKT200198,2025-06-29 12:00:00,VPN,Medium,Assigned,SRE,Network connectivity is intermittent,Medium,228
+TKT200199,2025-06-30 06:00:00,Network,Medium,New,Network,Unable to connect to corporate VPN,High,931
+TKT200200,2025-07-01 00:00:00,Network,High,In Progress,DBA,Network connectivity is intermittent,Low,788
+TKT200201,2025-07-01 18:00:00,Application,High,In Progress,SRE,Application is responding slowly,Critical,203
+TKT200202,2025-07-02 12:00:00,Database,High,Resolved,Application Support,Network connectivity is intermittent,Low,736
+TKT200203,2025-07-03 06:00:00,Data,Medium,New,SRE,Application is responding slowly,Critical,183
+TKT200204,2025-07-04 00:00:00,Access,High,In Progress,Application Support,Network connectivity is intermittent,Low,456
+TKT200205,2025-07-04 18:00:00,Data,Critical,Closed,Platform,User cannot access required application,High,749
+TKT200206,2025-07-05 12:00:00,Database,Critical,Assigned,Network,Network connectivity is intermittent,Medium,41
+TKT200207,2025-07-06 06:00:00,Access,Low,Closed,SRE,Unable to connect to corporate VPN,High,727
+TKT200208,2025-07-07 00:00:00,Database,Critical,Resolved,Security,Network connectivity is intermittent,Medium,229
+TKT200209,2025-07-07 18:00:00,Access,Critical,In Progress,Security,Application is responding slowly,Critical,700
+TKT200210,2025-07-08 12:00:00,Access,Medium,Closed,SRE,Application is responding slowly,Low,501
+TKT200211,2025-07-09 06:00:00,Database,High,Closed,SRE,Unable to connect to corporate VPN,Critical,30
+TKT200212,2025-07-10 00:00:00,Data,Low,Assigned,DBA,Data refresh has not completed,High,763
+TKT200213,2025-07-10 18:00:00,Performance,Low,Closed,Application Support,Customer portal showing an error,Critical,263
+TKT200214,2025-07-11 12:00:00,Data,Medium,New,SRE,Data refresh has not completed,Low,952
+TKT200215,2025-07-12 06:00:00,Authentication,Medium,New,Platform,User cannot access required application,Low,840
+TKT200216,2025-07-13 00:00:00,Access,Medium,New,DBA,Password reset completed but login still fails,Medium,196
+TKT200217,2025-07-13 18:00:00,VPN,Critical,Assigned,SRE,Application is responding slowly,Medium,602
+TKT200218,2025-07-14 12:00:00,VPN,High,Closed,Platform,Database query timing out,Critical,365
+TKT200219,2025-07-15 06:00:00,Data,High,Resolved,SRE,Password reset completed but login still fails,Critical,604
+TKT200220,2025-07-16 00:00:00,Authentication,High,Resolved,Network,Data refresh has not completed,Medium,559
+TKT200221,2025-07-16 18:00:00,Performance,Medium,New,Security,Data refresh has not completed,Critical,299
+TKT200222,2025-07-17 12:00:00,Network,High,In Progress,Network,User cannot access required application,Low,653
+TKT200223,2025-07-18 06:00:00,Database,High,Assigned,Platform,User cannot access required application,High,263
+TKT200224,2025-07-19 00:00:00,VPN,Medium,In Progress,Network,Customer portal showing an error,Low,907
+TKT200225,2025-07-19 18:00:00,Access,Medium,Assigned,DBA,Customer portal showing an error,High,946
+TKT200226,2025-07-20 12:00:00,Access,High,Assigned,SRE,Unable to connect to corporate VPN,Medium,170
+TKT200227,2025-07-21 06:00:00,Network,Critical,Closed,SRE,User cannot access required application,Medium,729
+TKT200228,2025-07-22 00:00:00,Performance,High,In Progress,Platform,Network connectivity is intermittent,Medium,929
+TKT200229,2025-07-22 18:00:00,Database,High,In Progress,Application Support,Network connectivity is intermittent,Medium,131
+TKT200230,2025-07-23 12:00:00,Application,Low,New,Security,User cannot access required application,Critical,740
+TKT200231,2025-07-24 06:00:00,Database,Low,Resolved,SRE,Data refresh has not completed,Critical,938
+TKT200232,2025-07-25 00:00:00,Application,Medium,In Progress,Platform,User cannot access required application,Medium,228
+TKT200233,2025-07-25 18:00:00,Authentication,Medium,Assigned,Network,Database query timing out,Medium,584
+TKT200234,2025-07-26 12:00:00,Network,Medium,Resolved,Platform,Database query timing out,High,798
+TKT200235,2025-07-27 06:00:00,Application,Medium,New,Application Support,Customer portal showing an error,High,336
+TKT200236,2025-07-28 00:00:00,Application,High,In Progress,Application Support,Data refresh has not completed,Low,241
+TKT200237,2025-07-28 18:00:00,Network,High,Closed,Platform,Password reset completed but login still fails,High,400
+TKT200238,2025-07-29 12:00:00,Access,Medium,In Progress,SRE,Application is responding slowly,Critical,338
+TKT200239,2025-07-30 06:00:00,Application,Medium,New,Platform,Customer portal showing an error,Critical,726
+TKT200240,2025-07-31 00:00:00,Database,High,Assigned,DBA,Network connectivity is intermittent,High,374
+TKT200241,2025-07-31 18:00:00,Authentication,High,New,Security,Database query timing out,Medium,379
+TKT200242,2025-08-01 12:00:00,Access,Medium,In Progress,Network,Customer portal showing an error,Medium,944
+TKT200243,2025-08-02 06:00:00,Data,High,Assigned,Platform,Unable to connect to corporate VPN,High,580
+TKT200244,2025-08-03 00:00:00,Performance,Medium,New,Platform,Application is responding slowly,Medium,929
+TKT200245,2025-08-03 18:00:00,Access,Medium,Resolved,SRE,Data refresh has not completed,Low,711
+TKT200246,2025-08-04 12:00:00,Data,Medium,New,SRE,User cannot access required application,High,885
+TKT200247,2025-08-05 06:00:00,Data,High,Assigned,Network,Network connectivity is intermittent,Low,199
+TKT200248,2025-08-06 00:00:00,Application,High,Closed,DBA,Password reset completed but login still fails,Critical,938
+TKT200249,2025-08-06 18:00:00,VPN,Low,New,SRE,Application is responding slowly,Medium,944
+TKT200250,2025-08-07 12:00:00,Access,Medium,Assigned,Platform,Data refresh has not completed,Medium,45
+TKT200251,2025-08-08 06:00:00,Application,Critical,Assigned,Application Support,Data refresh has not completed,Low,359
+TKT200252,2025-08-09 00:00:00,Database,High,In Progress,Application Support,Data refresh has not completed,Low,416
+TKT200253,2025-08-09 18:00:00,Performance,Low,Assigned,DBA,Application is responding slowly,Critical,422
+TKT200254,2025-08-10 12:00:00,Performance,Medium,Closed,DBA,Network connectivity is intermittent,High,779
+TKT200255,2025-08-11 06:00:00,Database,Low,New,DBA,Database query timing out,Critical,700
+TKT200256,2025-08-12 00:00:00,Network,Medium,Closed,Network,Network connectivity is intermittent,Critical,216
+TKT200257,2025-08-12 18:00:00,Authentication,Medium,In Progress,Platform,Network connectivity is intermittent,Low,610
+TKT200258,2025-08-13 12:00:00,Authentication,Medium,New,Network,Database query timing out,Medium,974
+TKT200259,2025-08-14 06:00:00,Database,High,New,Security,Application is responding slowly,Critical,442
+TKT200260,2025-08-15 00:00:00,Database,Medium,New,DBA,Data refresh has not completed,Medium,928
+TKT200261,2025-08-15 18:00:00,Database,Medium,Assigned,Security,Database query timing out,High,651
+TKT200262,2025-08-16 12:00:00,Authentication,High,Assigned,DBA,Database query timing out,High,925
+TKT200263,2025-08-17 06:00:00,Network,Low,Resolved,SRE,Customer portal showing an error,High,903
+TKT200264,2025-08-18 00:00:00,Application,Medium,Assigned,DBA,Data refresh has not completed,Critical,21
+TKT200265,2025-08-18 18:00:00,Database,Critical,Resolved,Application Support,Password reset completed but login still fails,Critical,801
+TKT200266,2025-08-19 12:00:00,Application,Medium,Assigned,DBA,Data refresh has not completed,High,193
+TKT200267,2025-08-20 06:00:00,Database,Low,Assigned,DBA,Database query timing out,High,825
+TKT200268,2025-08-21 00:00:00,Access,Low,Assigned,Platform,Unable to connect to corporate VPN,Medium,808
+TKT200269,2025-08-21 18:00:00,Access,Medium,Assigned,Security,Application is responding slowly,Low,262
+TKT200270,2025-08-22 12:00:00,Data,Low,Closed,Network,Database query timing out,High,70
+TKT200271,2025-08-23 06:00:00,VPN,Low,Assigned,Platform,Customer portal showing an error,Low,422
+TKT200272,2025-08-24 00:00:00,Performance,Low,Assigned,Network,User cannot access required application,High,306
+TKT200273,2025-08-24 18:00:00,Database,Low,Closed,SRE,Password reset completed but login still fails,Medium,556
+TKT200274,2025-08-25 12:00:00,VPN,Medium,Resolved,Application Support,Database query timing out,Critical,86
+TKT200275,2025-08-26 06:00:00,Access,Medium,New,Security,Password reset completed but login still fails,Critical,48
+TKT200276,2025-08-27 00:00:00,Authentication,Medium,Closed,Platform,Application is responding slowly,High,439
+TKT200277,2025-08-27 18:00:00,Authentication,Medium,New,Security,Customer portal showing an error,High,770
+TKT200278,2025-08-28 12:00:00,Data,High,New,SRE,Network connectivity is intermittent,Medium,318
+TKT200279,2025-08-29 06:00:00,Authentication,Medium,In Progress,Network,Password reset completed but login still fails,Medium,326
+TKT200280,2025-08-30 00:00:00,Application,Low,Resolved,DBA,User cannot access required application,Low,168
+TKT200281,2025-08-30 18:00:00,Authentication,Medium,New,SRE,Database query timing out,Low,286
+TKT200282,2025-08-31 12:00:00,VPN,Low,Resolved,Security,Application is responding slowly,High,302
+TKT200283,2025-09-01 06:00:00,VPN,Medium,New,Security,Customer portal showing an error,Critical,262
+TKT200284,2025-09-02 00:00:00,VPN,High,Resolved,DBA,Password reset completed but login still fails,Low,346
+TKT200285,2025-09-02 18:00:00,Network,High,New,Platform,Network connectivity is intermittent,Medium,286
+TKT200286,2025-09-03 12:00:00,Network,Medium,In Progress,Security,Database query timing out,High,682
+TKT200287,2025-09-04 06:00:00,VPN,Medium,Resolved,Network,Unable to connect to corporate VPN,High,341
+TKT200288,2025-09-05 00:00:00,Database,Medium,Assigned,Security,Network connectivity is intermittent,High,755
+TKT200289,2025-09-05 18:00:00,Database,Medium,Resolved,DBA,Network connectivity is intermittent,High,606
+TKT200290,2025-09-06 12:00:00,Application,Medium,Resolved,SRE,User cannot access required application,Low,642
+TKT200291,2025-09-07 06:00:00,Data,Medium,Resolved,SRE,Customer portal showing an error,Medium,585
+TKT200292,2025-09-08 00:00:00,Access,Low,Assigned,SRE,Password reset completed but login still fails,Medium,923
+TKT200293,2025-09-08 18:00:00,Data,Medium,Resolved,SRE,Application is responding slowly,Low,259
+TKT200294,2025-09-09 12:00:00,Authentication,Medium,Resolved,Platform,Application is responding slowly,Medium,982
+TKT200295,2025-09-10 06:00:00,Authentication,Medium,Assigned,SRE,Network connectivity is intermittent,Medium,210
+TKT200296,2025-09-11 00:00:00,Performance,Low,Resolved,Application Support,Application is responding slowly,Critical,142
+TKT200297,2025-09-11 18:00:00,Database,High,Closed,Application Support,Customer portal showing an error,Medium,827
+TKT200298,2025-09-12 12:00:00,Performance,High,Closed,Platform,Application is responding slowly,Critical,896
+TKT200299,2025-09-13 06:00:00,Network,High,Resolved,Platform,User cannot access required application,High,97
+TKT200300,2025-09-14 00:00:00,Authentication,Medium,Resolved,Security,Password reset completed but login still fails,High,601
+TKT200301,2025-09-14 18:00:00,Performance,Medium,Closed,DBA,User cannot access required application,Critical,515
+TKT200302,2025-09-15 12:00:00,Application,Medium,Assigned,DBA,Unable to connect to corporate VPN,Critical,224
+TKT200303,2025-09-16 06:00:00,Performance,Medium,Resolved,Application Support,Customer portal showing an error,Low,522
+TKT200304,2025-09-17 00:00:00,Network,Critical,New,DBA,Unable to connect to corporate VPN,Medium,687
+TKT200305,2025-09-17 18:00:00,Authentication,Medium,Assigned,Security,Data refresh has not completed,High,576
+TKT200306,2025-09-18 12:00:00,Access,Low,Closed,DBA,Network connectivity is intermittent,Critical,522
+TKT200307,2025-09-19 06:00:00,VPN,High,Assigned,DBA,User cannot access required application,Low,886
+TKT200308,2025-09-20 00:00:00,Access,High,Closed,Platform,Data refresh has not completed,Medium,229
+TKT200309,2025-09-20 18:00:00,Network,High,In Progress,DBA,Network connectivity is intermittent,Low,625
+TKT200310,2025-09-21 12:00:00,Performance,Medium,Assigned,Application Support,Password reset completed but login still fails,Low,319
+TKT200311,2025-09-22 06:00:00,Performance,High,New,Network,Customer portal showing an error,Critical,973
+TKT200312,2025-09-23 00:00:00,Network,Medium,In Progress,SRE,Database query timing out,Low,255
+TKT200313,2025-09-23 18:00:00,Data,Medium,In Progress,DBA,Network connectivity is intermittent,Critical,871
+TKT200314,2025-09-24 12:00:00,VPN,Medium,In Progress,Security,Network connectivity is intermittent,Critical,633
+TKT200315,2025-09-25 06:00:00,VPN,Medium,New,Application Support,Data refresh has not completed,Critical,218
+TKT200316,2025-09-26 00:00:00,Data,Critical,Assigned,DBA,Database query timing out,Low,759
+TKT200317,2025-09-26 18:00:00,Application,Low,New,Security,Password reset completed but login still fails,Low,244
+TKT200318,2025-09-27 12:00:00,Network,Medium,Assigned,Platform,Password reset completed but login still fails,Medium,266
+TKT200319,2025-09-28 06:00:00,Authentication,Medium,Closed,Network,Password reset completed but login still fails,High,348
+TKT200320,2025-09-29 00:00:00,Database,High,New,Network,Data refresh has not completed,Critical,683
+TKT200321,2025-09-29 18:00:00,Access,Medium,Resolved,Platform,User cannot access required application,Medium,394
+TKT200322,2025-09-30 12:00:00,Performance,Low,New,Security,Application is responding slowly,Low,571
+TKT200323,2025-10-01 06:00:00,Data,Critical,In Progress,Application Support,Database query timing out,Critical,555
+TKT200324,2025-10-02 00:00:00,Network,High,Closed,Platform,Password reset completed but login still fails,Critical,200
+TKT200325,2025-10-02 18:00:00,Network,High,Assigned,SRE,User cannot access required application,High,236
+TKT200326,2025-10-03 12:00:00,Authentication,Medium,New,Security,Database query timing out,High,310
+TKT200327,2025-10-04 06:00:00,VPN,Low,In Progress,Application Support,Network connectivity is intermittent,Critical,226
+TKT200328,2025-10-05 00:00:00,Network,Medium,Assigned,Application Support,Unable to connect to corporate VPN,Medium,919
+TKT200329,2025-10-05 18:00:00,Application,Medium,Closed,Platform,Data refresh has not completed,Low,384
+TKT200330,2025-10-06 12:00:00,VPN,Medium,Closed,Security,Unable to connect to corporate VPN,High,407
+TKT200331,2025-10-07 06:00:00,Network,Medium,Resolved,Security,Database query timing out,Medium,673
+TKT200332,2025-10-08 00:00:00,Access,High,Resolved,Security,Application is responding slowly,Critical,789
+TKT200333,2025-10-08 18:00:00,Performance,High,Resolved,Security,Customer portal showing an error,Critical,689
+TKT200334,2025-10-09 12:00:00,Data,Medium,Resolved,Application Support,Customer portal showing an error,Medium,553
+TKT200335,2025-10-10 06:00:00,Database,Medium,In Progress,Network,Password reset completed but login still fails,Medium,976
+TKT200336,2025-10-11 00:00:00,Network,Medium,Closed,SRE,Database query timing out,Medium,900
+TKT200337,2025-10-11 18:00:00,Performance,Medium,Assigned,Platform,User cannot access required application,High,206
+TKT200338,2025-10-12 12:00:00,Access,Low,New,Application Support,Database query timing out,High,164
+TKT200339,2025-10-13 06:00:00,Database,High,Resolved,Application Support,Unable to connect to corporate VPN,High,395
+TKT200340,2025-10-14 00:00:00,Access,Medium,Resolved,SRE,Password reset completed but login still fails,High,836
+TKT200341,2025-10-14 18:00:00,Authentication,Critical,Closed,Network,User cannot access required application,Critical,964
+TKT200342,2025-10-15 12:00:00,Network,Low,Assigned,Platform,Application is responding slowly,Medium,704
+TKT200343,2025-10-16 06:00:00,Database,Medium,In Progress,Platform,User cannot access required application,Low,691
+TKT200344,2025-10-17 00:00:00,Data,High,In Progress,DBA,Password reset completed but login still fails,Critical,237
+TKT200345,2025-10-17 18:00:00,VPN,Critical,Assigned,DBA,Customer portal showing an error,Critical,594
+TKT200346,2025-10-18 12:00:00,Performance,Medium,Resolved,Network,Password reset completed but login still fails,High,188
+TKT200347,2025-10-19 06:00:00,Database,Medium,In Progress,Network,Customer portal showing an error,Medium,541
+TKT200348,2025-10-20 00:00:00,VPN,Medium,Resolved,DBA,Network connectivity is intermittent,Medium,197
+TKT200349,2025-10-20 18:00:00,Access,High,In Progress,Security,Application is responding slowly,Medium,80
+TKT200350,2025-10-21 12:00:00,Access,Low,Assigned,SRE,Password reset completed but login still fails,Low,967
+TKT200351,2025-10-22 06:00:00,Authentication,Medium,Closed,SRE,Unable to connect to corporate VPN,High,893
+TKT200352,2025-10-23 00:00:00,VPN,Medium,In Progress,Network,Application is responding slowly,Medium,686
+TKT200353,2025-10-23 18:00:00,VPN,Medium,Resolved,Network,Unable to connect to corporate VPN,Medium,627
+TKT200354,2025-10-24 12:00:00,Network,Low,In Progress,Application Support,Data refresh has not completed,High,243
+TKT200355,2025-10-25 06:00:00,Authentication,Low,Assigned,Application Support,Data refresh has not completed,Critical,573
+TKT200356,2025-10-26 00:00:00,Access,Medium,Closed,DBA,Data refresh has not completed,Low,749
+TKT200357,2025-10-26 18:00:00,VPN,Medium,Assigned,SRE,Data refresh has not completed,Critical,541
+TKT200358,2025-10-27 12:00:00,Performance,Medium,Closed,SRE,User cannot access required application,High,285
+TKT200359,2025-10-28 06:00:00,Performance,Low,In Progress,Network,Application is responding slowly,Critical,394
+TKT200360,2025-10-29 00:00:00,Access,Medium,New,DBA,Database query timing out,Medium,841
+TKT200361,2025-10-29 18:00:00,Data,Critical,New,DBA,Application is responding slowly,Critical,258
+TKT200362,2025-10-30 12:00:00,Data,High,Closed,SRE,Network connectivity is intermittent,High,961
+TKT200363,2025-10-31 06:00:00,VPN,Low,In Progress,Application Support,Database query timing out,High,756
+TKT200364,2025-11-01 00:00:00,Database,Low,Assigned,Network,Database query timing out,High,890
+TKT200365,2025-11-01 18:00:00,Performance,Low,Closed,DBA,Customer portal showing an error,Medium,512
+TKT200366,2025-11-02 12:00:00,Database,Medium,Resolved,SRE,Application is responding slowly,High,227
+TKT200367,2025-11-03 06:00:00,Access,Medium,Resolved,Security,Application is responding slowly,Critical,38
+TKT200368,2025-11-04 00:00:00,Performance,Low,Resolved,DBA,Password reset completed but login still fails,Critical,537
+TKT200369,2025-11-04 18:00:00,Data,Medium,New,Platform,Unable to connect to corporate VPN,Low,402
+TKT200370,2025-11-05 12:00:00,Database,High,New,Platform,Unable to connect to corporate VPN,High,118
+TKT200371,2025-11-06 06:00:00,Database,Low,Resolved,Network,Database query timing out,Critical,928
+TKT200372,2025-11-07 00:00:00,VPN,Critical,New,SRE,Data refresh has not completed,High,970
+TKT200373,2025-11-07 18:00:00,Database,Medium,Resolved,Application Support,Application is responding slowly,Medium,377
+TKT200374,2025-11-08 12:00:00,Database,Medium,New,Security,Customer portal showing an error,Medium,669
+TKT200375,2025-11-09 06:00:00,Network,Medium,Assigned,Application Support,Application is responding slowly,High,416
+TKT200376,2025-11-10 00:00:00,Network,High,Resolved,Network,Application is responding slowly,High,499
+TKT200377,2025-11-10 18:00:00,Performance,Medium,Resolved,DBA,Password reset completed but login still fails,Medium,625
+TKT200378,2025-11-11 12:00:00,Performance,High,Resolved,Network,User cannot access required application,Medium,419
+TKT200379,2025-11-12 06:00:00,Access,Low,Resolved,Network,Customer portal showing an error,Medium,802
+TKT200380,2025-11-13 00:00:00,VPN,High,New,DBA,Application is responding slowly,Low,193
+TKT200381,2025-11-13 18:00:00,Network,Medium,Closed,Network,User cannot access required application,Low,670
+TKT200382,2025-11-14 12:00:00,Access,Medium,Assigned,Security,Database query timing out,Low,983
+TKT200383,2025-11-15 06:00:00,Authentication,High,New,SRE,Application is responding slowly,Medium,850
+TKT200384,2025-11-16 00:00:00,Network,High,Closed,Platform,Customer portal showing an error,High,50
+TKT200385,2025-11-16 18:00:00,Access,Medium,New,Application Support,User cannot access required application,Medium,118
+TKT200386,2025-11-17 12:00:00,Performance,High,In Progress,Application Support,Unable to connect to corporate VPN,Critical,630
+TKT200387,2025-11-18 06:00:00,Performance,High,In Progress,Security,Database query timing out,Low,924
+TKT200388,2025-11-19 00:00:00,Network,Medium,Resolved,Network,Database query timing out,Medium,844
+TKT200389,2025-11-19 18:00:00,Network,Low,New,Network,Network connectivity is intermittent,Low,904
+TKT200390,2025-11-20 12:00:00,Network,Medium,New,SRE,Application is responding slowly,Medium,153
+TKT200391,2025-11-21 06:00:00,Access,Medium,In Progress,Platform,Data refresh has not completed,High,521
+TKT200392,2025-11-22 00:00:00,Network,Low,In Progress,Security,User cannot access required application,Medium,727
+TKT200393,2025-11-22 18:00:00,Network,Medium,Resolved,Network,Password reset completed but login still fails,Medium,626
+TKT200394,2025-11-23 12:00:00,Authentication,Medium,Resolved,Network,Database query timing out,High,778
+TKT200395,2025-11-24 06:00:00,Network,Medium,New,SRE,Data refresh has not completed,Critical,216
+TKT200396,2025-11-25 00:00:00,Authentication,Medium,Closed,Network,Application is responding slowly,Low,459
+TKT200397,2025-11-25 18:00:00,Application,Medium,In Progress,Security,Customer portal showing an error,Low,450
+TKT200398,2025-11-26 12:00:00,Data,Medium,Closed,DBA,Network connectivity is intermittent,Low,940
+TKT200399,2025-11-27 06:00:00,Performance,Critical,Closed,DBA,Customer portal showing an error,High,206
+TKT200400,2025-11-28 00:00:00,Network,Medium,New,Application Support,Unable to connect to corporate VPN,Critical,329
+TKT200401,2025-11-28 18:00:00,Data,High,In Progress,Platform,Application is responding slowly,Low,26
+TKT200402,2025-11-29 12:00:00,Data,Medium,In Progress,Platform,Application is responding slowly,Low,155
+TKT200403,2025-11-30 06:00:00,Network,High,In Progress,DBA,Application is responding slowly,High,980
+TKT200404,2025-12-01 00:00:00,Performance,Medium,Assigned,Network,Data refresh has not completed,Critical,848
+TKT200405,2025-12-01 18:00:00,Database,Medium,In Progress,Application Support,Unable to connect to corporate VPN,High,262
+TKT200406,2025-12-02 12:00:00,Data,Medium,In Progress,SRE,User cannot access required application,Critical,703
+TKT200407,2025-12-03 06:00:00,Database,High,New,SRE,Data refresh has not completed,High,595
+TKT200408,2025-12-04 00:00:00,Database,High,Assigned,Network,Data refresh has not completed,Low,907
+TKT200409,2025-12-04 18:00:00,Authentication,Low,New,Network,User cannot access required application,Medium,303
+TKT200410,2025-12-05 12:00:00,Performance,High,Closed,Application Support,Data refresh has not completed,Critical,994
+TKT200411,2025-12-06 06:00:00,Database,Medium,Resolved,Network,Database query timing out,High,373
+TKT200412,2025-12-07 00:00:00,Performance,Medium,Assigned,Network,User cannot access required application,Low,718
+TKT200413,2025-12-07 18:00:00,VPN,High,Assigned,Platform,User cannot access required application,Low,400
+TKT200414,2025-12-08 12:00:00,Application,Medium,New,Network,Unable to connect to corporate VPN,High,673
+TKT200415,2025-12-09 06:00:00,Network,Medium,Assigned,DBA,Unable to connect to corporate VPN,Medium,338
+TKT200416,2025-12-10 00:00:00,Network,Critical,Closed,DBA,Data refresh has not completed,High,844
+TKT200417,2025-12-10 18:00:00,Authentication,Low,New,DBA,Password reset completed but login still fails,Medium,639
+TKT200418,2025-12-11 12:00:00,VPN,High,New,Network,Application is responding slowly,Medium,292
+TKT200419,2025-12-12 06:00:00,Database,Medium,Closed,SRE,User cannot access required application,High,961
+TKT200420,2025-12-13 00:00:00,Network,Medium,In Progress,SRE,User cannot access required application,Low,710
+TKT200421,2025-12-13 18:00:00,Performance,Medium,New,SRE,User cannot access required application,Medium,431
+TKT200422,2025-12-14 12:00:00,Network,Medium,In Progress,DBA,Data refresh has not completed,Medium,140
+TKT200423,2025-12-15 06:00:00,Authentication,Critical,Resolved,Application Support,Network connectivity is intermittent,Critical,973
+TKT200424,2025-12-16 00:00:00,Database,Low,Assigned,Application Support,Data refresh has not completed,High,756
+TKT200425,2025-12-16 18:00:00,Application,Medium,Assigned,Platform,Customer portal showing an error,Medium,669
+TKT200426,2025-12-17 12:00:00,Network,Low,Resolved,SRE,Data refresh has not completed,Medium,833
+TKT200427,2025-12-18 06:00:00,Data,Low,In Progress,DBA,User cannot access required application,Low,609
+TKT200428,2025-12-19 00:00:00,Network,Low,Closed,SRE,User cannot access required application,Low,235
+TKT200429,2025-12-19 18:00:00,Application,Medium,Assigned,DBA,Network connectivity is intermittent,Medium,240
+TKT200430,2025-12-20 12:00:00,VPN,Medium,Assigned,Network,Network connectivity is intermittent,Critical,83
+TKT200431,2025-12-21 06:00:00,Authentication,Medium,New,Application Support,Unable to connect to corporate VPN,Low,67
+TKT200432,2025-12-22 00:00:00,Performance,Medium,Resolved,DBA,Data refresh has not completed,Low,730
+TKT200433,2025-12-22 18:00:00,Database,Medium,In Progress,Security,Customer portal showing an error,High,852
+TKT200434,2025-12-23 12:00:00,Network,Medium,Assigned,Network,Data refresh has not completed,Low,168
+TKT200435,2025-12-24 06:00:00,Application,High,Resolved,Application Support,Customer portal showing an error,Critical,576
+TKT200436,2025-12-25 00:00:00,VPN,Low,Assigned,DBA,Data refresh has not completed,Critical,128
+TKT200437,2025-12-25 18:00:00,Application,High,New,DBA,Application is responding slowly,Critical,417
+TKT200438,2025-12-26 12:00:00,Database,Low,In Progress,Network,Password reset completed but login still fails,Medium,791
+TKT200439,2025-12-27 06:00:00,Authentication,High,In Progress,Network,Password reset completed but login still fails,Medium,812
+TKT200440,2025-12-28 00:00:00,Network,High,In Progress,Application Support,Application is responding slowly,Medium,949
+TKT200441,2025-12-28 18:00:00,Network,Low,In Progress,Network,Password reset completed but login still fails,Low,314
+TKT200442,2025-12-29 12:00:00,Authentication,Low,Closed,SRE,Database query timing out,High,948
+TKT200443,2025-12-30 06:00:00,Application,Medium,Assigned,Network,Password reset completed but login still fails,Critical,784
+TKT200444,2025-12-31 00:00:00,Access,Low,Assigned,Network,Password reset completed but login still fails,Medium,341
+TKT200445,2025-12-31 18:00:00,Database,High,In Progress,Network,User cannot access required application,Low,331
+TKT200446,2026-01-01 12:00:00,Data,Low,New,SRE,Network connectivity is intermittent,High,112
+TKT200447,2026-01-02 06:00:00,Application,Medium,New,SRE,Password reset completed but login still fails,Medium,921
+TKT200448,2026-01-03 00:00:00,Performance,Medium,In Progress,Platform,User cannot access required application,Critical,207
+TKT200449,2026-01-03 18:00:00,VPN,Medium,In Progress,Network,Customer portal showing an error,Critical,271
+TKT200450,2026-01-04 12:00:00,Performance,Critical,Resolved,SRE,Customer portal showing an error,Critical,415
+TKT200451,2026-01-05 06:00:00,Database,Medium,New,Network,Unable to connect to corporate VPN,Medium,141
+TKT200452,2026-01-06 00:00:00,Access,Medium,Closed,Platform,Customer portal showing an error,Critical,806
+TKT200453,2026-01-06 18:00:00,Performance,High,In Progress,SRE,Unable to connect to corporate VPN,Low,699
+TKT200454,2026-01-07 12:00:00,Database,Low,New,Platform,Password reset completed but login still fails,Medium,160
+TKT200455,2026-01-08 06:00:00,Database,Medium,Assigned,Platform,Application is responding slowly,Medium,167
+TKT200456,2026-01-09 00:00:00,VPN,High,Assigned,SRE,Network connectivity is intermittent,Critical,26
+TKT200457,2026-01-09 18:00:00,Application,Medium,In Progress,Security,Password reset completed but login still fails,High,949
+TKT200458,2026-01-10 12:00:00,Performance,High,In Progress,SRE,Network connectivity is intermittent,Medium,438
+TKT200459,2026-01-11 06:00:00,Network,Critical,In Progress,DBA,Data refresh has not completed,Low,657
+TKT200460,2026-01-12 00:00:00,Authentication,Medium,In Progress,DBA,Data refresh has not completed,Critical,154
+TKT200461,2026-01-12 18:00:00,Database,High,Closed,Security,Application is responding slowly,High,234
+TKT200462,2026-01-13 12:00:00,Network,High,Closed,DBA,Unable to connect to corporate VPN,Critical,543
+TKT200463,2026-01-14 06:00:00,Data,Medium,In Progress,DBA,Password reset completed but login still fails,Medium,212
+TKT200464,2026-01-15 00:00:00,VPN,Critical,Closed,Security,Network connectivity is intermittent,Low,614
+TKT200465,2026-01-15 18:00:00,Database,Low,Closed,Application Support,Password reset completed but login still fails,Medium,924
+TKT200466,2026-01-16 12:00:00,Access,Medium,Closed,Platform,Customer portal showing an error,High,308
+TKT200467,2026-01-17 06:00:00,Authentication,High,Assigned,Security,Application is responding slowly,Low,609
+TKT200468,2026-01-18 00:00:00,Data,Medium,In Progress,Network,Network connectivity is intermittent,Low,916
+TKT200469,2026-01-18 18:00:00,Data,High,Assigned,SRE,User cannot access required application,Critical,894
+TKT200470,2026-01-19 12:00:00,Network,Medium,New,DBA,User cannot access required application,High,12
+TKT200471,2026-01-20 06:00:00,Access,Critical,New,Application Support,Network connectivity is intermittent,Medium,114
+TKT200472,2026-01-21 00:00:00,Performance,Low,Resolved,SRE,Data refresh has not completed,High,986
+TKT200473,2026-01-21 18:00:00,Access,High,In Progress,SRE,Application is responding slowly,High,925
+TKT200474,2026-01-22 12:00:00,Authentication,Medium,Closed,Application Support,User cannot access required application,Low,325
+TKT200475,2026-01-23 06:00:00,VPN,High,Resolved,DBA,Customer portal showing an error,Medium,522
+TKT200476,2026-01-24 00:00:00,Database,High,New,Platform,Network connectivity is intermittent,Medium,574
+TKT200477,2026-01-24 18:00:00,Authentication,Medium,Closed,Security,Database query timing out,Low,670
+TKT200478,2026-01-25 12:00:00,Database,Medium,In Progress,Network,Application is responding slowly,Low,751
+TKT200479,2026-01-26 06:00:00,Access,Low,In Progress,Platform,Network connectivity is intermittent,Medium,376
+TKT200480,2026-01-27 00:00:00,Application,Critical,Closed,Platform,Data refresh has not completed,High,890
+TKT200481,2026-01-27 18:00:00,Authentication,Critical,Resolved,DBA,User cannot access required application,High,63
+TKT200482,2026-01-28 12:00:00,VPN,Medium,New,SRE,Unable to connect to corporate VPN,Critical,37
+TKT200483,2026-01-29 06:00:00,Authentication,Medium,New,Network,Application is responding slowly,Medium,958
+TKT200484,2026-01-30 00:00:00,Network,Low,In Progress,Platform,Database query timing out,High,181
+TKT200485,2026-01-30 18:00:00,Performance,Low,New,SRE,Customer portal showing an error,Critical,994
+TKT200486,2026-01-31 12:00:00,Database,Low,New,Security,Customer portal showing an error,High,289
+TKT200487,2026-02-01 06:00:00,Database,High,Resolved,SRE,Network connectivity is intermittent,Critical,367
+TKT200488,2026-02-02 00:00:00,Application,Medium,New,Application Support,Unable to connect to corporate VPN,Low,32
+TKT200489,2026-02-02 18:00:00,VPN,Medium,New,SRE,Database query timing out,Critical,944
+TKT200490,2026-02-03 12:00:00,Authentication,Medium,In Progress,Network,Customer portal showing an error,High,362
+TKT200491,2026-02-04 06:00:00,VPN,Medium,New,SRE,Data refresh has not completed,High,171
+TKT200492,2026-02-05 00:00:00,Application,High,Assigned,Network,Password reset completed but login still fails,Low,485
+TKT200493,2026-02-05 18:00:00,Network,Medium,Closed,DBA,Data refresh has not completed,High,158
+TKT200494,2026-02-06 12:00:00,Application,Low,Resolved,SRE,Unable to connect to corporate VPN,Critical,790
+TKT200495,2026-02-07 06:00:00,Application,High,Closed,DBA,Password reset completed but login still fails,High,77
+TKT200496,2026-02-08 00:00:00,Network,Low,Assigned,Security,Network connectivity is intermittent,Low,501
+TKT200497,2026-02-08 18:00:00,Performance,Medium,Resolved,Network,Network connectivity is intermittent,Medium,394
+TKT200498,2026-02-09 12:00:00,Data,Critical,Assigned,SRE,Data refresh has not completed,High,41
+TKT200499,2026-02-10 06:00:00,VPN,High,Assigned,Security,User cannot access required application,Critical,57
+TKT200500,2026-02-11 00:00:00,Data,High,New,Platform,User cannot access required application,Medium,521
+TKT200501,2026-02-11 18:00:00,Authentication,Medium,Closed,SRE,User cannot access required application,Critical,397
+TKT200502,2026-02-12 12:00:00,Authentication,High,New,Network,User cannot access required application,Critical,134
+TKT200503,2026-02-13 06:00:00,Application,Medium,Assigned,Platform,User cannot access required application,Medium,142
+TKT200504,2026-02-14 00:00:00,VPN,Low,In Progress,SRE,Application is responding slowly,Low,805
+TKT200505,2026-02-14 18:00:00,Database,Medium,In Progress,Security,Network connectivity is intermittent,Critical,731
+TKT200506,2026-02-15 12:00:00,Authentication,High,Assigned,DBA,Application is responding slowly,High,609
+TKT200507,2026-02-16 06:00:00,Network,Medium,Assigned,Application Support,User cannot access required application,Critical,834
+TKT200508,2026-02-17 00:00:00,Performance,Medium,Assigned,Network,Customer portal showing an error,Critical,73
+TKT200509,2026-02-17 18:00:00,Data,Medium,Closed,Network,User cannot access required application,Medium,689
+TKT200510,2026-02-18 12:00:00,Authentication,High,In Progress,Application Support,User cannot access required application,Low,753
+TKT200511,2026-02-19 06:00:00,Application,Medium,Closed,SRE,Unable to connect to corporate VPN,Critical,204
+TKT200512,2026-02-20 00:00:00,Network,Medium,Closed,Network,Application is responding slowly,High,538
+TKT200513,2026-02-20 18:00:00,Network,Medium,Resolved,Security,Database query timing out,Low,768
+TKT200514,2026-02-21 12:00:00,Access,High,Closed,Platform,Database query timing out,High,605
+TKT200515,2026-02-22 06:00:00,Data,Low,New,Application Support,Data refresh has not completed,Low,253
+TKT200516,2026-02-23 00:00:00,Network,High,Closed,Platform,Data refresh has not completed,Medium,666
+TKT200517,2026-02-23 18:00:00,VPN,High,In Progress,Network,Customer portal showing an error,Medium,760
+TKT200518,2026-02-24 12:00:00,Data,High,Resolved,Application Support,Application is responding slowly,Medium,14
+TKT200519,2026-02-25 06:00:00,Data,Medium,Assigned,Platform,Unable to connect to corporate VPN,High,569
+TKT200520,2026-02-26 00:00:00,Database,Medium,New,Application Support,Network connectivity is intermittent,Critical,507
+TKT200521,2026-02-26 18:00:00,Application,High,Closed,SRE,Data refresh has not completed,Medium,369
+TKT200522,2026-02-27 12:00:00,Performance,Medium,In Progress,Platform,Database query timing out,High,49
+TKT200523,2026-02-28 06:00:00,Application,Medium,New,DBA,Network connectivity is intermittent,Critical,88
+TKT200524,2026-03-01 00:00:00,Network,High,Resolved,DBA,Data refresh has not completed,High,751
+TKT200525,2026-03-01 18:00:00,Data,Low,New,Application Support,User cannot access required application,Medium,828
+TKT200526,2026-03-02 12:00:00,Performance,Medium,In Progress,Application Support,Password reset completed but login still fails,High,422
+TKT200527,2026-03-03 06:00:00,Application,High,Resolved,Security,Unable to connect to corporate VPN,Medium,939
+TKT200528,2026-03-04 00:00:00,Authentication,Low,Resolved,DBA,Network connectivity is intermittent,Medium,928
+TKT200529,2026-03-04 18:00:00,Network,Low,In Progress,Platform,User cannot access required application,High,667
+TKT200530,2026-03-05 12:00:00,Access,Medium,Assigned,Security,Password reset completed but login still fails,Medium,583
+TKT200531,2026-03-06 06:00:00,Database,Low,Closed,DBA,Unable to connect to corporate VPN,Low,964
+TKT200532,2026-03-07 00:00:00,Application,Medium,New,SRE,Data refresh has not completed,Critical,611
+TKT200533,2026-03-07 18:00:00,Access,Medium,New,Security,Application is responding slowly,High,934
+TKT200534,2026-03-08 12:00:00,VPN,Low,New,Network,Application is responding slowly,Low,979
+TKT200535,2026-03-09 06:00:00,Application,Medium,Closed,Network,Customer portal showing an error,Medium,198
+TKT200536,2026-03-10 00:00:00,Access,High,In Progress,Network,Application is responding slowly,Medium,662
+TKT200537,2026-03-10 18:00:00,Authentication,Medium,New,Security,Data refresh has not completed,Critical,732
+TKT200538,2026-03-11 12:00:00,Application,Medium,New,Platform,Customer portal showing an error,Critical,820
+TKT200539,2026-03-12 06:00:00,Access,Critical,New,Network,Application is responding slowly,High,352
+TKT200540,2026-03-13 00:00:00,VPN,Low,Closed,SRE,Application is responding slowly,Medium,862
+TKT200541,2026-03-13 18:00:00,Access,Medium,In Progress,Network,Network connectivity is intermittent,Low,490
+TKT200542,2026-03-14 12:00:00,Database,Medium,New,SRE,User cannot access required application,Low,389
+TKT200543,2026-03-15 06:00:00,Network,Medium,Assigned,DBA,Data refresh has not completed,Low,161
+TKT200544,2026-03-16 00:00:00,Access,Medium,Resolved,Application Support,Application is responding slowly,Critical,324
+TKT200545,2026-03-16 18:00:00,VPN,High,In Progress,Network,Unable to connect to corporate VPN,Low,974
+TKT200546,2026-03-17 12:00:00,VPN,Low,Closed,Application Support,Data refresh has not completed,High,717
+TKT200547,2026-03-18 06:00:00,Network,Medium,New,Application Support,Password reset completed but login still fails,Critical,727
+TKT200548,2026-03-19 00:00:00,Data,Medium,New,SRE,Network connectivity is intermittent,Medium,896
+TKT200549,2026-03-19 18:00:00,VPN,Medium,New,DBA,Customer portal showing an error,High,270
+TKT200550,2026-03-20 12:00:00,Performance,High,Assigned,DBA,Password reset completed but login still fails,Critical,663
+TKT200551,2026-03-21 06:00:00,VPN,Critical,Resolved,Network,Network connectivity is intermittent,Medium,374
+TKT200552,2026-03-22 00:00:00,Network,Medium,Resolved,Security,Unable to connect to corporate VPN,Medium,848
+TKT200553,2026-03-22 18:00:00,Network,High,Assigned,Network,Database query timing out,Low,425
+TKT200554,2026-03-23 12:00:00,Network,Medium,Resolved,SRE,Application is responding slowly,Medium,855
+TKT200555,2026-03-24 06:00:00,VPN,Low,Resolved,DBA,Customer portal showing an error,Critical,748
+TKT200556,2026-03-25 00:00:00,Performance,Medium,New,Platform,User cannot access required application,High,773
+TKT200557,2026-03-25 18:00:00,Database,Medium,Resolved,Network,User cannot access required application,Low,926
+TKT200558,2026-03-26 12:00:00,Performance,Medium,In Progress,DBA,Database query timing out,High,791
+TKT200559,2026-03-27 06:00:00,Access,High,New,Security,Customer portal showing an error,High,324
+TKT200560,2026-03-28 00:00:00,Application,Low,Assigned,Platform,Password reset completed but login still fails,Low,523
+TKT200561,2026-03-28 18:00:00,Database,Medium,Resolved,Network,Customer portal showing an error,Critical,475
+TKT200562,2026-03-29 12:00:00,Access,High,Resolved,SRE,Unable to connect to corporate VPN,Low,69
+TKT200563,2026-03-30 06:00:00,Data,High,Assigned,Network,Unable to connect to corporate VPN,Medium,595
+TKT200564,2026-03-31 00:00:00,Data,Low,Resolved,DBA,Customer portal showing an error,Medium,440
+TKT200565,2026-03-31 18:00:00,Data,High,Assigned,DBA,Password reset completed but login still fails,High,396
+TKT200566,2026-04-01 12:00:00,Authentication,Medium,In Progress,Platform,Network connectivity is intermittent,Critical,114
+TKT200567,2026-04-02 06:00:00,Application,High,New,SRE,Password reset completed but login still fails,Low,506
+TKT200568,2026-04-03 00:00:00,Network,High,Closed,DBA,Password reset completed but login still fails,Medium,581
+TKT200569,2026-04-03 18:00:00,Data,Low,Closed,DBA,Data refresh has not completed,Medium,110
+TKT200570,2026-04-04 12:00:00,Data,High,New,SRE,Password reset completed but login still fails,Critical,636
+TKT200571,2026-04-05 06:00:00,Performance,Critical,In Progress,DBA,Data refresh has not completed,Critical,171
+TKT200572,2026-04-06 00:00:00,Authentication,Medium,Resolved,SRE,Application is responding slowly,Medium,149
+TKT200573,2026-04-06 18:00:00,Database,Low,In Progress,Network,Network connectivity is intermittent,High,404
+TKT200574,2026-04-07 12:00:00,Access,Medium,Assigned,DBA,Data refresh has not completed,Critical,392
+TKT200575,2026-04-08 06:00:00,Access,High,Closed,Security,Unable to connect to corporate VPN,Critical,915
+TKT200576,2026-04-09 00:00:00,Database,Low,Assigned,Security,Application is responding slowly,High,72
+TKT200577,2026-04-09 18:00:00,Authentication,Medium,Assigned,Security,User cannot access required application,High,352
+TKT200578,2026-04-10 12:00:00,Authentication,Low,Assigned,Platform,Network connectivity is intermittent,Critical,735
+TKT200579,2026-04-11 06:00:00,Access,Medium,Closed,Application Support,Password reset completed but login still fails,Low,253
+TKT200580,2026-04-12 00:00:00,Network,Medium,In Progress,Network,Password reset completed but login still fails,Medium,981
+TKT200581,2026-04-12 18:00:00,Network,Medium,Resolved,Network,Application is responding slowly,High,744
+TKT200582,2026-04-13 12:00:00,Performance,Medium,Closed,Security,Password reset completed but login still fails,Low,946
+TKT200583,2026-04-14 06:00:00,VPN,Medium,Closed,Platform,Application is responding slowly,High,949
+TKT200584,2026-04-15 00:00:00,Performance,Medium,Closed,SRE,Password reset completed but login still fails,Critical,113
+TKT200585,2026-04-15 18:00:00,Database,Low,Closed,Security,Network connectivity is intermittent,Low,461
+TKT200586,2026-04-16 12:00:00,Data,Medium,Closed,DBA,Network connectivity is intermittent,Critical,745
+TKT200587,2026-04-17 06:00:00,Data,High,Closed,DBA,Password reset completed but login still fails,Medium,13
+TKT200588,2026-04-18 00:00:00,Application,Medium,Resolved,SRE,User cannot access required application,Critical,454
+TKT200589,2026-04-18 18:00:00,Database,Medium,New,DBA,Customer portal showing an error,High,689
+TKT200590,2026-04-19 12:00:00,Authentication,Medium,New,Platform,Customer portal showing an error,Low,793
+TKT200591,2026-04-20 06:00:00,Authentication,Medium,Resolved,DBA,Data refresh has not completed,High,417
+TKT200592,2026-04-21 00:00:00,Data,Medium,Assigned,DBA,Customer portal showing an error,Low,863
+TKT200593,2026-04-21 18:00:00,Authentication,Critical,Closed,Security,Customer portal showing an error,Low,675
+TKT200594,2026-04-22 12:00:00,Network,Medium,Closed,Application Support,Unable to connect to corporate VPN,Critical,50
+TKT200595,2026-04-23 06:00:00,Network,Medium,Resolved,Platform,Unable to connect to corporate VPN,Critical,281
+TKT200596,2026-04-24 00:00:00,Access,Low,Resolved,SRE,User cannot access required application,Low,938
+TKT200597,2026-04-24 18:00:00,Performance,Medium,Assigned,DBA,Data refresh has not completed,Medium,7
+TKT200598,2026-04-25 12:00:00,Application,Medium,In Progress,Application Support,Database query timing out,Low,112
+TKT200599,2026-04-26 06:00:00,Performance,Medium,Closed,SRE,Customer portal showing an error,Medium,347
+TKT200600,2026-04-27 00:00:00,Application,Medium,Closed,Network,Password reset completed but login still fails,Critical,993
+TKT200601,2026-04-27 18:00:00,Network,Critical,Assigned,Network,Database query timing out,Low,706
+TKT200602,2026-04-28 12:00:00,Authentication,Low,Closed,Platform,Network connectivity is intermittent,High,151
+TKT200603,2026-04-29 06:00:00,Authentication,Low,In Progress,DBA,Customer portal showing an error,Critical,396
+TKT200604,2026-04-30 00:00:00,Network,Medium,Closed,Platform,Unable to connect to corporate VPN,Critical,939
+TKT200605,2026-04-30 18:00:00,VPN,Medium,In Progress,Network,Data refresh has not completed,Medium,223
+TKT200606,2026-05-01 12:00:00,Database,Critical,Resolved,Application Support,Data refresh has not completed,High,577
+TKT200607,2026-05-02 06:00:00,Network,Medium,New,Network,Database query timing out,Medium,466
+TKT200608,2026-05-03 00:00:00,Network,Medium,Assigned,SRE,Application is responding slowly,Low,761
+TKT200609,2026-05-03 18:00:00,Performance,Medium,Resolved,Application Support,User cannot access required application,Low,753
+TKT200610,2026-05-04 12:00:00,Data,Critical,Closed,Platform,Network connectivity is intermittent,High,834
+TKT200611,2026-05-05 06:00:00,Access,Medium,New,Security,Database query timing out,High,123
+TKT200612,2026-05-06 00:00:00,VPN,High,New,Security,Unable to connect to corporate VPN,High,456
+TKT200613,2026-05-06 18:00:00,Network,Medium,Resolved,DBA,Unable to connect to corporate VPN,Critical,693
+TKT200614,2026-05-07 12:00:00,Access,Medium,In Progress,SRE,Network connectivity is intermittent,High,421
+TKT200615,2026-05-08 06:00:00,Application,High,Closed,Application Support,Network connectivity is intermittent,Medium,669
+TKT200616,2026-05-09 00:00:00,Network,Medium,New,Security,Network connectivity is intermittent,Medium,637
+TKT200617,2026-05-09 18:00:00,Network,Low,Assigned,Network,Password reset completed but login still fails,Critical,373
+TKT200618,2026-05-10 12:00:00,Network,Medium,New,Application Support,Password reset completed but login still fails,Critical,104
+TKT200619,2026-05-11 06:00:00,Application,Critical,Resolved,Security,Database query timing out,Low,970
+TKT200620,2026-05-12 00:00:00,Authentication,Medium,Closed,Security,Password reset completed but login still fails,Critical,826
+TKT200621,2026-05-12 18:00:00,Application,Medium,New,Platform,Database query timing out,Low,895
+TKT200622,2026-05-13 12:00:00,Authentication,Medium,Assigned,DBA,User cannot access required application,Critical,303
+TKT200623,2026-05-14 06:00:00,Access,Medium,Closed,Platform,Application is responding slowly,High,319
+TKT200624,2026-05-15 00:00:00,Performance,Critical,New,SRE,Unable to connect to corporate VPN,High,326
+TKT200625,2026-05-15 18:00:00,Application,Medium,Closed,Network,Database query timing out,High,35
+TKT200626,2026-05-16 12:00:00,Network,Medium,Closed,SRE,Customer portal showing an error,High,173
+TKT200627,2026-05-17 06:00:00,Data,Medium,New,SRE,User cannot access required application,Medium,311
+TKT200628,2026-05-18 00:00:00,Access,Critical,New,Security,Application is responding slowly,Critical,987
+TKT200629,2026-05-18 18:00:00,Network,Medium,Resolved,DBA,Application is responding slowly,High,208
+TKT200630,2026-05-19 12:00:00,VPN,Medium,New,Network,User cannot access required application,High,510
+TKT200631,2026-05-20 06:00:00,VPN,High,In Progress,Platform,Password reset completed but login still fails,Medium,549
+TKT200632,2026-05-21 00:00:00,Authentication,Medium,New,Security,Network connectivity is intermittent,Low,363
+TKT200633,2026-05-21 18:00:00,Authentication,Critical,In Progress,DBA,Network connectivity is intermittent,High,919
+TKT200634,2026-05-22 12:00:00,Access,High,Assigned,DBA,Unable to connect to corporate VPN,Medium,97
+TKT200635,2026-05-23 06:00:00,Application,Medium,Resolved,Platform,Data refresh has not completed,High,870
+TKT200636,2026-05-24 00:00:00,Data,High,Closed,SRE,Unable to connect to corporate VPN,Medium,745
+TKT200637,2026-05-24 18:00:00,Application,Medium,In Progress,SRE,Database query timing out,Critical,309
+TKT200638,2026-05-25 12:00:00,Data,Critical,Resolved,SRE,Customer portal showing an error,High,768
+TKT200639,2026-05-26 06:00:00,Application,Medium,Resolved,Application Support,Application is responding slowly,Medium,431
+TKT200640,2026-05-27 00:00:00,Database,Medium,Closed,Network,Password reset completed but login still fails,High,970
+TKT200641,2026-05-27 18:00:00,Access,Medium,Assigned,DBA,Unable to connect to corporate VPN,High,41
+TKT200642,2026-05-28 12:00:00,Network,Medium,Assigned,Application Support,Customer portal showing an error,High,34
+TKT200643,2026-05-29 06:00:00,Database,Medium,Assigned,Application Support,Unable to connect to corporate VPN,High,546
+TKT200644,2026-05-30 00:00:00,Network,Medium,Resolved,Platform,Database query timing out,Critical,931
+TKT200645,2026-05-30 18:00:00,Access,High,Closed,Network,Database query timing out,Medium,68
+TKT200646,2026-05-31 12:00:00,Network,Medium,Assigned,Network,Data refresh has not completed,Medium,779
+TKT200647,2026-06-01 06:00:00,Access,High,New,SRE,Data refresh has not completed,Medium,938
+TKT200648,2026-06-02 00:00:00,Data,Medium,Resolved,Security,Network connectivity is intermittent,High,488
+TKT200649,2026-06-02 18:00:00,Network,High,In Progress,DBA,Customer portal showing an error,Critical,867
+TKT200650,2026-06-03 12:00:00,Database,Low,Assigned,Network,User cannot access required application,High,758
+TKT200651,2026-06-04 06:00:00,Network,Medium,New,DBA,Application is responding slowly,Low,218
+TKT200652,2026-06-05 00:00:00,Performance,Medium,Closed,Security,Password reset completed but login still fails,Critical,854
+TKT200653,2026-06-05 18:00:00,Authentication,Medium,Closed,SRE,Data refresh has not completed,Critical,700
+TKT200654,2026-06-06 12:00:00,Data,High,Resolved,DBA,Database query timing out,Medium,17
+TKT200655,2026-06-07 06:00:00,Network,High,In Progress,Application Support,Database query timing out,Low,570
+TKT200656,2026-06-08 00:00:00,Performance,Low,Assigned,Security,Password reset completed but login still fails,Medium,656
+TKT200657,2026-06-08 18:00:00,Performance,Medium,In Progress,DBA,Application is responding slowly,Critical,802
+TKT200658,2026-06-09 12:00:00,Performance,High,New,SRE,Customer portal showing an error,High,772
+TKT200659,2026-06-10 06:00:00,Data,Medium,Assigned,Security,Database query timing out,Low,478
+TKT200660,2026-06-11 00:00:00,Authentication,Medium,In Progress,Security,User cannot access required application,Low,302
+TKT200661,2026-06-11 18:00:00,Application,Critical,In Progress,Network,Password reset completed but login still fails,Critical,195
+TKT200662,2026-06-12 12:00:00,VPN,Medium,New,DBA,Unable to connect to corporate VPN,Medium,93
+TKT200663,2026-06-13 06:00:00,Database,High,Closed,DBA,Data refresh has not completed,High,641
+TKT200664,2026-06-14 00:00:00,VPN,High,Assigned,SRE,Database query timing out,Medium,959
+TKT200665,2026-06-14 18:00:00,Access,Medium,In Progress,Platform,Application is responding slowly,Low,84
+TKT200666,2026-06-15 12:00:00,Application,High,In Progress,Security,Application is responding slowly,Medium,704
+TKT200667,2026-06-16 06:00:00,Access,Low,In Progress,Application Support,Customer portal showing an error,High,586
+TKT200668,2026-06-17 00:00:00,Authentication,Medium,Closed,Platform,User cannot access required application,Medium,176
+TKT200669,2026-06-17 18:00:00,Database,Low,Resolved,Network,Database query timing out,High,216
+TKT200670,2026-06-18 12:00:00,Access,Medium,Closed,Application Support,Data refresh has not completed,Medium,288
+TKT200671,2026-06-19 06:00:00,Performance,Low,Assigned,SRE,Data refresh has not completed,Medium,686
+TKT200672,2026-06-20 00:00:00,Data,Medium,Assigned,Platform,Password reset completed but login still fails,Medium,302
+TKT200673,2026-06-20 18:00:00,VPN,Medium,In Progress,SRE,Customer portal showing an error,Medium,828
+TKT200674,2026-06-21 12:00:00,Network,Medium,In Progress,Platform,Data refresh has not completed,Medium,372
+TKT200675,2026-06-22 06:00:00,VPN,Low,Assigned,DBA,Database query timing out,High,113
+TKT200676,2026-06-23 00:00:00,Performance,High,In Progress,Network,Unable to connect to corporate VPN,Medium,99
+TKT200677,2026-06-23 18:00:00,VPN,Medium,New,Application Support,Password reset completed but login still fails,High,403
+TKT200678,2026-06-24 12:00:00,Performance,Medium,In Progress,Application Support,Customer portal showing an error,Medium,410
+TKT200679,2026-06-25 06:00:00,Authentication,Medium,Resolved,Application Support,Data refresh has not completed,Medium,734
+TKT200680,2026-06-26 00:00:00,VPN,Low,In Progress,Security,Password reset completed but login still fails,Critical,481
+TKT200681,2026-06-26 18:00:00,Data,Medium,Closed,Security,User cannot access required application,Critical,167
+TKT200682,2026-06-27 12:00:00,Network,High,Closed,DBA,Database query timing out,Medium,217
+TKT200683,2026-06-28 06:00:00,Network,Medium,Closed,Application Support,Application is responding slowly,Medium,568
+TKT200684,2026-06-29 00:00:00,Access,Medium,New,SRE,Customer portal showing an error,High,337
+TKT200685,2026-06-29 18:00:00,Database,Critical,Closed,Security,Data refresh has not completed,Low,673
+TKT200686,2026-06-30 12:00:00,Access,Critical,Assigned,SRE,Password reset completed but login still fails,Medium,923
+TKT200687,2026-07-01 06:00:00,Network,High,In Progress,Network,Unable to connect to corporate VPN,High,358
+TKT200688,2026-07-02 00:00:00,Database,Medium,In Progress,Platform,Application is responding slowly,High,554
+TKT200689,2026-07-02 18:00:00,Network,Low,Assigned,DBA,Application is responding slowly,Low,832
+TKT200690,2026-07-03 12:00:00,VPN,Medium,Closed,Security,Customer portal showing an error,Low,214
+TKT200691,2026-07-04 06:00:00,Database,High,Resolved,SRE,User cannot access required application,Medium,513
+TKT200692,2026-07-05 00:00:00,Application,Medium,Closed,DBA,Unable to connect to corporate VPN,Low,308
+TKT200693,2026-07-05 18:00:00,Authentication,Low,Closed,Platform,Application is responding slowly,High,628
+TKT200694,2026-07-06 12:00:00,VPN,Medium,In Progress,SRE,Customer portal showing an error,Critical,744
+TKT200695,2026-07-07 06:00:00,Access,High,Resolved,Network,Database query timing out,Medium,145
+TKT200696,2026-07-08 00:00:00,Network,High,In Progress,DBA,User cannot access required application,Medium,191
+TKT200697,2026-07-08 18:00:00,Authentication,Low,In Progress,Platform,Application is responding slowly,Low,28
+TKT200698,2026-07-09 12:00:00,Access,Low,Resolved,Network,Application is responding slowly,Low,16
+TKT200699,2026-07-10 06:00:00,Performance,Critical,Resolved,Application Support,Password reset completed but login still fails,High,55
+TKT200700,2026-07-11 00:00:00,VPN,Low,Closed,Network,Unable to connect to corporate VPN,Medium,708
+TKT200701,2026-07-11 18:00:00,Authentication,High,Resolved,Application Support,Unable to connect to corporate VPN,High,904
+TKT200702,2026-07-12 12:00:00,Database,Critical,Resolved,Application Support,User cannot access required application,High,412
+TKT200703,2026-07-13 06:00:00,Access,Medium,Closed,Network,Password reset completed but login still fails,Critical,883
+TKT200704,2026-07-14 00:00:00,VPN,Medium,New,DBA,User cannot access required application,Low,731
+TKT200705,2026-07-14 18:00:00,Performance,Medium,Resolved,Security,Data refresh has not completed,High,808
+TKT200706,2026-07-15 12:00:00,Database,Low,Assigned,Network,Customer portal showing an error,Critical,741
+TKT200707,2026-07-16 06:00:00,Authentication,Low,In Progress,Network,User cannot access required application,Medium,203
+TKT200708,2026-07-17 00:00:00,Performance,Critical,Resolved,Platform,Unable to connect to corporate VPN,Low,525
+TKT200709,2026-07-17 18:00:00,VPN,Medium,Assigned,SRE,Database query timing out,Medium,527
+TKT200710,2026-07-18 12:00:00,Authentication,Medium,Closed,SRE,Data refresh has not completed,Critical,643
+TKT200711,2026-07-19 06:00:00,Data,Medium,In Progress,Network,Database query timing out,Critical,797
+TKT200712,2026-07-20 00:00:00,Application,Low,Assigned,Security,Network connectivity is intermittent,Medium,117
+TKT200713,2026-07-20 18:00:00,Network,Medium,Assigned,Platform,Customer portal showing an error,Low,676
+TKT200714,2026-07-21 12:00:00,Access,High,In Progress,Platform,Application is responding slowly,Medium,833
+TKT200715,2026-07-22 06:00:00,Access,High,Closed,Platform,Password reset completed but login still fails,Low,119
+TKT200716,2026-07-23 00:00:00,Application,Low,New,DBA,Unable to connect to corporate VPN,High,417
+TKT200717,2026-07-23 18:00:00,VPN,Low,In Progress,Platform,Application is responding slowly,Critical,896
+TKT200718,2026-07-24 12:00:00,Application,High,Closed,Platform,Application is responding slowly,Low,29
+TKT200719,2026-07-25 06:00:00,Database,High,In Progress,SRE,Customer portal showing an error,High,164
+TKT200720,2026-07-26 00:00:00,Performance,Medium,In Progress,Platform,User cannot access required application,Critical,804
+TKT200721,2026-07-26 18:00:00,Application,Critical,Assigned,Platform,Database query timing out,High,175
+TKT200722,2026-07-27 12:00:00,VPN,Critical,New,Security,Customer portal showing an error,Critical,703
+TKT200723,2026-07-28 06:00:00,Data,Low,Resolved,Application Support,Network connectivity is intermittent,Low,901
+TKT200724,2026-07-29 00:00:00,Database,Low,Closed,Network,Customer portal showing an error,High,501
+TKT200725,2026-07-29 18:00:00,Database,Low,In Progress,SRE,Data refresh has not completed,Low,487
+TKT200726,2026-07-30 12:00:00,Data,Medium,In Progress,SRE,Application is responding slowly,Critical,431
+TKT200727,2026-07-31 06:00:00,Performance,Medium,New,Platform,Network connectivity is intermittent,Medium,376
+TKT200728,2026-08-01 00:00:00,Performance,Low,Closed,Network,Database query timing out,Low,383
+TKT200729,2026-08-01 18:00:00,Access,High,Closed,DBA,Password reset completed but login still fails,High,555
+TKT200730,2026-08-02 12:00:00,Data,High,Closed,Platform,Password reset completed but login still fails,High,896
+TKT200731,2026-08-03 06:00:00,VPN,Low,Assigned,Network,Unable to connect to corporate VPN,Medium,981
+TKT200732,2026-08-04 00:00:00,Application,Medium,Resolved,Platform,Data refresh has not completed,Medium,866
+TKT200733,2026-08-04 18:00:00,Database,Low,In Progress,DBA,Password reset completed but login still fails,Low,124
+TKT200734,2026-08-05 12:00:00,Network,High,Assigned,Security,Network connectivity is intermittent,Critical,310
+TKT200735,2026-08-06 06:00:00,Authentication,Low,Assigned,SRE,Network connectivity is intermittent,Low,758
+TKT200736,2026-08-07 00:00:00,Authentication,Medium,Assigned,Network,Database query timing out,Critical,547
+TKT200737,2026-08-07 18:00:00,Network,Medium,In Progress,DBA,Data refresh has not completed,High,337
+TKT200738,2026-08-08 12:00:00,Data,Low,New,Security,Data refresh has not completed,High,314
+TKT200739,2026-08-09 06:00:00,Access,Medium,Resolved,DBA,Data refresh has not completed,High,121
+TKT200740,2026-08-10 00:00:00,Database,Medium,In Progress,DBA,Database query timing out,Critical,335
+TKT200741,2026-08-10 18:00:00,Network,Medium,Closed,Security,Application is responding slowly,Low,424
+TKT200742,2026-08-11 12:00:00,Application,Medium,Assigned,Network,Unable to connect to corporate VPN,Critical,418
+TKT200743,2026-08-12 06:00:00,Authentication,Low,New,DBA,Network connectivity is intermittent,Low,551
+TKT200744,2026-08-13 00:00:00,Application,Medium,Assigned,Platform,Network connectivity is intermittent,Critical,276
+TKT200745,2026-08-13 18:00:00,Access,Critical,Closed,Network,User cannot access required application,Medium,209
+TKT200746,2026-08-14 12:00:00,Authentication,High,Assigned,SRE,Unable to connect to corporate VPN,Critical,888
+TKT200747,2026-08-15 06:00:00,Application,Low,Resolved,Network,Network connectivity is intermittent,Low,408
+TKT200748,2026-08-16 00:00:00,Access,Low,Closed,SRE,Application is responding slowly,Medium,258
+TKT200749,2026-08-16 18:00:00,Application,Low,Assigned,Platform,User cannot access required application,High,637
+TKT200750,2026-08-17 12:00:00,Database,Critical,Resolved,Network,Customer portal showing an error,Critical,544
+TKT200751,2026-08-18 06:00:00,Application,Medium,Assigned,DBA,Password reset completed but login still fails,Low,578
+TKT200752,2026-08-19 00:00:00,Performance,Medium,Assigned,Application Support,Unable to connect to corporate VPN,Low,225
+TKT200753,2026-08-19 18:00:00,Authentication,Medium,Assigned,SRE,Unable to connect to corporate VPN,High,724
+TKT200754,2026-08-20 12:00:00,Application,High,Resolved,Application Support,Data refresh has not completed,Low,196
+TKT200755,2026-08-21 06:00:00,Access,Medium,Closed,Platform,Data refresh has not completed,Critical,837
+TKT200756,2026-08-22 00:00:00,Database,High,Assigned,Security,Database query timing out,Low,426
+TKT200757,2026-08-22 18:00:00,Network,Medium,Assigned,Security,Database query timing out,Critical,412
+TKT200758,2026-08-23 12:00:00,Data,High,Closed,Application Support,Database query timing out,High,391
+TKT200759,2026-08-24 06:00:00,Database,Critical,In Progress,SRE,Application is responding slowly,Critical,425
+TKT200760,2026-08-25 00:00:00,Application,High,In Progress,Application Support,User cannot access required application,Low,666
+TKT200761,2026-08-25 18:00:00,Authentication,Low,Resolved,SRE,Application is responding slowly,Medium,499
+TKT200762,2026-08-26 12:00:00,Data,Medium,New,Application Support,User cannot access required application,Medium,131
+TKT200763,2026-08-27 06:00:00,Application,Low,Closed,DBA,Database query timing out,Low,568
+TKT200764,2026-08-28 00:00:00,Performance,Medium,Assigned,Network,Customer portal showing an error,Low,270
+TKT200765,2026-08-28 18:00:00,Application,Medium,Resolved,Network,Data refresh has not completed,Medium,112
+TKT200766,2026-08-29 12:00:00,Database,Medium,In Progress,SRE,Password reset completed but login still fails,High,840
+TKT200767,2026-08-30 06:00:00,Database,Medium,Resolved,Security,Unable to connect to corporate VPN,High,316
+TKT200768,2026-08-31 00:00:00,Access,Medium,Resolved,Security,User cannot access required application,Low,597
+TKT200769,2026-08-31 18:00:00,Performance,Medium,New,Application Support,Unable to connect to corporate VPN,Low,176
+TKT200770,2026-09-01 12:00:00,Authentication,Low,New,Security,Password reset completed but login still fails,High,342
+TKT200771,2026-09-02 06:00:00,Performance,Low,Closed,Application Support,Network connectivity is intermittent,Medium,388
+TKT200772,2026-09-03 00:00:00,Performance,High,In Progress,Application Support,Database query timing out,Critical,138
+TKT200773,2026-09-03 18:00:00,VPN,Medium,Assigned,Network,User cannot access required application,Medium,973
+TKT200774,2026-09-04 12:00:00,VPN,High,New,Security,Network connectivity is intermittent,Medium,315
+TKT200775,2026-09-05 06:00:00,Access,Critical,New,Platform,Password reset completed but login still fails,Low,584
+TKT200776,2026-09-06 00:00:00,Performance,Medium,Closed,Security,Database query timing out,Medium,567
+TKT200777,2026-09-06 18:00:00,Network,Medium,Closed,DBA,Unable to connect to corporate VPN,High,432
+TKT200778,2026-09-07 12:00:00,Access,Medium,Assigned,Network,Database query timing out,Medium,587
+TKT200779,2026-09-08 06:00:00,Data,High,Assigned,DBA,Password reset completed but login still fails,High,568
+TKT200780,2026-09-09 00:00:00,Database,Low,In Progress,Platform,Data refresh has not completed,Low,84
+TKT200781,2026-09-09 18:00:00,Authentication,Low,New,DBA,Application is responding slowly,High,670
+TKT200782,2026-09-10 12:00:00,Data,Medium,In Progress,Network,Password reset completed but login still fails,Medium,118
+TKT200783,2026-09-11 06:00:00,Database,Low,Resolved,Platform,Unable to connect to corporate VPN,Critical,437
+TKT200784,2026-09-12 00:00:00,Network,High,Closed,Application Support,Password reset completed but login still fails,Medium,367
+TKT200785,2026-09-12 18:00:00,Network,Medium,Assigned,SRE,Password reset completed but login still fails,Low,450
+TKT200786,2026-09-13 12:00:00,Application,Low,New,Security,Password reset completed but login still fails,High,76
+TKT200787,2026-09-14 06:00:00,Database,Low,New,Platform,Customer portal showing an error,Low,702
+TKT200788,2026-09-15 00:00:00,Access,Low,Assigned,Platform,Data refresh has not completed,Critical,421
+TKT200789,2026-09-15 18:00:00,Access,Medium,Resolved,SRE,Network connectivity is intermittent,Medium,65
+TKT200790,2026-09-16 12:00:00,Authentication,Low,New,SRE,Data refresh has not completed,Critical,8
+TKT200791,2026-09-17 06:00:00,Network,Medium,Resolved,SRE,Data refresh has not completed,High,542
+TKT200792,2026-09-18 00:00:00,VPN,High,In Progress,Security,Database query timing out,Medium,667
+TKT200793,2026-09-18 18:00:00,Authentication,High,Resolved,Application Support,Database query timing out,High,549
+TKT200794,2026-09-19 12:00:00,Data,Medium,In Progress,DBA,Customer portal showing an error,Low,721
+TKT200795,2026-09-20 06:00:00,Application,Medium,New,SRE,Application is responding slowly,Low,757
+TKT200796,2026-09-21 00:00:00,Application,Medium,New,Application Support,User cannot access required application,Critical,872
+TKT200797,2026-09-21 18:00:00,Data,Low,In Progress,DBA,Data refresh has not completed,Critical,982
+TKT200798,2026-09-22 12:00:00,Access,Medium,In Progress,DBA,Password reset completed but login still fails,Critical,885
+TKT200799,2026-09-23 06:00:00,Performance,Medium,Closed,Application Support,Network connectivity is intermittent,Medium,796
+TKT200800,2026-09-24 00:00:00,Access,Medium,Closed,Network,Data refresh has not completed,Medium,433
+TKT200801,2026-09-24 18:00:00,Network,Medium,New,Network,User cannot access required application,Medium,506
+TKT200802,2026-09-25 12:00:00,Access,Medium,Assigned,Security,Application is responding slowly,High,617
+TKT200803,2026-09-26 06:00:00,Database,Medium,Assigned,DBA,Application is responding slowly,High,173
+TKT200804,2026-09-27 00:00:00,Data,Medium,New,Security,Password reset completed but login still fails,Critical,679
+TKT200805,2026-09-27 18:00:00,Authentication,Medium,New,Security,Application is responding slowly,Critical,590
+TKT200806,2026-09-28 12:00:00,Data,Medium,New,Application Support,Customer portal showing an error,Medium,522
+TKT200807,2026-09-29 06:00:00,Data,Low,In Progress,Platform,User cannot access required application,High,835
+TKT200808,2026-09-30 00:00:00,Authentication,Critical,New,SRE,Password reset completed but login still fails,High,688
+TKT200809,2026-09-30 18:00:00,Access,Medium,New,Network,User cannot access required application,Critical,932
+TKT200810,2026-10-01 12:00:00,Data,Medium,New,DBA,Network connectivity is intermittent,Medium,976
+TKT200811,2026-10-02 06:00:00,Application,Critical,Resolved,Security,Unable to connect to corporate VPN,Low,826
+TKT200812,2026-10-03 00:00:00,Database,Medium,Resolved,Platform,Unable to connect to corporate VPN,Medium,301
+TKT200813,2026-10-03 18:00:00,Data,Medium,Closed,Security,Data refresh has not completed,High,193
+TKT200814,2026-10-04 12:00:00,Application,Medium,New,Security,Customer portal showing an error,Critical,302
+TKT200815,2026-10-05 06:00:00,VPN,Medium,Assigned,Security,User cannot access required application,Critical,714
+TKT200816,2026-10-06 00:00:00,Authentication,Medium,In Progress,Security,Data refresh has not completed,Low,864
+TKT200817,2026-10-06 18:00:00,Access,High,Resolved,Application Support,User cannot access required application,High,880
+TKT200818,2026-10-07 12:00:00,Network,Medium,New,DBA,User cannot access required application,Low,685
+TKT200819,2026-10-08 06:00:00,Authentication,Medium,Assigned,Network,Password reset completed but login still fails,Medium,682
+TKT200820,2026-10-09 00:00:00,Performance,Medium,In Progress,Network,Network connectivity is intermittent,Critical,952
+TKT200821,2026-10-09 18:00:00,VPN,Low,New,Security,Network connectivity is intermittent,Critical,687
+TKT200822,2026-10-10 12:00:00,Authentication,Medium,Assigned,Platform,Application is responding slowly,Low,145
+TKT200823,2026-10-11 06:00:00,Network,High,Resolved,DBA,Customer portal showing an error,Low,502
+TKT200824,2026-10-12 00:00:00,VPN,Medium,In Progress,DBA,Customer portal showing an error,High,361
+TKT200825,2026-10-12 18:00:00,Network,High,In Progress,DBA,Unable to connect to corporate VPN,Medium,638
+TKT200826,2026-10-13 12:00:00,Data,Medium,In Progress,Network,Password reset completed but login still fails,Medium,637
+TKT200827,2026-10-14 06:00:00,Data,High,Closed,Security,User cannot access required application,Critical,297
+TKT200828,2026-10-15 00:00:00,Performance,Medium,In Progress,SRE,User cannot access required application,Critical,303
+TKT200829,2026-10-15 18:00:00,Database,Medium,In Progress,Security,Customer portal showing an error,Critical,93
+TKT200830,2026-10-16 12:00:00,VPN,Medium,Closed,Security,Application is responding slowly,Critical,296
+TKT200831,2026-10-17 06:00:00,Performance,High,New,Application Support,Network connectivity is intermittent,Critical,828
+TKT200832,2026-10-18 00:00:00,Database,Medium,New,Application Support,Database query timing out,High,656
+TKT200833,2026-10-18 18:00:00,Access,Medium,In Progress,Network,Password reset completed but login still fails,Critical,943
+TKT200834,2026-10-19 12:00:00,VPN,Medium,Assigned,SRE,Unable to connect to corporate VPN,High,926
+TKT200835,2026-10-20 06:00:00,Access,High,Assigned,DBA,Data refresh has not completed,Low,857
+TKT200836,2026-10-21 00:00:00,Application,Low,New,SRE,Customer portal showing an error,Critical,183
+TKT200837,2026-10-21 18:00:00,Data,Medium,Closed,Platform,Database query timing out,Critical,337
+TKT200838,2026-10-22 12:00:00,VPN,Medium,Resolved,Security,Password reset completed but login still fails,Medium,62
+TKT200839,2026-10-23 06:00:00,Network,High,Resolved,DBA,Unable to connect to corporate VPN,Medium,98
+TKT200840,2026-10-24 00:00:00,Data,Medium,New,DBA,Password reset completed but login still fails,High,234
+TKT200841,2026-10-24 18:00:00,Network,Medium,Assigned,Security,Unable to connect to corporate VPN,High,283
+TKT200842,2026-10-25 12:00:00,Access,High,Resolved,SRE,User cannot access required application,High,20
+TKT200843,2026-10-26 06:00:00,Authentication,Medium,In Progress,Security,Password reset completed but login still fails,Medium,843
+TKT200844,2026-10-27 00:00:00,Access,Medium,Resolved,DBA,Password reset completed but login still fails,Critical,529
+TKT200845,2026-10-27 18:00:00,Database,Low,Resolved,Network,Application is responding slowly,Critical,657
+TKT200846,2026-10-28 12:00:00,Application,Low,In Progress,Network,Customer portal showing an error,Critical,655
+TKT200847,2026-10-29 06:00:00,Data,High,Resolved,DBA,Database query timing out,High,966
+TKT200848,2026-10-30 00:00:00,Access,High,Assigned,DBA,Password reset completed but login still fails,Low,151
+TKT200849,2026-10-30 18:00:00,Network,Medium,New,Network,Customer portal showing an error,Critical,345
+TKT200850,2026-10-31 12:00:00,Authentication,Low,Closed,Platform,Database query timing out,Low,311
+TKT200851,2026-11-01 06:00:00,Database,Low,New,Platform,Password reset completed but login still fails,Low,553
+TKT200852,2026-11-02 00:00:00,Performance,Critical,Assigned,Network,Customer portal showing an error,Medium,528
+TKT200853,2026-11-02 18:00:00,Authentication,High,New,Platform,Data refresh has not completed,Low,791
+TKT200854,2026-11-03 12:00:00,Access,Critical,Assigned,DBA,User cannot access required application,High,562
+TKT200855,2026-11-04 06:00:00,Network,Low,Assigned,Application Support,Password reset completed but login still fails,Medium,237
+TKT200856,2026-11-05 00:00:00,Database,Medium,New,SRE,Application is responding slowly,Low,566
+TKT200857,2026-11-05 18:00:00,Access,Medium,In Progress,Platform,User cannot access required application,Low,964
+TKT200858,2026-11-06 12:00:00,Database,Medium,Closed,SRE,Data refresh has not completed,Low,580
+TKT200859,2026-11-07 06:00:00,Database,High,New,Application Support,Data refresh has not completed,High,594
+TKT200860,2026-11-08 00:00:00,Application,Medium,Closed,Security,Data refresh has not completed,Critical,180
+TKT200861,2026-11-08 18:00:00,Performance,Critical,In Progress,Platform,Network connectivity is intermittent,Medium,12
+TKT200862,2026-11-09 12:00:00,Performance,Medium,In Progress,Network,User cannot access required application,Low,213
+TKT200863,2026-11-10 06:00:00,Access,Medium,In Progress,Security,Customer portal showing an error,High,30
+TKT200864,2026-11-11 00:00:00,Access,Medium,Assigned,Application Support,Customer portal showing an error,Critical,454
+TKT200865,2026-11-11 18:00:00,Performance,Medium,New,DBA,Customer portal showing an error,Low,882
+TKT200866,2026-11-12 12:00:00,Database,Low,In Progress,Platform,Customer portal showing an error,Critical,449
+TKT200867,2026-11-13 06:00:00,Database,Medium,Closed,Security,Password reset completed but login still fails,Low,647
+TKT200868,2026-11-14 00:00:00,Network,High,In Progress,Security,Data refresh has not completed,Medium,856
+TKT200869,2026-11-14 18:00:00,Access,High,In Progress,DBA,Unable to connect to corporate VPN,High,764
+TKT200870,2026-11-15 12:00:00,Access,Medium,Resolved,SRE,Database query timing out,Low,652
+TKT200871,2026-11-16 06:00:00,Authentication,High,Assigned,Security,Database query timing out,Medium,785
+TKT200872,2026-11-17 00:00:00,Performance,High,New,SRE,Data refresh has not completed,Low,284
+TKT200873,2026-11-17 18:00:00,Database,High,In Progress,Application Support,Unable to connect to corporate VPN,Low,423
+TKT200874,2026-11-18 12:00:00,Data,High,Closed,Application Support,Database query timing out,Critical,401
+TKT200875,2026-11-19 06:00:00,Access,Medium,Assigned,DBA,Application is responding slowly,Low,799
+TKT200876,2026-11-20 00:00:00,Data,Medium,Closed,DBA,Unable to connect to corporate VPN,Low,411
+TKT200877,2026-11-20 18:00:00,Access,High,Closed,SRE,Password reset completed but login still fails,Low,937
+TKT200878,2026-11-21 12:00:00,Application,Medium,Assigned,Application Support,Database query timing out,Low,190
+TKT200879,2026-11-22 06:00:00,Authentication,High,In Progress,Platform,Data refresh has not completed,High,176
+TKT200880,2026-11-23 00:00:00,Network,Medium,Resolved,Platform,Database query timing out,Critical,717
+TKT200881,2026-11-23 18:00:00,Performance,High,In Progress,Security,Data refresh has not completed,Low,765
+TKT200882,2026-11-24 12:00:00,Network,Medium,Resolved,Application Support,Customer portal showing an error,High,680
+TKT200883,2026-11-25 06:00:00,VPN,Low,Closed,Network,Network connectivity is intermittent,Medium,311
+TKT200884,2026-11-26 00:00:00,Authentication,Medium,Resolved,DBA,Network connectivity is intermittent,Low,14
+TKT200885,2026-11-26 18:00:00,Application,Critical,Closed,DBA,Customer portal showing an error,High,324
+TKT200886,2026-11-27 12:00:00,Access,High,Closed,Platform,Customer portal showing an error,Low,469
+TKT200887,2026-11-28 06:00:00,Data,High,Closed,DBA,Password reset completed but login still fails,High,415
+TKT200888,2026-11-29 00:00:00,Data,Low,Closed,Application Support,Customer portal showing an error,High,922
+TKT200889,2026-11-29 18:00:00,Application,High,Assigned,Network,Unable to connect to corporate VPN,High,864
+TKT200890,2026-11-30 12:00:00,Application,Low,New,Security,Customer portal showing an error,Low,776
+TKT200891,2026-12-01 06:00:00,Performance,Medium,New,Security,Customer portal showing an error,Medium,26
+TKT200892,2026-12-02 00:00:00,VPN,Medium,Assigned,Application Support,Network connectivity is intermittent,High,131
+TKT200893,2026-12-02 18:00:00,Application,Low,Resolved,Security,Customer portal showing an error,Critical,436
+TKT200894,2026-12-03 12:00:00,Network,Critical,In Progress,Application Support,Application is responding slowly,Low,623
+TKT200895,2026-12-04 06:00:00,Performance,Medium,In Progress,Security,Application is responding slowly,Medium,681
+TKT200896,2026-12-05 00:00:00,Performance,High,New,Application Support,User cannot access required application,Critical,299
+TKT200897,2026-12-05 18:00:00,Access,Low,Resolved,Security,Database query timing out,Medium,114
+TKT200898,2026-12-06 12:00:00,Access,Medium,Assigned,Application Support,Application is responding slowly,Medium,331
+TKT200899,2026-12-07 06:00:00,Access,Critical,Resolved,Application Support,Database query timing out,Critical,793
+TKT200900,2026-12-08 00:00:00,Application,Low,New,Application Support,User cannot access required application,Critical,986
+TKT200901,2026-12-08 18:00:00,Authentication,Critical,Assigned,DBA,Password reset completed but login still fails,High,942
+TKT200902,2026-12-09 12:00:00,Database,High,New,Security,Customer portal showing an error,High,595
+TKT200903,2026-12-10 06:00:00,Access,Medium,Assigned,Application Support,Application is responding slowly,High,95
+TKT200904,2026-12-11 00:00:00,Application,Medium,Closed,Network,Application is responding slowly,Medium,967
+TKT200905,2026-12-11 18:00:00,Authentication,Low,In Progress,SRE,Database query timing out,Critical,157
+TKT200906,2026-12-12 12:00:00,Data,Medium,In Progress,Application Support,Unable to connect to corporate VPN,Low,271
+TKT200907,2026-12-13 06:00:00,Data,Medium,Assigned,DBA,User cannot access required application,Low,974
+TKT200908,2026-12-14 00:00:00,Access,High,Assigned,Network,Customer portal showing an error,High,506
+TKT200909,2026-12-14 18:00:00,Authentication,High,Resolved,Security,Data refresh has not completed,Critical,201
+TKT200910,2026-12-15 12:00:00,Data,Low,Closed,SRE,Application is responding slowly,Critical,504
+TKT200911,2026-12-16 06:00:00,Authentication,High,Resolved,Network,User cannot access required application,High,83
+TKT200912,2026-12-17 00:00:00,Network,Medium,Resolved,Platform,User cannot access required application,Medium,319
+TKT200913,2026-12-17 18:00:00,Performance,High,In Progress,Platform,Customer portal showing an error,Medium,952
+TKT200914,2026-12-18 12:00:00,Application,High,New,Application Support,User cannot access required application,Medium,302
+TKT200915,2026-12-19 06:00:00,Authentication,Medium,Resolved,DBA,Network connectivity is intermittent,Medium,893
+TKT200916,2026-12-20 00:00:00,VPN,Medium,Closed,SRE,Network connectivity is intermittent,Medium,545
+TKT200917,2026-12-20 18:00:00,Database,Medium,In Progress,Network,Unable to connect to corporate VPN,Low,657
+TKT200918,2026-12-21 12:00:00,Access,Low,New,Platform,Application is responding slowly,Medium,704
+TKT200919,2026-12-22 06:00:00,Access,High,Resolved,Application Support,Customer portal showing an error,Critical,553
+TKT200920,2026-12-23 00:00:00,Authentication,Medium,Closed,Platform,User cannot access required application,High,39
+TKT200921,2026-12-23 18:00:00,Authentication,Critical,Assigned,Network,Database query timing out,Low,919
+TKT200922,2026-12-24 12:00:00,Access,Medium,New,Network,Password reset completed but login still fails,Medium,477
+TKT200923,2026-12-25 06:00:00,Authentication,Medium,Resolved,Platform,User cannot access required application,Medium,657
+TKT200924,2026-12-26 00:00:00,VPN,Medium,Assigned,Security,Customer portal showing an error,Medium,556
+TKT200925,2026-12-26 18:00:00,Network,High,Resolved,DBA,Unable to connect to corporate VPN,High,660
+TKT200926,2026-12-27 12:00:00,Application,Low,Resolved,Network,User cannot access required application,Critical,357
+TKT200927,2026-12-28 06:00:00,Authentication,Low,Assigned,Network,Data refresh has not completed,High,844
+TKT200928,2026-12-29 00:00:00,Authentication,Low,New,Security,User cannot access required application,Medium,228
+TKT200929,2026-12-29 18:00:00,Authentication,Critical,In Progress,SRE,Data refresh has not completed,Low,654
+TKT200930,2026-12-30 12:00:00,Database,Low,In Progress,Application Support,Application is responding slowly,Low,580
+TKT200931,2026-12-31 06:00:00,VPN,High,Closed,DBA,Unable to connect to corporate VPN,Critical,506
+TKT200932,2027-01-01 00:00:00,VPN,Medium,Assigned,Platform,Customer portal showing an error,High,26
+TKT200933,2027-01-01 18:00:00,Database,High,Assigned,DBA,Password reset completed but login still fails,High,392
+TKT200934,2027-01-02 12:00:00,VPN,High,Closed,Application Support,Unable to connect to corporate VPN,High,52
+TKT200935,2027-01-03 06:00:00,Database,Medium,Resolved,Platform,Password reset completed but login still fails,Critical,505
+TKT200936,2027-01-04 00:00:00,Application,High,Resolved,DBA,Data refresh has not completed,Critical,689
+TKT200937,2027-01-04 18:00:00,VPN,Medium,Closed,DBA,Network connectivity is intermittent,Low,524
+TKT200938,2027-01-05 12:00:00,Application,Medium,Resolved,Security,Application is responding slowly,Medium,758
+TKT200939,2027-01-06 06:00:00,Application,Low,Closed,DBA,User cannot access required application,Low,364
+TKT200940,2027-01-07 00:00:00,Application,Medium,Resolved,Security,Application is responding slowly,Medium,309
+TKT200941,2027-01-07 18:00:00,Access,Medium,In Progress,Security,Password reset completed but login still fails,High,450
+TKT200942,2027-01-08 12:00:00,Performance,High,New,Application Support,Data refresh has not completed,Low,232
+TKT200943,2027-01-09 06:00:00,VPN,Low,Resolved,Network,Network connectivity is intermittent,Low,802
+TKT200944,2027-01-10 00:00:00,Authentication,Critical,Resolved,Security,Application is responding slowly,Medium,810
+TKT200945,2027-01-10 18:00:00,Database,High,Closed,Platform,Application is responding slowly,High,419
+TKT200946,2027-01-11 12:00:00,Access,Critical,Resolved,Application Support,Network connectivity is intermittent,High,793
+TKT200947,2027-01-12 06:00:00,Performance,Medium,In Progress,Application Support,Database query timing out,Low,30
+TKT200948,2027-01-13 00:00:00,Data,Medium,In Progress,Platform,Database query timing out,Low,159
+TKT200949,2027-01-13 18:00:00,Application,Medium,New,DBA,Database query timing out,Critical,286
+TKT200950,2027-01-14 12:00:00,Network,Medium,New,Security,Database query timing out,High,390
+TKT200951,2027-01-15 06:00:00,Network,Medium,New,SRE,User cannot access required application,Critical,235
+TKT200952,2027-01-16 00:00:00,VPN,Medium,Closed,Security,Unable to connect to corporate VPN,Critical,514
+TKT200953,2027-01-16 18:00:00,Network,Critical,Resolved,Security,Database query timing out,Critical,794
+TKT200954,2027-01-17 12:00:00,Application,Medium,Assigned,Application Support,Database query timing out,High,458
+TKT200955,2027-01-18 06:00:00,Authentication,Medium,In Progress,Platform,Application is responding slowly,Critical,452
+TKT200956,2027-01-19 00:00:00,Performance,Medium,In Progress,Security,Application is responding slowly,Medium,64
+TKT200957,2027-01-19 18:00:00,Performance,Critical,Assigned,Security,Database query timing out,Critical,283
+TKT200958,2027-01-20 12:00:00,Database,Medium,In Progress,SRE,Application is responding slowly,Medium,808
+TKT200959,2027-01-21 06:00:00,Data,Medium,Assigned,Security,Data refresh has not completed,Medium,811
+TKT200960,2027-01-22 00:00:00,VPN,Critical,Resolved,DBA,User cannot access required application,High,108
+TKT200961,2027-01-22 18:00:00,Data,High,Resolved,Application Support,User cannot access required application,Medium,24
+TKT200962,2027-01-23 12:00:00,Performance,Medium,New,SRE,Application is responding slowly,Low,831
+TKT200963,2027-01-24 06:00:00,Authentication,Medium,In Progress,Application Support,Data refresh has not completed,Critical,178
+TKT200964,2027-01-25 00:00:00,Access,Medium,Closed,DBA,Unable to connect to corporate VPN,Medium,576
+TKT200965,2027-01-25 18:00:00,Database,High,Closed,Platform,User cannot access required application,Critical,827
+TKT200966,2027-01-26 12:00:00,Performance,Medium,Resolved,Network,Password reset completed but login still fails,Medium,788
+TKT200967,2027-01-27 06:00:00,Authentication,High,Resolved,Security,Network connectivity is intermittent,Critical,552
+TKT200968,2027-01-28 00:00:00,Authentication,Medium,New,Application Support,Database query timing out,High,379
+TKT200969,2027-01-28 18:00:00,Database,Medium,Closed,Platform,Application is responding slowly,Critical,774
+TKT200970,2027-01-29 12:00:00,Authentication,Medium,Resolved,Application Support,Unable to connect to corporate VPN,Critical,696
+TKT200971,2027-01-30 06:00:00,Database,Critical,Closed,DBA,Network connectivity is intermittent,Low,838
+TKT200972,2027-01-31 00:00:00,Application,Medium,Closed,Platform,Database query timing out,Critical,516
+TKT200973,2027-01-31 18:00:00,Access,Low,Assigned,DBA,Application is responding slowly,Critical,942
+TKT200974,2027-02-01 12:00:00,Application,Low,New,Security,Network connectivity is intermittent,High,770
+TKT200975,2027-02-02 06:00:00,Authentication,High,Resolved,SRE,Unable to connect to corporate VPN,Critical,68
+TKT200976,2027-02-03 00:00:00,Authentication,Medium,In Progress,SRE,Database query timing out,Critical,297
+TKT200977,2027-02-03 18:00:00,Data,Medium,New,SRE,Password reset completed but login still fails,High,800
+TKT200978,2027-02-04 12:00:00,Database,High,Assigned,DBA,Password reset completed but login still fails,Medium,120
+TKT200979,2027-02-05 06:00:00,VPN,Medium,Closed,SRE,Unable to connect to corporate VPN,Critical,710
+TKT200980,2027-02-06 00:00:00,Network,Medium,Assigned,Application Support,Password reset completed but login still fails,Low,343
+TKT200981,2027-02-06 18:00:00,VPN,Medium,Assigned,SRE,Data refresh has not completed,High,210
+TKT200982,2027-02-07 12:00:00,Database,Low,Resolved,SRE,Database query timing out,Critical,542
+TKT200983,2027-02-08 06:00:00,Performance,Medium,Resolved,Platform,Data refresh has not completed,Critical,932
+TKT200984,2027-02-09 00:00:00,Database,Medium,Assigned,Security,Application is responding slowly,Medium,898
+TKT200985,2027-02-09 18:00:00,Access,Medium,Closed,Application Support,Network connectivity is intermittent,Low,407
+TKT200986,2027-02-10 12:00:00,Network,Critical,In Progress,Platform,Unable to connect to corporate VPN,Medium,8
+TKT200987,2027-02-11 06:00:00,Database,Medium,New,DBA,Unable to connect to corporate VPN,Critical,888
+TKT200988,2027-02-12 00:00:00,Access,Low,Assigned,Security,Unable to connect to corporate VPN,High,897
+TKT200989,2027-02-12 18:00:00,Application,Medium,Closed,Security,Data refresh has not completed,Low,607
+TKT200990,2027-02-13 12:00:00,Database,High,New,SRE,Customer portal showing an error,Low,630
+TKT200991,2027-02-14 06:00:00,Authentication,Medium,New,Application Support,Customer portal showing an error,Medium,529
+TKT200992,2027-02-15 00:00:00,Data,Low,Resolved,Application Support,Data refresh has not completed,Medium,17
+TKT200993,2027-02-15 18:00:00,Authentication,Low,In Progress,Security,Application is responding slowly,Low,163
+TKT200994,2027-02-16 12:00:00,Data,Medium,Assigned,DBA,Customer portal showing an error,Medium,147
+TKT200995,2027-02-17 06:00:00,Network,Medium,In Progress,Network,User cannot access required application,Medium,914
+TKT200996,2027-02-18 00:00:00,Data,Medium,New,Application Support,User cannot access required application,Low,54
+TKT200997,2027-02-18 18:00:00,Database,Low,Assigned,Application Support,Customer portal showing an error,Low,558
+TKT200998,2027-02-19 12:00:00,Application,Low,Assigned,DBA,Database query timing out,High,365
+TKT200999,2027-02-20 06:00:00,Application,Low,In Progress,Security,Unable to connect to corporate VPN,Critical,11

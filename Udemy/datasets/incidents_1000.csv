@@ -1,0 +1,1001 @@
+incident_id,service,severity,status,assigned_team,incident_date,description,customer_impact,resolution_minutes
+INC100000,payment-api,P4,Closed,Platform,2025-01-01 00:00:00,VPN connections failing after password reset,Critical,468
+INC100001,data-platform,P4,Closed,SRE,2025-01-01 20:00:00,Inventory data synchronization failed,Medium,518
+INC100002,notification-service,P4,Resolved,DBA,2025-01-02 16:00:00,Messages delayed in processing,Critical,199
+INC100003,order-service,P3,Resolved,Security,2025-01-03 12:00:00,VPN connections failing after password reset,Medium,263
+INC100004,order-service,P3,Closed,Security,2025-01-04 08:00:00,Database connection pool exhausted,Low,680
+INC100005,data-platform,P4,Closed,Application Support,2025-01-05 04:00:00,Users unable to authenticate,None,614
+INC100006,payment-api,P3,Closed,Network,2025-01-06 00:00:00,API latency increased significantly,High,303
+INC100007,notification-service,P4,Closed,Security,2025-01-06 20:00:00,Messages delayed in processing,High,181
+INC100008,auth-service,P3,Resolved,Security,2025-01-07 16:00:00,Service returning intermittent 5xx errors,Critical,223
+INC100009,payment-api,P2,Closed,Platform,2025-01-08 12:00:00,Service returning intermittent 5xx errors,High,392
+INC100010,inventory-service,P1,Investigating,Application Support,2025-01-09 08:00:00,Database connection pool exhausted,None,412
+INC100011,vpn-service,P4,Investigating,SRE,2025-01-10 04:00:00,Inventory data synchronization failed,Medium,140
+INC100012,notification-service,P1,Closed,DBA,2025-01-11 00:00:00,Messages delayed in processing,High,56
+INC100013,data-platform,P2,Closed,Application Support,2025-01-11 20:00:00,VPN connections failing after password reset,Medium,361
+INC100014,notification-service,P3,Closed,DBA,2025-01-12 16:00:00,VPN connections failing after password reset,Medium,576
+INC100015,data-platform,P2,Resolved,Application Support,2025-01-13 12:00:00,Service returning intermittent 5xx errors,Critical,118
+INC100016,inventory-service,P3,Investigating,SRE,2025-01-14 08:00:00,API latency increased significantly,High,299
+INC100017,auth-service,P4,Closed,DBA,2025-01-15 04:00:00,Service returning intermittent 5xx errors,High,124
+INC100018,data-platform,P1,Investigating,Security,2025-01-16 00:00:00,Inventory data synchronization failed,Medium,181
+INC100019,order-service,P4,Investigating,DBA,2025-01-16 20:00:00,Inventory data synchronization failed,Low,444
+INC100020,inventory-service,P4,Resolved,Application Support,2025-01-17 16:00:00,API latency increased significantly,Medium,213
+INC100021,customer-portal,P3,Closed,Network,2025-01-18 12:00:00,API latency increased significantly,Critical,197
+INC100022,auth-service,P2,Closed,Security,2025-01-19 08:00:00,API latency increased significantly,High,716
+INC100023,vpn-service,P3,Closed,Network,2025-01-20 04:00:00,Application deployment caused errors,High,132
+INC100024,data-platform,P2,Closed,Application Support,2025-01-21 00:00:00,Database connection pool exhausted,None,144
+INC100025,notification-service,P3,Investigating,SRE,2025-01-21 20:00:00,Inventory data synchronization failed,Critical,670
+INC100026,order-service,P4,Resolved,Platform,2025-01-22 16:00:00,Database connection pool exhausted,Low,400
+INC100027,data-platform,P4,Closed,SRE,2025-01-23 12:00:00,Messages delayed in processing,Critical,40
+INC100028,inventory-service,P4,Investigating,Security,2025-01-24 08:00:00,VPN connections failing after password reset,Medium,311
+INC100029,order-service,P3,Resolved,Platform,2025-01-25 04:00:00,API latency increased significantly,Critical,411
+INC100030,order-service,P3,Resolved,Platform,2025-01-26 00:00:00,Application deployment caused errors,Critical,189
+INC100031,auth-service,P4,Investigating,Application Support,2025-01-26 20:00:00,Messages delayed in processing,High,399
+INC100032,payment-api,P3,Closed,Network,2025-01-27 16:00:00,Inventory data synchronization failed,Critical,470
+INC100033,inventory-service,P3,Closed,SRE,2025-01-28 12:00:00,Application deployment caused errors,High,187
+INC100034,vpn-service,P1,Open,SRE,2025-01-29 08:00:00,Users unable to authenticate,Critical,586
+INC100035,payment-api,P2,Closed,Platform,2025-01-30 04:00:00,Service returning intermittent 5xx errors,None,331
+INC100036,data-platform,P3,Closed,Application Support,2025-01-31 00:00:00,VPN connections failing after password reset,None,694
+INC100037,data-platform,P2,Closed,DBA,2025-01-31 20:00:00,API latency increased significantly,Medium,72
+INC100038,customer-portal,P2,Closed,Application Support,2025-02-01 16:00:00,Database connection pool exhausted,Critical,240
+INC100039,notification-service,P4,Resolved,Platform,2025-02-02 12:00:00,Users unable to authenticate,High,522
+INC100040,auth-service,P4,Closed,Network,2025-02-03 08:00:00,Database connection pool exhausted,Medium,645
+INC100041,data-platform,P3,Resolved,SRE,2025-02-04 04:00:00,Database connection pool exhausted,Medium,167
+INC100042,notification-service,P4,Resolved,Network,2025-02-05 00:00:00,API latency increased significantly,High,705
+INC100043,customer-portal,P4,Investigating,DBA,2025-02-05 20:00:00,Messages delayed in processing,Critical,147
+INC100044,payment-api,P2,Closed,Security,2025-02-06 16:00:00,VPN connections failing after password reset,Critical,305
+INC100045,vpn-service,P3,Resolved,Network,2025-02-07 12:00:00,Database connection pool exhausted,None,233
+INC100046,order-service,P3,Resolved,Security,2025-02-08 08:00:00,Service returning intermittent 5xx errors,Medium,311
+INC100047,vpn-service,P2,Closed,DBA,2025-02-09 04:00:00,VPN connections failing after password reset,Low,650
+INC100048,notification-service,P4,Resolved,Platform,2025-02-10 00:00:00,Users unable to authenticate,High,530
+INC100049,data-platform,P3,Resolved,Application Support,2025-02-10 20:00:00,API latency increased significantly,Medium,575
+INC100050,data-platform,P3,Investigating,Network,2025-02-11 16:00:00,Database connection pool exhausted,Critical,190
+INC100051,auth-service,P2,Resolved,SRE,2025-02-12 12:00:00,Users unable to authenticate,Medium,682
+INC100052,customer-portal,P2,Resolved,Application Support,2025-02-13 08:00:00,Database connection pool exhausted,High,319
+INC100053,order-service,P4,Resolved,Application Support,2025-02-14 04:00:00,API latency increased significantly,None,472
+INC100054,order-service,P1,Resolved,SRE,2025-02-15 00:00:00,Inventory data synchronization failed,Critical,505
+INC100055,payment-api,P2,Closed,Application Support,2025-02-15 20:00:00,Inventory data synchronization failed,None,480
+INC100056,inventory-service,P2,Closed,Application Support,2025-02-16 16:00:00,Service returning intermittent 5xx errors,Low,437
+INC100057,auth-service,P3,Closed,Security,2025-02-17 12:00:00,VPN connections failing after password reset,Critical,350
+INC100058,notification-service,P3,Closed,Platform,2025-02-18 08:00:00,Messages delayed in processing,Critical,469
+INC100059,notification-service,P3,Closed,DBA,2025-02-19 04:00:00,Database connection pool exhausted,Medium,652
+INC100060,vpn-service,P2,Closed,DBA,2025-02-20 00:00:00,Database connection pool exhausted,Medium,286
+INC100061,notification-service,P2,Closed,DBA,2025-02-20 20:00:00,Inventory data synchronization failed,None,372
+INC100062,customer-portal,P4,Closed,DBA,2025-02-21 16:00:00,Database connection pool exhausted,Critical,137
+INC100063,vpn-service,P3,Closed,DBA,2025-02-22 12:00:00,Service returning intermittent 5xx errors,None,262
+INC100064,order-service,P3,Closed,DBA,2025-02-23 08:00:00,API latency increased significantly,None,558
+INC100065,customer-portal,P3,Closed,Security,2025-02-24 04:00:00,API latency increased significantly,Medium,464
+INC100066,vpn-service,P4,Investigating,DBA,2025-02-25 00:00:00,Database connection pool exhausted,None,159
+INC100067,customer-portal,P1,Open,SRE,2025-02-25 20:00:00,Users unable to authenticate,None,397
+INC100068,payment-api,P3,Closed,SRE,2025-02-26 16:00:00,Users unable to authenticate,High,586
+INC100069,order-service,P3,Closed,Application Support,2025-02-27 12:00:00,Application deployment caused errors,High,98
+INC100070,data-platform,P3,Resolved,Application Support,2025-02-28 08:00:00,Users unable to authenticate,Low,53
+INC100071,auth-service,P4,Closed,DBA,2025-03-01 04:00:00,Messages delayed in processing,High,288
+INC100072,order-service,P3,Closed,Platform,2025-03-02 00:00:00,Messages delayed in processing,High,476
+INC100073,auth-service,P4,Closed,Security,2025-03-02 20:00:00,VPN connections failing after password reset,Low,232
+INC100074,notification-service,P4,Investigating,SRE,2025-03-03 16:00:00,Application deployment caused errors,High,592
+INC100075,order-service,P3,Resolved,Network,2025-03-04 12:00:00,Service returning intermittent 5xx errors,Medium,611
+INC100076,customer-portal,P4,Closed,Platform,2025-03-05 08:00:00,API latency increased significantly,Critical,388
+INC100077,auth-service,P3,Closed,SRE,2025-03-06 04:00:00,Users unable to authenticate,None,278
+INC100078,inventory-service,P4,Closed,Security,2025-03-07 00:00:00,VPN connections failing after password reset,Low,39
+INC100079,notification-service,P3,Closed,DBA,2025-03-07 20:00:00,Messages delayed in processing,Low,593
+INC100080,vpn-service,P3,Closed,Platform,2025-03-08 16:00:00,Application deployment caused errors,Low,645
+INC100081,order-service,P3,Resolved,DBA,2025-03-09 12:00:00,Database connection pool exhausted,Critical,324
+INC100082,auth-service,P2,Resolved,SRE,2025-03-10 08:00:00,Users unable to authenticate,High,376
+INC100083,data-platform,P3,Resolved,Network,2025-03-11 04:00:00,Application deployment caused errors,Medium,544
+INC100084,notification-service,P4,Closed,DBA,2025-03-12 00:00:00,Messages delayed in processing,Medium,503
+INC100085,notification-service,P3,Closed,Network,2025-03-12 20:00:00,Inventory data synchronization failed,Critical,106
+INC100086,payment-api,P2,Resolved,Security,2025-03-13 16:00:00,Database connection pool exhausted,Medium,487
+INC100087,customer-portal,P3,Closed,Platform,2025-03-14 12:00:00,Database connection pool exhausted,Low,666
+INC100088,data-platform,P2,Resolved,SRE,2025-03-15 08:00:00,Database connection pool exhausted,None,542
+INC100089,data-platform,P1,Investigating,DBA,2025-03-16 04:00:00,Messages delayed in processing,Low,351
+INC100090,order-service,P4,Investigating,Application Support,2025-03-17 00:00:00,Users unable to authenticate,High,381
+INC100091,data-platform,P3,Open,Network,2025-03-17 20:00:00,Application deployment caused errors,Medium,194
+INC100092,data-platform,P3,Closed,SRE,2025-03-18 16:00:00,Users unable to authenticate,Medium,479
+INC100093,order-service,P3,Resolved,Application Support,2025-03-19 12:00:00,Database connection pool exhausted,Medium,181
+INC100094,vpn-service,P1,Closed,Network,2025-03-20 08:00:00,API latency increased significantly,Critical,252
+INC100095,customer-portal,P2,Closed,Platform,2025-03-21 04:00:00,Messages delayed in processing,Critical,198
+INC100096,auth-service,P4,Investigating,DBA,2025-03-22 00:00:00,Messages delayed in processing,None,248
+INC100097,notification-service,P3,Investigating,Platform,2025-03-22 20:00:00,Application deployment caused errors,None,270
+INC100098,notification-service,P4,Closed,Application Support,2025-03-23 16:00:00,Inventory data synchronization failed,Low,68
+INC100099,auth-service,P3,Resolved,Platform,2025-03-24 12:00:00,Users unable to authenticate,Critical,519
+INC100100,data-platform,P3,Closed,DBA,2025-03-25 08:00:00,Users unable to authenticate,Medium,323
+INC100101,auth-service,P4,Investigating,DBA,2025-03-26 04:00:00,Application deployment caused errors,Critical,684
+INC100102,data-platform,P4,Closed,Platform,2025-03-27 00:00:00,Database connection pool exhausted,High,138
+INC100103,payment-api,P4,Closed,Network,2025-03-27 20:00:00,Service returning intermittent 5xx errors,Medium,485
+INC100104,data-platform,P4,Resolved,SRE,2025-03-28 16:00:00,Inventory data synchronization failed,Low,137
+INC100105,data-platform,P4,Resolved,DBA,2025-03-29 12:00:00,Messages delayed in processing,Low,398
+INC100106,data-platform,P4,Closed,Security,2025-03-30 08:00:00,Service returning intermittent 5xx errors,None,358
+INC100107,notification-service,P2,Resolved,Application Support,2025-03-31 04:00:00,Inventory data synchronization failed,Medium,328
+INC100108,order-service,P4,Resolved,Platform,2025-04-01 00:00:00,VPN connections failing after password reset,Low,474
+INC100109,notification-service,P3,Resolved,Platform,2025-04-01 20:00:00,VPN connections failing after password reset,Low,598
+INC100110,customer-portal,P3,Resolved,DBA,2025-04-02 16:00:00,Inventory data synchronization failed,None,234
+INC100111,data-platform,P3,Closed,Security,2025-04-03 12:00:00,Database connection pool exhausted,High,613
+INC100112,inventory-service,P4,Closed,Application Support,2025-04-04 08:00:00,Database connection pool exhausted,Critical,141
+INC100113,order-service,P4,Resolved,SRE,2025-04-05 04:00:00,VPN connections failing after password reset,Medium,218
+INC100114,inventory-service,P2,Closed,Platform,2025-04-06 00:00:00,Users unable to authenticate,Medium,230
+INC100115,inventory-service,P4,Resolved,Platform,2025-04-06 20:00:00,Users unable to authenticate,Critical,686
+INC100116,payment-api,P4,Open,Platform,2025-04-07 16:00:00,Inventory data synchronization failed,Medium,94
+INC100117,auth-service,P3,Closed,Network,2025-04-08 12:00:00,Users unable to authenticate,High,290
+INC100118,auth-service,P2,Closed,Application Support,2025-04-09 08:00:00,VPN connections failing after password reset,Medium,311
+INC100119,payment-api,P1,Open,SRE,2025-04-10 04:00:00,API latency increased significantly,Medium,578
+INC100120,order-service,P4,Resolved,Security,2025-04-11 00:00:00,Users unable to authenticate,Medium,354
+INC100121,notification-service,P3,Closed,DBA,2025-04-11 20:00:00,VPN connections failing after password reset,High,696
+INC100122,notification-service,P4,Closed,DBA,2025-04-12 16:00:00,Inventory data synchronization failed,High,535
+INC100123,order-service,P3,Investigating,Security,2025-04-13 12:00:00,Database connection pool exhausted,Medium,509
+INC100124,data-platform,P4,Resolved,SRE,2025-04-14 08:00:00,Users unable to authenticate,None,544
+INC100125,inventory-service,P3,Closed,Security,2025-04-15 04:00:00,Users unable to authenticate,Critical,124
+INC100126,payment-api,P4,Resolved,Platform,2025-04-16 00:00:00,Users unable to authenticate,Critical,328
+INC100127,data-platform,P2,Investigating,DBA,2025-04-16 20:00:00,Application deployment caused errors,None,426
+INC100128,inventory-service,P3,Investigating,Security,2025-04-17 16:00:00,API latency increased significantly,Low,158
+INC100129,notification-service,P4,Resolved,DBA,2025-04-18 12:00:00,API latency increased significantly,Critical,94
+INC100130,inventory-service,P4,Closed,Platform,2025-04-19 08:00:00,Service returning intermittent 5xx errors,Low,106
+INC100131,inventory-service,P4,Closed,Network,2025-04-20 04:00:00,Database connection pool exhausted,Critical,570
+INC100132,payment-api,P1,Closed,Network,2025-04-21 00:00:00,Application deployment caused errors,High,476
+INC100133,inventory-service,P3,Closed,SRE,2025-04-21 20:00:00,Database connection pool exhausted,Critical,209
+INC100134,data-platform,P1,Closed,Security,2025-04-22 16:00:00,Messages delayed in processing,None,533
+INC100135,customer-portal,P2,Resolved,SRE,2025-04-23 12:00:00,Users unable to authenticate,Medium,503
+INC100136,inventory-service,P3,Resolved,Network,2025-04-24 08:00:00,Users unable to authenticate,Medium,589
+INC100137,payment-api,P4,Closed,DBA,2025-04-25 04:00:00,Messages delayed in processing,Critical,656
+INC100138,customer-portal,P4,Resolved,SRE,2025-04-26 00:00:00,Service returning intermittent 5xx errors,Low,636
+INC100139,order-service,P4,Closed,Application Support,2025-04-26 20:00:00,Database connection pool exhausted,Low,138
+INC100140,vpn-service,P4,Closed,Network,2025-04-27 16:00:00,API latency increased significantly,None,556
+INC100141,auth-service,P4,Investigating,SRE,2025-04-28 12:00:00,Service returning intermittent 5xx errors,High,288
+INC100142,customer-portal,P1,Closed,DBA,2025-04-29 08:00:00,VPN connections failing after password reset,Critical,296
+INC100143,order-service,P2,Resolved,DBA,2025-04-30 04:00:00,Application deployment caused errors,None,469
+INC100144,vpn-service,P3,Investigating,DBA,2025-05-01 00:00:00,Service returning intermittent 5xx errors,Low,437
+INC100145,data-platform,P4,Closed,Security,2025-05-01 20:00:00,Inventory data synchronization failed,Low,307
+INC100146,payment-api,P1,Resolved,Network,2025-05-02 16:00:00,VPN connections failing after password reset,Critical,719
+INC100147,auth-service,P3,Closed,Security,2025-05-03 12:00:00,Messages delayed in processing,Medium,134
+INC100148,data-platform,P3,Closed,Network,2025-05-04 08:00:00,Service returning intermittent 5xx errors,Low,78
+INC100149,payment-api,P1,Closed,DBA,2025-05-05 04:00:00,Inventory data synchronization failed,Low,30
+INC100150,data-platform,P3,Resolved,SRE,2025-05-06 00:00:00,Service returning intermittent 5xx errors,Medium,588
+INC100151,customer-portal,P4,Resolved,DBA,2025-05-06 20:00:00,Application deployment caused errors,Low,298
+INC100152,vpn-service,P3,Resolved,Platform,2025-05-07 16:00:00,Messages delayed in processing,None,320
+INC100153,customer-portal,P2,Investigating,Security,2025-05-08 12:00:00,API latency increased significantly,Critical,470
+INC100154,order-service,P4,Closed,Security,2025-05-09 08:00:00,Service returning intermittent 5xx errors,Medium,319
+INC100155,notification-service,P3,Resolved,Application Support,2025-05-10 04:00:00,VPN connections failing after password reset,Low,417
+INC100156,auth-service,P4,Resolved,Application Support,2025-05-11 00:00:00,Service returning intermittent 5xx errors,High,51
+INC100157,inventory-service,P2,Closed,SRE,2025-05-11 20:00:00,VPN connections failing after password reset,High,120
+INC100158,inventory-service,P3,Resolved,SRE,2025-05-12 16:00:00,Inventory data synchronization failed,None,671
+INC100159,data-platform,P3,Open,Application Support,2025-05-13 12:00:00,API latency increased significantly,None,329
+INC100160,vpn-service,P2,Investigating,Network,2025-05-14 08:00:00,Users unable to authenticate,None,128
+INC100161,notification-service,P4,Closed,SRE,2025-05-15 04:00:00,Users unable to authenticate,High,272
+INC100162,order-service,P2,Closed,Platform,2025-05-16 00:00:00,Users unable to authenticate,High,247
+INC100163,order-service,P2,Resolved,Application Support,2025-05-16 20:00:00,Service returning intermittent 5xx errors,High,204
+INC100164,order-service,P3,Closed,Network,2025-05-17 16:00:00,Users unable to authenticate,High,218
+INC100165,data-platform,P4,Closed,SRE,2025-05-18 12:00:00,Messages delayed in processing,Medium,527
+INC100166,customer-portal,P4,Closed,Security,2025-05-19 08:00:00,API latency increased significantly,Medium,85
+INC100167,auth-service,P4,Resolved,Platform,2025-05-20 04:00:00,Inventory data synchronization failed,High,229
+INC100168,customer-portal,P2,Open,Network,2025-05-21 00:00:00,Inventory data synchronization failed,Low,342
+INC100169,payment-api,P3,Closed,SRE,2025-05-21 20:00:00,Inventory data synchronization failed,Critical,393
+INC100170,payment-api,P2,Resolved,DBA,2025-05-22 16:00:00,VPN connections failing after password reset,Critical,635
+INC100171,payment-api,P3,Closed,Network,2025-05-23 12:00:00,API latency increased significantly,Critical,665
+INC100172,data-platform,P4,Closed,Application Support,2025-05-24 08:00:00,Application deployment caused errors,Critical,221
+INC100173,notification-service,P4,Investigating,Network,2025-05-25 04:00:00,Users unable to authenticate,Low,392
+INC100174,notification-service,P3,Closed,Platform,2025-05-26 00:00:00,Database connection pool exhausted,None,25
+INC100175,order-service,P3,Closed,SRE,2025-05-26 20:00:00,Database connection pool exhausted,Medium,448
+INC100176,notification-service,P4,Closed,Platform,2025-05-27 16:00:00,Messages delayed in processing,High,118
+INC100177,auth-service,P3,Resolved,Network,2025-05-28 12:00:00,VPN connections failing after password reset,High,62
+INC100178,vpn-service,P2,Closed,SRE,2025-05-29 08:00:00,Inventory data synchronization failed,Low,486
+INC100179,inventory-service,P3,Closed,Network,2025-05-30 04:00:00,Application deployment caused errors,Low,136
+INC100180,vpn-service,P1,Closed,Application Support,2025-05-31 00:00:00,Database connection pool exhausted,Medium,348
+INC100181,auth-service,P2,Closed,Security,2025-05-31 20:00:00,Inventory data synchronization failed,Critical,81
+INC100182,order-service,P1,Closed,DBA,2025-06-01 16:00:00,Users unable to authenticate,None,539
+INC100183,notification-service,P3,Resolved,Application Support,2025-06-02 12:00:00,Application deployment caused errors,Low,553
+INC100184,order-service,P3,Investigating,Security,2025-06-03 08:00:00,Users unable to authenticate,Low,418
+INC100185,order-service,P3,Resolved,DBA,2025-06-04 04:00:00,Inventory data synchronization failed,Critical,603
+INC100186,auth-service,P3,Closed,Application Support,2025-06-05 00:00:00,Database connection pool exhausted,Medium,320
+INC100187,order-service,P4,Closed,SRE,2025-06-05 20:00:00,Application deployment caused errors,None,142
+INC100188,auth-service,P4,Closed,Security,2025-06-06 16:00:00,Users unable to authenticate,Low,117
+INC100189,customer-portal,P3,Resolved,Platform,2025-06-07 12:00:00,Database connection pool exhausted,None,165
+INC100190,notification-service,P2,Closed,Security,2025-06-08 08:00:00,Application deployment caused errors,Medium,152
+INC100191,notification-service,P4,Closed,Application Support,2025-06-09 04:00:00,Service returning intermittent 5xx errors,Critical,239
+INC100192,inventory-service,P2,Resolved,Network,2025-06-10 00:00:00,API latency increased significantly,Medium,162
+INC100193,customer-portal,P3,Closed,SRE,2025-06-10 20:00:00,Service returning intermittent 5xx errors,Critical,429
+INC100194,vpn-service,P4,Closed,Network,2025-06-11 16:00:00,API latency increased significantly,High,115
+INC100195,payment-api,P3,Closed,Network,2025-06-12 12:00:00,Database connection pool exhausted,Critical,451
+INC100196,customer-portal,P4,Investigating,Application Support,2025-06-13 08:00:00,VPN connections failing after password reset,Low,247
+INC100197,payment-api,P3,Closed,Application Support,2025-06-14 04:00:00,API latency increased significantly,Critical,497
+INC100198,customer-portal,P3,Closed,DBA,2025-06-15 00:00:00,Users unable to authenticate,Low,374
+INC100199,vpn-service,P2,Closed,Application Support,2025-06-15 20:00:00,Users unable to authenticate,Medium,652
+INC100200,customer-portal,P2,Closed,Network,2025-06-16 16:00:00,Application deployment caused errors,High,322
+INC100201,vpn-service,P3,Closed,Network,2025-06-17 12:00:00,Application deployment caused errors,Low,219
+INC100202,order-service,P2,Resolved,Application Support,2025-06-18 08:00:00,Users unable to authenticate,Low,428
+INC100203,notification-service,P4,Closed,Security,2025-06-19 04:00:00,Users unable to authenticate,None,477
+INC100204,order-service,P2,Closed,DBA,2025-06-20 00:00:00,Service returning intermittent 5xx errors,None,321
+INC100205,customer-portal,P3,Closed,Network,2025-06-20 20:00:00,Application deployment caused errors,Medium,407
+INC100206,data-platform,P4,Investigating,Security,2025-06-21 16:00:00,Messages delayed in processing,Critical,344
+INC100207,vpn-service,P4,Resolved,Security,2025-06-22 12:00:00,Inventory data synchronization failed,Low,227
+INC100208,customer-portal,P3,Closed,Network,2025-06-23 08:00:00,API latency increased significantly,Medium,232
+INC100209,data-platform,P3,Resolved,SRE,2025-06-24 04:00:00,Messages delayed in processing,Critical,654
+INC100210,customer-portal,P4,Closed,SRE,2025-06-25 00:00:00,Service returning intermittent 5xx errors,High,489
+INC100211,notification-service,P3,Resolved,SRE,2025-06-25 20:00:00,Messages delayed in processing,None,77
+INC100212,data-platform,P4,Closed,Network,2025-06-26 16:00:00,VPN connections failing after password reset,Medium,693
+INC100213,order-service,P4,Closed,DBA,2025-06-27 12:00:00,API latency increased significantly,None,515
+INC100214,notification-service,P4,Resolved,Security,2025-06-28 08:00:00,Messages delayed in processing,Low,45
+INC100215,customer-portal,P2,Closed,Platform,2025-06-29 04:00:00,Messages delayed in processing,Low,526
+INC100216,payment-api,P3,Resolved,Security,2025-06-30 00:00:00,Database connection pool exhausted,High,428
+INC100217,payment-api,P2,Closed,DBA,2025-06-30 20:00:00,Users unable to authenticate,None,659
+INC100218,order-service,P3,Closed,SRE,2025-07-01 16:00:00,Service returning intermittent 5xx errors,Low,357
+INC100219,vpn-service,P4,Closed,Network,2025-07-02 12:00:00,Application deployment caused errors,Low,378
+INC100220,auth-service,P3,Open,Platform,2025-07-03 08:00:00,API latency increased significantly,Low,233
+INC100221,order-service,P3,Resolved,Application Support,2025-07-04 04:00:00,API latency increased significantly,High,238
+INC100222,notification-service,P1,Closed,Application Support,2025-07-05 00:00:00,Messages delayed in processing,Low,448
+INC100223,auth-service,P4,Closed,Security,2025-07-05 20:00:00,API latency increased significantly,Low,597
+INC100224,notification-service,P2,Closed,DBA,2025-07-06 16:00:00,Database connection pool exhausted,Medium,642
+INC100225,customer-portal,P1,Open,Network,2025-07-07 12:00:00,Messages delayed in processing,High,557
+INC100226,data-platform,P2,Resolved,Platform,2025-07-08 08:00:00,VPN connections failing after password reset,None,442
+INC100227,inventory-service,P1,Closed,Security,2025-07-09 04:00:00,Messages delayed in processing,Critical,365
+INC100228,inventory-service,P3,Open,SRE,2025-07-10 00:00:00,Service returning intermittent 5xx errors,Critical,251
+INC100229,auth-service,P3,Resolved,Platform,2025-07-10 20:00:00,Database connection pool exhausted,High,555
+INC100230,order-service,P3,Closed,SRE,2025-07-11 16:00:00,Database connection pool exhausted,Medium,235
+INC100231,data-platform,P1,Open,Network,2025-07-12 12:00:00,Messages delayed in processing,High,200
+INC100232,payment-api,P2,Closed,Platform,2025-07-13 08:00:00,Users unable to authenticate,Medium,626
+INC100233,data-platform,P3,Resolved,Platform,2025-07-14 04:00:00,Users unable to authenticate,Low,428
+INC100234,order-service,P1,Closed,Network,2025-07-15 00:00:00,Inventory data synchronization failed,Low,261
+INC100235,notification-service,P3,Closed,Application Support,2025-07-15 20:00:00,Messages delayed in processing,None,624
+INC100236,notification-service,P2,Closed,DBA,2025-07-16 16:00:00,Inventory data synchronization failed,Critical,693
+INC100237,order-service,P3,Resolved,Security,2025-07-17 12:00:00,API latency increased significantly,Low,235
+INC100238,customer-portal,P3,Closed,Application Support,2025-07-18 08:00:00,Application deployment caused errors,Low,380
+INC100239,notification-service,P3,Closed,Application Support,2025-07-19 04:00:00,API latency increased significantly,Critical,353
+INC100240,auth-service,P1,Resolved,Network,2025-07-20 00:00:00,Messages delayed in processing,Medium,508
+INC100241,inventory-service,P2,Resolved,Application Support,2025-07-20 20:00:00,Users unable to authenticate,High,685
+INC100242,payment-api,P4,Open,Application Support,2025-07-21 16:00:00,Application deployment caused errors,Low,399
+INC100243,notification-service,P1,Closed,Application Support,2025-07-22 12:00:00,API latency increased significantly,Low,576
+INC100244,notification-service,P3,Closed,Network,2025-07-23 08:00:00,Inventory data synchronization failed,High,432
+INC100245,payment-api,P3,Closed,Platform,2025-07-24 04:00:00,API latency increased significantly,Medium,639
+INC100246,data-platform,P3,Closed,DBA,2025-07-25 00:00:00,Inventory data synchronization failed,None,297
+INC100247,order-service,P3,Closed,Application Support,2025-07-25 20:00:00,Database connection pool exhausted,Critical,283
+INC100248,data-platform,P4,Closed,Application Support,2025-07-26 16:00:00,Service returning intermittent 5xx errors,Medium,309
+INC100249,payment-api,P4,Resolved,DBA,2025-07-27 12:00:00,Users unable to authenticate,High,717
+INC100250,auth-service,P2,Closed,SRE,2025-07-28 08:00:00,Messages delayed in processing,Low,444
+INC100251,order-service,P3,Resolved,Network,2025-07-29 04:00:00,Users unable to authenticate,Medium,118
+INC100252,auth-service,P2,Closed,Security,2025-07-30 00:00:00,API latency increased significantly,High,39
+INC100253,customer-portal,P3,Closed,DBA,2025-07-30 20:00:00,VPN connections failing after password reset,Critical,378
+INC100254,notification-service,P3,Resolved,Network,2025-07-31 16:00:00,API latency increased significantly,Low,582
+INC100255,auth-service,P2,Closed,Network,2025-08-01 12:00:00,Users unable to authenticate,High,350
+INC100256,notification-service,P3,Investigating,SRE,2025-08-02 08:00:00,VPN connections failing after password reset,Critical,407
+INC100257,payment-api,P4,Closed,Platform,2025-08-03 04:00:00,Messages delayed in processing,High,576
+INC100258,auth-service,P1,Closed,Security,2025-08-04 00:00:00,Messages delayed in processing,None,376
+INC100259,inventory-service,P3,Closed,Platform,2025-08-04 20:00:00,Application deployment caused errors,None,655
+INC100260,data-platform,P4,Resolved,Application Support,2025-08-05 16:00:00,Service returning intermittent 5xx errors,Low,462
+INC100261,auth-service,P2,Investigating,SRE,2025-08-06 12:00:00,Database connection pool exhausted,None,529
+INC100262,customer-portal,P1,Resolved,DBA,2025-08-07 08:00:00,Users unable to authenticate,High,564
+INC100263,vpn-service,P2,Investigating,Network,2025-08-08 04:00:00,Application deployment caused errors,Critical,455
+INC100264,vpn-service,P4,Investigating,Security,2025-08-09 00:00:00,VPN connections failing after password reset,Medium,45
+INC100265,inventory-service,P1,Open,Application Support,2025-08-09 20:00:00,Service returning intermittent 5xx errors,Medium,313
+INC100266,order-service,P2,Closed,DBA,2025-08-10 16:00:00,Messages delayed in processing,High,110
+INC100267,customer-portal,P1,Open,DBA,2025-08-11 12:00:00,Service returning intermittent 5xx errors,Medium,372
+INC100268,inventory-service,P2,Investigating,Security,2025-08-12 08:00:00,API latency increased significantly,Medium,111
+INC100269,inventory-service,P3,Closed,DBA,2025-08-13 04:00:00,Messages delayed in processing,Medium,371
+INC100270,customer-portal,P2,Closed,Platform,2025-08-14 00:00:00,VPN connections failing after password reset,Low,254
+INC100271,payment-api,P3,Closed,Network,2025-08-14 20:00:00,Inventory data synchronization failed,None,24
+INC100272,auth-service,P3,Closed,Platform,2025-08-15 16:00:00,VPN connections failing after password reset,Medium,98
+INC100273,vpn-service,P4,Closed,Network,2025-08-16 12:00:00,Inventory data synchronization failed,Critical,367
+INC100274,order-service,P1,Closed,DBA,2025-08-17 08:00:00,VPN connections failing after password reset,None,65
+INC100275,order-service,P4,Closed,Platform,2025-08-18 04:00:00,Service returning intermittent 5xx errors,Low,617
+INC100276,order-service,P3,Closed,Platform,2025-08-19 00:00:00,Service returning intermittent 5xx errors,Low,548
+INC100277,data-platform,P2,Resolved,Security,2025-08-19 20:00:00,Inventory data synchronization failed,Critical,513
+INC100278,payment-api,P4,Resolved,Network,2025-08-20 16:00:00,Service returning intermittent 5xx errors,Medium,132
+INC100279,payment-api,P4,Closed,Platform,2025-08-21 12:00:00,Database connection pool exhausted,Medium,574
+INC100280,customer-portal,P2,Investigating,Security,2025-08-22 08:00:00,Service returning intermittent 5xx errors,High,460
+INC100281,order-service,P4,Closed,Security,2025-08-23 04:00:00,API latency increased significantly,Low,287
+INC100282,notification-service,P3,Resolved,Security,2025-08-24 00:00:00,VPN connections failing after password reset,High,10
+INC100283,order-service,P3,Investigating,Security,2025-08-24 20:00:00,Users unable to authenticate,None,385
+INC100284,order-service,P4,Resolved,Application Support,2025-08-25 16:00:00,Database connection pool exhausted,None,575
+INC100285,vpn-service,P3,Closed,DBA,2025-08-26 12:00:00,Application deployment caused errors,Critical,33
+INC100286,auth-service,P4,Resolved,Platform,2025-08-27 08:00:00,Service returning intermittent 5xx errors,High,47
+INC100287,inventory-service,P3,Closed,Application Support,2025-08-28 04:00:00,Service returning intermittent 5xx errors,None,281
+INC100288,inventory-service,P4,Closed,Platform,2025-08-29 00:00:00,API latency increased significantly,Medium,373
+INC100289,order-service,P3,Open,Platform,2025-08-29 20:00:00,Inventory data synchronization failed,None,346
+INC100290,data-platform,P2,Closed,Security,2025-08-30 16:00:00,Database connection pool exhausted,High,312
+INC100291,customer-portal,P3,Resolved,Application Support,2025-08-31 12:00:00,Messages delayed in processing,High,191
+INC100292,vpn-service,P3,Resolved,Network,2025-09-01 08:00:00,Service returning intermittent 5xx errors,Low,52
+INC100293,customer-portal,P1,Closed,Security,2025-09-02 04:00:00,Messages delayed in processing,Low,32
+INC100294,inventory-service,P1,Closed,Application Support,2025-09-03 00:00:00,Service returning intermittent 5xx errors,Low,80
+INC100295,inventory-service,P3,Resolved,Security,2025-09-03 20:00:00,Messages delayed in processing,Low,500
+INC100296,data-platform,P1,Closed,SRE,2025-09-04 16:00:00,Users unable to authenticate,Low,568
+INC100297,order-service,P2,Resolved,DBA,2025-09-05 12:00:00,Inventory data synchronization failed,Low,318
+INC100298,customer-portal,P4,Closed,Platform,2025-09-06 08:00:00,API latency increased significantly,Medium,64
+INC100299,payment-api,P4,Closed,Application Support,2025-09-07 04:00:00,Users unable to authenticate,Critical,305
+INC100300,customer-portal,P4,Closed,SRE,2025-09-08 00:00:00,API latency increased significantly,High,709
+INC100301,data-platform,P3,Closed,Application Support,2025-09-08 20:00:00,Service returning intermittent 5xx errors,Low,187
+INC100302,payment-api,P4,Investigating,Platform,2025-09-09 16:00:00,Users unable to authenticate,Critical,358
+INC100303,vpn-service,P3,Closed,Network,2025-09-10 12:00:00,VPN connections failing after password reset,Low,391
+INC100304,inventory-service,P2,Closed,Platform,2025-09-11 08:00:00,API latency increased significantly,Critical,244
+INC100305,auth-service,P2,Closed,Security,2025-09-12 04:00:00,API latency increased significantly,Low,320
+INC100306,customer-portal,P3,Open,Network,2025-09-13 00:00:00,Inventory data synchronization failed,Medium,344
+INC100307,inventory-service,P2,Resolved,Security,2025-09-13 20:00:00,Service returning intermittent 5xx errors,Low,346
+INC100308,customer-portal,P3,Resolved,SRE,2025-09-14 16:00:00,Database connection pool exhausted,High,519
+INC100309,payment-api,P4,Investigating,Network,2025-09-15 12:00:00,Users unable to authenticate,Low,422
+INC100310,notification-service,P1,Resolved,Application Support,2025-09-16 08:00:00,Database connection pool exhausted,Critical,47
+INC100311,notification-service,P1,Resolved,Application Support,2025-09-17 04:00:00,API latency increased significantly,None,14
+INC100312,payment-api,P4,Closed,Platform,2025-09-18 00:00:00,Service returning intermittent 5xx errors,Medium,301
+INC100313,customer-portal,P3,Resolved,Network,2025-09-18 20:00:00,Service returning intermittent 5xx errors,None,654
+INC100314,auth-service,P2,Closed,Network,2025-09-19 16:00:00,Inventory data synchronization failed,Critical,36
+INC100315,notification-service,P4,Closed,DBA,2025-09-20 12:00:00,Service returning intermittent 5xx errors,Medium,60
+INC100316,notification-service,P4,Closed,DBA,2025-09-21 08:00:00,Inventory data synchronization failed,High,492
+INC100317,notification-service,P3,Closed,SRE,2025-09-22 04:00:00,Application deployment caused errors,Critical,330
+INC100318,vpn-service,P3,Closed,Security,2025-09-23 00:00:00,Database connection pool exhausted,Medium,173
+INC100319,data-platform,P2,Closed,Platform,2025-09-23 20:00:00,API latency increased significantly,None,157
+INC100320,customer-portal,P1,Closed,Platform,2025-09-24 16:00:00,Inventory data synchronization failed,Low,482
+INC100321,payment-api,P3,Closed,Application Support,2025-09-25 12:00:00,Application deployment caused errors,Low,381
+INC100322,inventory-service,P2,Closed,Security,2025-09-26 08:00:00,Service returning intermittent 5xx errors,Critical,463
+INC100323,vpn-service,P3,Closed,Network,2025-09-27 04:00:00,Application deployment caused errors,Critical,208
+INC100324,vpn-service,P4,Closed,Application Support,2025-09-28 00:00:00,Application deployment caused errors,Medium,383
+INC100325,auth-service,P1,Open,Network,2025-09-28 20:00:00,Users unable to authenticate,Critical,620
+INC100326,auth-service,P3,Closed,DBA,2025-09-29 16:00:00,Service returning intermittent 5xx errors,Low,234
+INC100327,payment-api,P2,Closed,Platform,2025-09-30 12:00:00,Messages delayed in processing,High,291
+INC100328,auth-service,P4,Closed,Platform,2025-10-01 08:00:00,Service returning intermittent 5xx errors,Low,126
+INC100329,inventory-service,P2,Closed,Network,2025-10-02 04:00:00,VPN connections failing after password reset,Low,463
+INC100330,inventory-service,P3,Closed,DBA,2025-10-03 00:00:00,Service returning intermittent 5xx errors,Low,33
+INC100331,customer-portal,P3,Closed,Security,2025-10-03 20:00:00,Messages delayed in processing,Medium,186
+INC100332,customer-portal,P3,Closed,Network,2025-10-04 16:00:00,Users unable to authenticate,Low,516
+INC100333,data-platform,P3,Investigating,Application Support,2025-10-05 12:00:00,Service returning intermittent 5xx errors,Low,23
+INC100334,order-service,P4,Resolved,DBA,2025-10-06 08:00:00,Service returning intermittent 5xx errors,Low,712
+INC100335,data-platform,P3,Investigating,SRE,2025-10-07 04:00:00,Users unable to authenticate,None,296
+INC100336,vpn-service,P4,Open,Security,2025-10-08 00:00:00,VPN connections failing after password reset,Critical,293
+INC100337,customer-portal,P4,Resolved,DBA,2025-10-08 20:00:00,Service returning intermittent 5xx errors,Low,390
+INC100338,auth-service,P3,Closed,Network,2025-10-09 16:00:00,Inventory data synchronization failed,None,463
+INC100339,vpn-service,P3,Closed,Network,2025-10-10 12:00:00,VPN connections failing after password reset,Medium,336
+INC100340,notification-service,P1,Open,Platform,2025-10-11 08:00:00,API latency increased significantly,Critical,637
+INC100341,customer-portal,P4,Closed,DBA,2025-10-12 04:00:00,Application deployment caused errors,Low,693
+INC100342,inventory-service,P3,Investigating,DBA,2025-10-13 00:00:00,Messages delayed in processing,Critical,152
+INC100343,inventory-service,P3,Closed,Network,2025-10-13 20:00:00,Messages delayed in processing,High,511
+INC100344,vpn-service,P2,Investigating,Platform,2025-10-14 16:00:00,Users unable to authenticate,High,223
+INC100345,customer-portal,P4,Closed,Network,2025-10-15 12:00:00,Messages delayed in processing,Low,716
+INC100346,vpn-service,P3,Resolved,Network,2025-10-16 08:00:00,VPN connections failing after password reset,None,189
+INC100347,vpn-service,P3,Closed,Network,2025-10-17 04:00:00,Application deployment caused errors,Low,219
+INC100348,auth-service,P2,Resolved,Platform,2025-10-18 00:00:00,Database connection pool exhausted,Critical,517
+INC100349,auth-service,P4,Closed,DBA,2025-10-18 20:00:00,Messages delayed in processing,High,570
+INC100350,inventory-service,P2,Resolved,Platform,2025-10-19 16:00:00,API latency increased significantly,High,101
+INC100351,payment-api,P2,Closed,DBA,2025-10-20 12:00:00,Service returning intermittent 5xx errors,Critical,404
+INC100352,customer-portal,P4,Closed,SRE,2025-10-21 08:00:00,Users unable to authenticate,Low,255
+INC100353,order-service,P4,Closed,Network,2025-10-22 04:00:00,Inventory data synchronization failed,Low,444
+INC100354,vpn-service,P2,Closed,Security,2025-10-23 00:00:00,Messages delayed in processing,Critical,405
+INC100355,vpn-service,P3,Closed,Security,2025-10-23 20:00:00,API latency increased significantly,Medium,709
+INC100356,auth-service,P4,Resolved,Security,2025-10-24 16:00:00,Messages delayed in processing,Low,672
+INC100357,vpn-service,P4,Resolved,Security,2025-10-25 12:00:00,Service returning intermittent 5xx errors,Low,474
+INC100358,payment-api,P3,Resolved,SRE,2025-10-26 08:00:00,Service returning intermittent 5xx errors,Critical,492
+INC100359,notification-service,P3,Resolved,Network,2025-10-27 04:00:00,VPN connections failing after password reset,None,648
+INC100360,data-platform,P4,Closed,DBA,2025-10-28 00:00:00,VPN connections failing after password reset,None,140
+INC100361,vpn-service,P4,Closed,Security,2025-10-28 20:00:00,Application deployment caused errors,High,525
+INC100362,auth-service,P4,Closed,DBA,2025-10-29 16:00:00,Inventory data synchronization failed,None,558
+INC100363,vpn-service,P3,Closed,Application Support,2025-10-30 12:00:00,API latency increased significantly,None,100
+INC100364,payment-api,P2,Closed,Platform,2025-10-31 08:00:00,Inventory data synchronization failed,Critical,635
+INC100365,inventory-service,P4,Closed,SRE,2025-11-01 04:00:00,Database connection pool exhausted,Medium,506
+INC100366,order-service,P4,Closed,SRE,2025-11-02 00:00:00,Inventory data synchronization failed,High,256
+INC100367,customer-portal,P4,Resolved,DBA,2025-11-02 20:00:00,Users unable to authenticate,Medium,353
+INC100368,payment-api,P2,Closed,DBA,2025-11-03 16:00:00,Service returning intermittent 5xx errors,None,357
+INC100369,data-platform,P2,Closed,Platform,2025-11-04 12:00:00,Service returning intermittent 5xx errors,None,662
+INC100370,customer-portal,P4,Resolved,Security,2025-11-05 08:00:00,Application deployment caused errors,High,698
+INC100371,notification-service,P1,Resolved,Security,2025-11-06 04:00:00,Service returning intermittent 5xx errors,None,582
+INC100372,order-service,P4,Closed,Network,2025-11-07 00:00:00,Application deployment caused errors,Medium,473
+INC100373,customer-portal,P3,Closed,Platform,2025-11-07 20:00:00,Messages delayed in processing,Low,83
+INC100374,vpn-service,P4,Closed,Security,2025-11-08 16:00:00,Users unable to authenticate,Low,659
+INC100375,payment-api,P4,Closed,Security,2025-11-09 12:00:00,Inventory data synchronization failed,Critical,105
+INC100376,notification-service,P3,Resolved,Platform,2025-11-10 08:00:00,Users unable to authenticate,High,128
+INC100377,notification-service,P3,Resolved,Platform,2025-11-11 04:00:00,Users unable to authenticate,High,59
+INC100378,order-service,P3,Closed,Network,2025-11-12 00:00:00,VPN connections failing after password reset,Low,682
+INC100379,customer-portal,P3,Closed,DBA,2025-11-12 20:00:00,API latency increased significantly,Low,360
+INC100380,payment-api,P3,Closed,SRE,2025-11-13 16:00:00,API latency increased significantly,High,177
+INC100381,vpn-service,P3,Closed,Application Support,2025-11-14 12:00:00,Users unable to authenticate,None,67
+INC100382,vpn-service,P4,Resolved,Network,2025-11-15 08:00:00,VPN connections failing after password reset,Low,302
+INC100383,auth-service,P3,Closed,Network,2025-11-16 04:00:00,Service returning intermittent 5xx errors,High,523
+INC100384,payment-api,P2,Resolved,SRE,2025-11-17 00:00:00,Users unable to authenticate,High,716
+INC100385,payment-api,P3,Resolved,Application Support,2025-11-17 20:00:00,VPN connections failing after password reset,None,402
+INC100386,payment-api,P3,Investigating,Platform,2025-11-18 16:00:00,Database connection pool exhausted,High,441
+INC100387,data-platform,P2,Investigating,Application Support,2025-11-19 12:00:00,Messages delayed in processing,Medium,603
+INC100388,vpn-service,P2,Closed,Network,2025-11-20 08:00:00,Users unable to authenticate,Low,650
+INC100389,auth-service,P3,Resolved,Application Support,2025-11-21 04:00:00,Messages delayed in processing,High,208
+INC100390,notification-service,P3,Resolved,Platform,2025-11-22 00:00:00,Inventory data synchronization failed,Critical,714
+INC100391,auth-service,P4,Closed,SRE,2025-11-22 20:00:00,Database connection pool exhausted,Medium,378
+INC100392,customer-portal,P2,Closed,Security,2025-11-23 16:00:00,API latency increased significantly,Low,670
+INC100393,inventory-service,P2,Open,Security,2025-11-24 12:00:00,VPN connections failing after password reset,Low,93
+INC100394,notification-service,P4,Resolved,DBA,2025-11-25 08:00:00,VPN connections failing after password reset,Medium,79
+INC100395,data-platform,P4,Investigating,SRE,2025-11-26 04:00:00,Service returning intermittent 5xx errors,None,638
+INC100396,payment-api,P2,Closed,Application Support,2025-11-27 00:00:00,VPN connections failing after password reset,Medium,487
+INC100397,auth-service,P2,Resolved,Network,2025-11-27 20:00:00,Users unable to authenticate,None,134
+INC100398,customer-portal,P2,Open,Application Support,2025-11-28 16:00:00,VPN connections failing after password reset,None,645
+INC100399,customer-portal,P3,Open,Application Support,2025-11-29 12:00:00,Application deployment caused errors,Medium,82
+INC100400,vpn-service,P3,Closed,Application Support,2025-11-30 08:00:00,VPN connections failing after password reset,High,494
+INC100401,data-platform,P2,Open,Security,2025-12-01 04:00:00,Inventory data synchronization failed,Critical,155
+INC100402,customer-portal,P1,Closed,Security,2025-12-02 00:00:00,API latency increased significantly,None,60
+INC100403,vpn-service,P3,Investigating,DBA,2025-12-02 20:00:00,Application deployment caused errors,Low,582
+INC100404,order-service,P4,Closed,SRE,2025-12-03 16:00:00,Inventory data synchronization failed,Medium,611
+INC100405,inventory-service,P3,Resolved,Network,2025-12-04 12:00:00,Application deployment caused errors,Medium,85
+INC100406,order-service,P3,Resolved,Security,2025-12-05 08:00:00,Messages delayed in processing,Critical,76
+INC100407,auth-service,P2,Open,Security,2025-12-06 04:00:00,Messages delayed in processing,High,446
+INC100408,vpn-service,P2,Closed,DBA,2025-12-07 00:00:00,VPN connections failing after password reset,Medium,30
+INC100409,payment-api,P2,Closed,Security,2025-12-07 20:00:00,Application deployment caused errors,None,539
+INC100410,auth-service,P4,Open,SRE,2025-12-08 16:00:00,Inventory data synchronization failed,None,660
+INC100411,auth-service,P4,Investigating,Network,2025-12-09 12:00:00,Database connection pool exhausted,None,543
+INC100412,customer-portal,P4,Closed,DBA,2025-12-10 08:00:00,Service returning intermittent 5xx errors,High,173
+INC100413,auth-service,P4,Closed,Application Support,2025-12-11 04:00:00,Service returning intermittent 5xx errors,Low,144
+INC100414,payment-api,P4,Investigating,Platform,2025-12-12 00:00:00,Users unable to authenticate,Low,493
+INC100415,notification-service,P4,Resolved,Platform,2025-12-12 20:00:00,Service returning intermittent 5xx errors,High,53
+INC100416,vpn-service,P1,Closed,Network,2025-12-13 16:00:00,Users unable to authenticate,Critical,391
+INC100417,payment-api,P2,Closed,Platform,2025-12-14 12:00:00,Service returning intermittent 5xx errors,Medium,328
+INC100418,customer-portal,P3,Closed,DBA,2025-12-15 08:00:00,Application deployment caused errors,Critical,538
+INC100419,inventory-service,P3,Closed,DBA,2025-12-16 04:00:00,Service returning intermittent 5xx errors,High,153
+INC100420,vpn-service,P2,Closed,Security,2025-12-17 00:00:00,Messages delayed in processing,High,551
+INC100421,notification-service,P4,Resolved,Application Support,2025-12-17 20:00:00,API latency increased significantly,Critical,506
+INC100422,data-platform,P3,Closed,SRE,2025-12-18 16:00:00,Users unable to authenticate,None,179
+INC100423,inventory-service,P3,Resolved,Platform,2025-12-19 12:00:00,Messages delayed in processing,High,263
+INC100424,order-service,P2,Resolved,Platform,2025-12-20 08:00:00,Application deployment caused errors,Critical,56
+INC100425,auth-service,P2,Open,Platform,2025-12-21 04:00:00,Inventory data synchronization failed,Critical,329
+INC100426,data-platform,P2,Resolved,Security,2025-12-22 00:00:00,Application deployment caused errors,Medium,195
+INC100427,data-platform,P4,Closed,SRE,2025-12-22 20:00:00,VPN connections failing after password reset,High,90
+INC100428,payment-api,P3,Open,SRE,2025-12-23 16:00:00,Messages delayed in processing,Critical,407
+INC100429,notification-service,P4,Resolved,Application Support,2025-12-24 12:00:00,Users unable to authenticate,Critical,412
+INC100430,payment-api,P2,Closed,Application Support,2025-12-25 08:00:00,Inventory data synchronization failed,Critical,71
+INC100431,notification-service,P3,Closed,Platform,2025-12-26 04:00:00,Messages delayed in processing,Critical,141
+INC100432,data-platform,P3,Closed,Platform,2025-12-27 00:00:00,API latency increased significantly,Low,68
+INC100433,auth-service,P4,Closed,DBA,2025-12-27 20:00:00,API latency increased significantly,High,492
+INC100434,order-service,P4,Closed,DBA,2025-12-28 16:00:00,VPN connections failing after password reset,Medium,250
+INC100435,payment-api,P2,Investigating,Application Support,2025-12-29 12:00:00,Service returning intermittent 5xx errors,Critical,60
+INC100436,inventory-service,P4,Closed,Network,2025-12-30 08:00:00,Inventory data synchronization failed,Critical,145
+INC100437,vpn-service,P2,Closed,SRE,2025-12-31 04:00:00,API latency increased significantly,Critical,702
+INC100438,payment-api,P4,Resolved,Network,2026-01-01 00:00:00,Service returning intermittent 5xx errors,Medium,191
+INC100439,order-service,P2,Open,DBA,2026-01-01 20:00:00,API latency increased significantly,Medium,496
+INC100440,vpn-service,P2,Resolved,DBA,2026-01-02 16:00:00,Inventory data synchronization failed,None,342
+INC100441,customer-portal,P4,Closed,DBA,2026-01-03 12:00:00,API latency increased significantly,High,139
+INC100442,auth-service,P2,Resolved,Application Support,2026-01-04 08:00:00,VPN connections failing after password reset,Medium,228
+INC100443,order-service,P3,Investigating,Security,2026-01-05 04:00:00,Inventory data synchronization failed,Medium,20
+INC100444,inventory-service,P3,Closed,Platform,2026-01-06 00:00:00,Service returning intermittent 5xx errors,High,540
+INC100445,notification-service,P2,Closed,Network,2026-01-06 20:00:00,Inventory data synchronization failed,Critical,247
+INC100446,customer-portal,P4,Resolved,Security,2026-01-07 16:00:00,API latency increased significantly,None,364
+INC100447,vpn-service,P4,Closed,Network,2026-01-08 12:00:00,Messages delayed in processing,Medium,118
+INC100448,inventory-service,P4,Open,Network,2026-01-09 08:00:00,Users unable to authenticate,High,595
+INC100449,customer-portal,P3,Closed,Platform,2026-01-10 04:00:00,Users unable to authenticate,Critical,165
+INC100450,vpn-service,P3,Closed,Platform,2026-01-11 00:00:00,Inventory data synchronization failed,High,412
+INC100451,vpn-service,P2,Open,Security,2026-01-11 20:00:00,Inventory data synchronization failed,High,629
+INC100452,order-service,P2,Closed,Application Support,2026-01-12 16:00:00,Application deployment caused errors,Critical,516
+INC100453,payment-api,P2,Closed,Security,2026-01-13 12:00:00,Messages delayed in processing,Critical,438
+INC100454,inventory-service,P4,Closed,Platform,2026-01-14 08:00:00,Database connection pool exhausted,High,640
+INC100455,inventory-service,P4,Closed,SRE,2026-01-15 04:00:00,Users unable to authenticate,Low,135
+INC100456,auth-service,P4,Closed,SRE,2026-01-16 00:00:00,API latency increased significantly,Medium,694
+INC100457,notification-service,P3,Open,Network,2026-01-16 20:00:00,Messages delayed in processing,High,405
+INC100458,data-platform,P3,Closed,DBA,2026-01-17 16:00:00,API latency increased significantly,None,300
+INC100459,payment-api,P3,Closed,Application Support,2026-01-18 12:00:00,Database connection pool exhausted,High,191
+INC100460,notification-service,P3,Closed,Application Support,2026-01-19 08:00:00,Users unable to authenticate,Medium,538
+INC100461,auth-service,P3,Resolved,SRE,2026-01-20 04:00:00,Database connection pool exhausted,Critical,703
+INC100462,notification-service,P2,Closed,Security,2026-01-21 00:00:00,Users unable to authenticate,Low,499
+INC100463,order-service,P2,Investigating,Platform,2026-01-21 20:00:00,Service returning intermittent 5xx errors,Critical,33
+INC100464,payment-api,P4,Closed,Platform,2026-01-22 16:00:00,Users unable to authenticate,Medium,343
+INC100465,vpn-service,P3,Open,DBA,2026-01-23 12:00:00,VPN connections failing after password reset,Medium,529
+INC100466,auth-service,P4,Closed,SRE,2026-01-24 08:00:00,API latency increased significantly,High,292
+INC100467,inventory-service,P2,Closed,Network,2026-01-25 04:00:00,Service returning intermittent 5xx errors,Medium,558
+INC100468,auth-service,P3,Closed,DBA,2026-01-26 00:00:00,VPN connections failing after password reset,Critical,512
+INC100469,vpn-service,P2,Closed,Platform,2026-01-26 20:00:00,Users unable to authenticate,None,57
+INC100470,notification-service,P2,Resolved,DBA,2026-01-27 16:00:00,Service returning intermittent 5xx errors,High,406
+INC100471,data-platform,P1,Closed,Network,2026-01-28 12:00:00,Users unable to authenticate,Critical,132
+INC100472,order-service,P2,Closed,Security,2026-01-29 08:00:00,Database connection pool exhausted,Low,355
+INC100473,order-service,P4,Resolved,Platform,2026-01-30 04:00:00,Application deployment caused errors,Low,282
+INC100474,notification-service,P3,Investigating,SRE,2026-01-31 00:00:00,Users unable to authenticate,Medium,582
+INC100475,data-platform,P3,Resolved,DBA,2026-01-31 20:00:00,API latency increased significantly,High,626
+INC100476,data-platform,P3,Closed,Platform,2026-02-01 16:00:00,Users unable to authenticate,Critical,337
+INC100477,payment-api,P3,Closed,Security,2026-02-02 12:00:00,API latency increased significantly,High,391
+INC100478,notification-service,P3,Closed,SRE,2026-02-03 08:00:00,Messages delayed in processing,High,454
+INC100479,payment-api,P2,Resolved,DBA,2026-02-04 04:00:00,API latency increased significantly,Medium,475
+INC100480,customer-portal,P4,Closed,Application Support,2026-02-05 00:00:00,Messages delayed in processing,High,461
+INC100481,data-platform,P4,Resolved,SRE,2026-02-05 20:00:00,Application deployment caused errors,Low,565
+INC100482,customer-portal,P4,Closed,Platform,2026-02-06 16:00:00,Application deployment caused errors,Medium,707
+INC100483,data-platform,P3,Resolved,Application Support,2026-02-07 12:00:00,VPN connections failing after password reset,None,597
+INC100484,order-service,P2,Closed,DBA,2026-02-08 08:00:00,Messages delayed in processing,None,105
+INC100485,auth-service,P4,Closed,Platform,2026-02-09 04:00:00,Application deployment caused errors,Critical,348
+INC100486,customer-portal,P3,Resolved,Platform,2026-02-10 00:00:00,Inventory data synchronization failed,Critical,337
+INC100487,inventory-service,P1,Closed,Security,2026-02-10 20:00:00,API latency increased significantly,Medium,371
+INC100488,data-platform,P3,Closed,Application Support,2026-02-11 16:00:00,Users unable to authenticate,None,385
+INC100489,inventory-service,P4,Investigating,Network,2026-02-12 12:00:00,Service returning intermittent 5xx errors,None,519
+INC100490,vpn-service,P3,Investigating,Network,2026-02-13 08:00:00,Application deployment caused errors,None,308
+INC100491,data-platform,P4,Closed,Security,2026-02-14 04:00:00,VPN connections failing after password reset,High,196
+INC100492,data-platform,P4,Resolved,Platform,2026-02-15 00:00:00,API latency increased significantly,Low,334
+INC100493,inventory-service,P2,Open,Platform,2026-02-15 20:00:00,API latency increased significantly,Low,616
+INC100494,customer-portal,P4,Closed,Security,2026-02-16 16:00:00,API latency increased significantly,Critical,231
+INC100495,order-service,P3,Closed,Platform,2026-02-17 12:00:00,Inventory data synchronization failed,Critical,24
+INC100496,payment-api,P3,Resolved,Security,2026-02-18 08:00:00,VPN connections failing after password reset,High,703
+INC100497,customer-portal,P1,Resolved,Network,2026-02-19 04:00:00,Application deployment caused errors,Low,148
+INC100498,vpn-service,P4,Closed,Application Support,2026-02-20 00:00:00,API latency increased significantly,Medium,438
+INC100499,order-service,P2,Closed,SRE,2026-02-20 20:00:00,Database connection pool exhausted,Low,578
+INC100500,payment-api,P1,Closed,Application Support,2026-02-21 16:00:00,Service returning intermittent 5xx errors,Critical,204
+INC100501,notification-service,P3,Resolved,Platform,2026-02-22 12:00:00,Application deployment caused errors,None,251
+INC100502,vpn-service,P2,Closed,SRE,2026-02-23 08:00:00,VPN connections failing after password reset,High,209
+INC100503,data-platform,P2,Closed,Security,2026-02-24 04:00:00,VPN connections failing after password reset,Medium,116
+INC100504,customer-portal,P3,Investigating,DBA,2026-02-25 00:00:00,Database connection pool exhausted,High,118
+INC100505,order-service,P3,Closed,Application Support,2026-02-25 20:00:00,API latency increased significantly,Medium,142
+INC100506,inventory-service,P4,Closed,SRE,2026-02-26 16:00:00,Application deployment caused errors,None,335
+INC100507,auth-service,P3,Investigating,SRE,2026-02-27 12:00:00,Database connection pool exhausted,High,386
+INC100508,customer-portal,P4,Investigating,DBA,2026-02-28 08:00:00,Messages delayed in processing,High,21
+INC100509,auth-service,P3,Closed,Application Support,2026-03-01 04:00:00,Service returning intermittent 5xx errors,Medium,610
+INC100510,vpn-service,P3,Open,Network,2026-03-02 00:00:00,API latency increased significantly,Low,489
+INC100511,notification-service,P3,Resolved,Security,2026-03-02 20:00:00,Inventory data synchronization failed,Low,60
+INC100512,data-platform,P3,Investigating,Application Support,2026-03-03 16:00:00,Service returning intermittent 5xx errors,Medium,608
+INC100513,data-platform,P4,Resolved,Application Support,2026-03-04 12:00:00,Service returning intermittent 5xx errors,Low,31
+INC100514,vpn-service,P3,Resolved,DBA,2026-03-05 08:00:00,Inventory data synchronization failed,Low,407
+INC100515,payment-api,P2,Closed,Security,2026-03-06 04:00:00,API latency increased significantly,Low,340
+INC100516,vpn-service,P3,Resolved,DBA,2026-03-07 00:00:00,API latency increased significantly,None,366
+INC100517,payment-api,P4,Open,Security,2026-03-07 20:00:00,VPN connections failing after password reset,Critical,688
+INC100518,order-service,P1,Closed,DBA,2026-03-08 16:00:00,Users unable to authenticate,Low,668
+INC100519,inventory-service,P3,Resolved,DBA,2026-03-09 12:00:00,Service returning intermittent 5xx errors,None,208
+INC100520,customer-portal,P4,Closed,Network,2026-03-10 08:00:00,Service returning intermittent 5xx errors,None,421
+INC100521,auth-service,P4,Investigating,DBA,2026-03-11 04:00:00,Service returning intermittent 5xx errors,Critical,691
+INC100522,auth-service,P4,Open,Security,2026-03-12 00:00:00,Users unable to authenticate,Medium,527
+INC100523,data-platform,P3,Resolved,Application Support,2026-03-12 20:00:00,Messages delayed in processing,Low,640
+INC100524,customer-portal,P3,Closed,DBA,2026-03-13 16:00:00,API latency increased significantly,Medium,318
+INC100525,customer-portal,P3,Resolved,SRE,2026-03-14 12:00:00,Service returning intermittent 5xx errors,None,211
+INC100526,vpn-service,P4,Closed,DBA,2026-03-15 08:00:00,Service returning intermittent 5xx errors,Low,372
+INC100527,auth-service,P3,Resolved,Platform,2026-03-16 04:00:00,Database connection pool exhausted,Low,590
+INC100528,vpn-service,P4,Closed,SRE,2026-03-17 00:00:00,Inventory data synchronization failed,Critical,669
+INC100529,vpn-service,P3,Closed,SRE,2026-03-17 20:00:00,API latency increased significantly,None,496
+INC100530,inventory-service,P3,Open,DBA,2026-03-18 16:00:00,Service returning intermittent 5xx errors,Medium,511
+INC100531,auth-service,P4,Closed,Application Support,2026-03-19 12:00:00,Users unable to authenticate,High,373
+INC100532,auth-service,P3,Resolved,DBA,2026-03-20 08:00:00,Database connection pool exhausted,Critical,236
+INC100533,customer-portal,P4,Resolved,Network,2026-03-21 04:00:00,Users unable to authenticate,Medium,310
+INC100534,inventory-service,P3,Investigating,SRE,2026-03-22 00:00:00,Application deployment caused errors,Low,363
+INC100535,auth-service,P3,Closed,Security,2026-03-22 20:00:00,Inventory data synchronization failed,Low,589
+INC100536,order-service,P3,Closed,SRE,2026-03-23 16:00:00,API latency increased significantly,Low,404
+INC100537,payment-api,P3,Open,Application Support,2026-03-24 12:00:00,Application deployment caused errors,High,573
+INC100538,inventory-service,P3,Closed,Security,2026-03-25 08:00:00,API latency increased significantly,Low,29
+INC100539,payment-api,P2,Closed,Application Support,2026-03-26 04:00:00,Users unable to authenticate,High,547
+INC100540,notification-service,P2,Resolved,Platform,2026-03-27 00:00:00,Application deployment caused errors,High,370
+INC100541,payment-api,P3,Closed,SRE,2026-03-27 20:00:00,Application deployment caused errors,Critical,718
+INC100542,auth-service,P3,Closed,Platform,2026-03-28 16:00:00,API latency increased significantly,Low,344
+INC100543,auth-service,P3,Closed,Security,2026-03-29 12:00:00,VPN connections failing after password reset,Critical,349
+INC100544,data-platform,P1,Closed,Platform,2026-03-30 08:00:00,Users unable to authenticate,Medium,100
+INC100545,payment-api,P3,Open,Application Support,2026-03-31 04:00:00,Messages delayed in processing,High,582
+INC100546,order-service,P2,Resolved,SRE,2026-04-01 00:00:00,Messages delayed in processing,High,508
+INC100547,inventory-service,P4,Closed,SRE,2026-04-01 20:00:00,Messages delayed in processing,Critical,622
+INC100548,inventory-service,P4,Investigating,Platform,2026-04-02 16:00:00,VPN connections failing after password reset,Medium,75
+INC100549,notification-service,P2,Resolved,Security,2026-04-03 12:00:00,Messages delayed in processing,High,160
+INC100550,data-platform,P3,Closed,DBA,2026-04-04 08:00:00,VPN connections failing after password reset,Low,632
+INC100551,order-service,P2,Open,Network,2026-04-05 04:00:00,Inventory data synchronization failed,Medium,39
+INC100552,data-platform,P2,Closed,DBA,2026-04-06 00:00:00,Users unable to authenticate,Medium,370
+INC100553,customer-portal,P2,Closed,DBA,2026-04-06 20:00:00,Database connection pool exhausted,High,297
+INC100554,vpn-service,P2,Resolved,DBA,2026-04-07 16:00:00,Database connection pool exhausted,High,676
+INC100555,inventory-service,P3,Closed,DBA,2026-04-08 12:00:00,VPN connections failing after password reset,None,618
+INC100556,notification-service,P4,Closed,SRE,2026-04-09 08:00:00,Users unable to authenticate,Critical,646
+INC100557,vpn-service,P2,Closed,Platform,2026-04-10 04:00:00,API latency increased significantly,High,215
+INC100558,data-platform,P3,Investigating,DBA,2026-04-11 00:00:00,Application deployment caused errors,None,427
+INC100559,data-platform,P4,Open,SRE,2026-04-11 20:00:00,Service returning intermittent 5xx errors,Critical,507
+INC100560,inventory-service,P4,Closed,Network,2026-04-12 16:00:00,Messages delayed in processing,High,696
+INC100561,payment-api,P3,Resolved,SRE,2026-04-13 12:00:00,Messages delayed in processing,None,15
+INC100562,order-service,P2,Closed,Security,2026-04-14 08:00:00,Database connection pool exhausted,Medium,703
+INC100563,auth-service,P3,Investigating,SRE,2026-04-15 04:00:00,Service returning intermittent 5xx errors,Critical,262
+INC100564,vpn-service,P3,Resolved,SRE,2026-04-16 00:00:00,Service returning intermittent 5xx errors,Low,101
+INC100565,auth-service,P4,Closed,DBA,2026-04-16 20:00:00,API latency increased significantly,Critical,447
+INC100566,auth-service,P3,Closed,Platform,2026-04-17 16:00:00,Service returning intermittent 5xx errors,Medium,564
+INC100567,auth-service,P3,Closed,Network,2026-04-18 12:00:00,Service returning intermittent 5xx errors,Low,102
+INC100568,notification-service,P1,Resolved,Platform,2026-04-19 08:00:00,Users unable to authenticate,Low,38
+INC100569,inventory-service,P3,Closed,Platform,2026-04-20 04:00:00,Users unable to authenticate,Medium,646
+INC100570,vpn-service,P4,Closed,Security,2026-04-21 00:00:00,Inventory data synchronization failed,High,672
+INC100571,order-service,P3,Resolved,Security,2026-04-21 20:00:00,Messages delayed in processing,Critical,120
+INC100572,customer-portal,P3,Resolved,Platform,2026-04-22 16:00:00,Service returning intermittent 5xx errors,None,651
+INC100573,payment-api,P4,Closed,Security,2026-04-23 12:00:00,Messages delayed in processing,Critical,655
+INC100574,payment-api,P4,Resolved,Security,2026-04-24 08:00:00,Users unable to authenticate,Medium,718
+INC100575,customer-portal,P3,Closed,DBA,2026-04-25 04:00:00,Database connection pool exhausted,None,163
+INC100576,vpn-service,P3,Closed,DBA,2026-04-26 00:00:00,Service returning intermittent 5xx errors,Critical,420
+INC100577,inventory-service,P3,Investigating,Application Support,2026-04-26 20:00:00,Service returning intermittent 5xx errors,Low,715
+INC100578,vpn-service,P3,Resolved,Network,2026-04-27 16:00:00,Users unable to authenticate,High,650
+INC100579,payment-api,P3,Open,Network,2026-04-28 12:00:00,Database connection pool exhausted,High,439
+INC100580,payment-api,P2,Resolved,DBA,2026-04-29 08:00:00,Database connection pool exhausted,None,149
+INC100581,data-platform,P4,Resolved,Application Support,2026-04-30 04:00:00,API latency increased significantly,Low,69
+INC100582,payment-api,P4,Closed,Security,2026-05-01 00:00:00,VPN connections failing after password reset,High,194
+INC100583,payment-api,P4,Investigating,SRE,2026-05-01 20:00:00,Messages delayed in processing,Low,56
+INC100584,order-service,P4,Closed,Network,2026-05-02 16:00:00,Messages delayed in processing,None,148
+INC100585,vpn-service,P4,Resolved,Security,2026-05-03 12:00:00,VPN connections failing after password reset,None,63
+INC100586,notification-service,P4,Resolved,Platform,2026-05-04 08:00:00,VPN connections failing after password reset,Critical,551
+INC100587,payment-api,P4,Resolved,Application Support,2026-05-05 04:00:00,Database connection pool exhausted,None,428
+INC100588,data-platform,P3,Closed,Security,2026-05-06 00:00:00,Users unable to authenticate,None,377
+INC100589,data-platform,P3,Closed,Application Support,2026-05-06 20:00:00,Database connection pool exhausted,Medium,584
+INC100590,data-platform,P2,Resolved,SRE,2026-05-07 16:00:00,Service returning intermittent 5xx errors,None,301
+INC100591,vpn-service,P3,Closed,DBA,2026-05-08 12:00:00,Application deployment caused errors,High,296
+INC100592,auth-service,P2,Closed,DBA,2026-05-09 08:00:00,API latency increased significantly,Medium,156
+INC100593,vpn-service,P2,Resolved,DBA,2026-05-10 04:00:00,Inventory data synchronization failed,High,325
+INC100594,customer-portal,P3,Closed,Application Support,2026-05-11 00:00:00,Application deployment caused errors,Medium,133
+INC100595,data-platform,P3,Resolved,Network,2026-05-11 20:00:00,Database connection pool exhausted,High,428
+INC100596,inventory-service,P2,Open,DBA,2026-05-12 16:00:00,Inventory data synchronization failed,High,718
+INC100597,data-platform,P4,Closed,Security,2026-05-13 12:00:00,Database connection pool exhausted,Medium,388
+INC100598,notification-service,P4,Investigating,Security,2026-05-14 08:00:00,Users unable to authenticate,None,222
+INC100599,notification-service,P2,Resolved,Security,2026-05-15 04:00:00,Service returning intermittent 5xx errors,Low,498
+INC100600,inventory-service,P1,Closed,Network,2026-05-16 00:00:00,Users unable to authenticate,None,592
+INC100601,data-platform,P3,Investigating,Application Support,2026-05-16 20:00:00,Application deployment caused errors,None,344
+INC100602,notification-service,P4,Closed,SRE,2026-05-17 16:00:00,Database connection pool exhausted,Low,187
+INC100603,auth-service,P4,Closed,Network,2026-05-18 12:00:00,API latency increased significantly,Low,516
+INC100604,data-platform,P2,Closed,DBA,2026-05-19 08:00:00,Database connection pool exhausted,None,142
+INC100605,inventory-service,P4,Closed,SRE,2026-05-20 04:00:00,API latency increased significantly,Low,718
+INC100606,customer-portal,P2,Closed,Network,2026-05-21 00:00:00,Inventory data synchronization failed,Medium,235
+INC100607,inventory-service,P3,Closed,DBA,2026-05-21 20:00:00,Application deployment caused errors,None,258
+INC100608,vpn-service,P4,Resolved,DBA,2026-05-22 16:00:00,Service returning intermittent 5xx errors,Low,526
+INC100609,data-platform,P2,Investigating,SRE,2026-05-23 12:00:00,Messages delayed in processing,None,18
+INC100610,data-platform,P2,Closed,Platform,2026-05-24 08:00:00,API latency increased significantly,None,154
+INC100611,order-service,P3,Closed,Platform,2026-05-25 04:00:00,Service returning intermittent 5xx errors,None,99
+INC100612,data-platform,P3,Investigating,DBA,2026-05-26 00:00:00,Application deployment caused errors,Medium,287
+INC100613,order-service,P4,Closed,Platform,2026-05-26 20:00:00,Service returning intermittent 5xx errors,High,402
+INC100614,notification-service,P4,Open,DBA,2026-05-27 16:00:00,Users unable to authenticate,High,137
+INC100615,notification-service,P1,Closed,Security,2026-05-28 12:00:00,Service returning intermittent 5xx errors,High,254
+INC100616,auth-service,P2,Resolved,Security,2026-05-29 08:00:00,Database connection pool exhausted,High,558
+INC100617,customer-portal,P4,Open,Platform,2026-05-30 04:00:00,VPN connections failing after password reset,Critical,677
+INC100618,payment-api,P2,Investigating,Application Support,2026-05-31 00:00:00,API latency increased significantly,Low,20
+INC100619,auth-service,P4,Resolved,SRE,2026-05-31 20:00:00,Service returning intermittent 5xx errors,High,455
+INC100620,order-service,P3,Resolved,SRE,2026-06-01 16:00:00,Service returning intermittent 5xx errors,Critical,28
+INC100621,order-service,P2,Open,SRE,2026-06-02 12:00:00,Application deployment caused errors,Medium,379
+INC100622,auth-service,P4,Resolved,Platform,2026-06-03 08:00:00,Inventory data synchronization failed,Critical,634
+INC100623,order-service,P2,Investigating,Application Support,2026-06-04 04:00:00,Application deployment caused errors,None,576
+INC100624,inventory-service,P3,Resolved,Platform,2026-06-05 00:00:00,VPN connections failing after password reset,Critical,175
+INC100625,auth-service,P3,Resolved,Security,2026-06-05 20:00:00,VPN connections failing after password reset,Medium,193
+INC100626,customer-portal,P3,Resolved,Network,2026-06-06 16:00:00,Inventory data synchronization failed,Low,566
+INC100627,customer-portal,P3,Resolved,SRE,2026-06-07 12:00:00,VPN connections failing after password reset,None,592
+INC100628,inventory-service,P3,Investigating,Network,2026-06-08 08:00:00,Database connection pool exhausted,High,209
+INC100629,customer-portal,P4,Open,SRE,2026-06-09 04:00:00,API latency increased significantly,Medium,12
+INC100630,notification-service,P4,Resolved,Network,2026-06-10 00:00:00,Database connection pool exhausted,Low,325
+INC100631,customer-portal,P3,Closed,DBA,2026-06-10 20:00:00,Service returning intermittent 5xx errors,Low,449
+INC100632,order-service,P2,Closed,DBA,2026-06-11 16:00:00,Users unable to authenticate,Critical,325
+INC100633,order-service,P4,Closed,Platform,2026-06-12 12:00:00,Messages delayed in processing,Medium,673
+INC100634,auth-service,P4,Closed,Security,2026-06-13 08:00:00,Inventory data synchronization failed,None,587
+INC100635,notification-service,P3,Closed,DBA,2026-06-14 04:00:00,Service returning intermittent 5xx errors,Low,569
+INC100636,auth-service,P3,Resolved,Platform,2026-06-15 00:00:00,Service returning intermittent 5xx errors,None,24
+INC100637,customer-portal,P3,Closed,Network,2026-06-15 20:00:00,Service returning intermittent 5xx errors,High,616
+INC100638,data-platform,P1,Closed,SRE,2026-06-16 16:00:00,Inventory data synchronization failed,Critical,546
+INC100639,vpn-service,P3,Closed,Application Support,2026-06-17 12:00:00,API latency increased significantly,Critical,291
+INC100640,notification-service,P3,Closed,Security,2026-06-18 08:00:00,API latency increased significantly,High,428
+INC100641,vpn-service,P4,Resolved,Platform,2026-06-19 04:00:00,Service returning intermittent 5xx errors,High,595
+INC100642,data-platform,P4,Closed,Security,2026-06-20 00:00:00,Application deployment caused errors,Medium,653
+INC100643,order-service,P4,Closed,Security,2026-06-20 20:00:00,Database connection pool exhausted,High,401
+INC100644,data-platform,P3,Resolved,DBA,2026-06-21 16:00:00,Inventory data synchronization failed,None,39
+INC100645,customer-portal,P3,Closed,SRE,2026-06-22 12:00:00,Messages delayed in processing,Medium,449
+INC100646,order-service,P4,Investigating,Application Support,2026-06-23 08:00:00,Users unable to authenticate,Medium,492
+INC100647,inventory-service,P4,Closed,Application Support,2026-06-24 04:00:00,Inventory data synchronization failed,None,51
+INC100648,vpn-service,P3,Closed,Application Support,2026-06-25 00:00:00,VPN connections failing after password reset,Medium,590
+INC100649,data-platform,P4,Investigating,Application Support,2026-06-25 20:00:00,VPN connections failing after password reset,High,153
+INC100650,order-service,P2,Closed,Application Support,2026-06-26 16:00:00,Users unable to authenticate,Low,642
+INC100651,notification-service,P4,Open,Security,2026-06-27 12:00:00,Inventory data synchronization failed,Medium,401
+INC100652,auth-service,P2,Closed,SRE,2026-06-28 08:00:00,Application deployment caused errors,Low,238
+INC100653,data-platform,P2,Closed,Network,2026-06-29 04:00:00,Database connection pool exhausted,Low,51
+INC100654,inventory-service,P3,Closed,Platform,2026-06-30 00:00:00,Service returning intermittent 5xx errors,None,22
+INC100655,inventory-service,P1,Closed,Platform,2026-06-30 20:00:00,Inventory data synchronization failed,Low,536
+INC100656,data-platform,P1,Investigating,Security,2026-07-01 16:00:00,Application deployment caused errors,Critical,277
+INC100657,notification-service,P1,Resolved,Security,2026-07-02 12:00:00,VPN connections failing after password reset,Critical,606
+INC100658,payment-api,P3,Resolved,DBA,2026-07-03 08:00:00,VPN connections failing after password reset,High,173
+INC100659,customer-portal,P4,Open,Security,2026-07-04 04:00:00,Users unable to authenticate,High,663
+INC100660,auth-service,P1,Resolved,SRE,2026-07-05 00:00:00,Service returning intermittent 5xx errors,High,678
+INC100661,notification-service,P3,Resolved,Platform,2026-07-05 20:00:00,Application deployment caused errors,Medium,82
+INC100662,payment-api,P4,Resolved,Application Support,2026-07-06 16:00:00,Database connection pool exhausted,Medium,469
+INC100663,auth-service,P2,Resolved,Network,2026-07-07 12:00:00,API latency increased significantly,High,677
+INC100664,inventory-service,P2,Closed,DBA,2026-07-08 08:00:00,Messages delayed in processing,High,239
+INC100665,notification-service,P4,Resolved,Network,2026-07-09 04:00:00,Service returning intermittent 5xx errors,Medium,58
+INC100666,inventory-service,P4,Closed,Platform,2026-07-10 00:00:00,Service returning intermittent 5xx errors,Medium,631
+INC100667,data-platform,P3,Resolved,Security,2026-07-10 20:00:00,Users unable to authenticate,Medium,346
+INC100668,vpn-service,P4,Resolved,Security,2026-07-11 16:00:00,Database connection pool exhausted,Low,29
+INC100669,auth-service,P2,Closed,Security,2026-07-12 12:00:00,API latency increased significantly,Low,606
+INC100670,vpn-service,P3,Resolved,Network,2026-07-13 08:00:00,Users unable to authenticate,None,491
+INC100671,inventory-service,P4,Resolved,DBA,2026-07-14 04:00:00,API latency increased significantly,Medium,59
+INC100672,notification-service,P2,Closed,Application Support,2026-07-15 00:00:00,API latency increased significantly,High,193
+INC100673,payment-api,P4,Investigating,DBA,2026-07-15 20:00:00,VPN connections failing after password reset,High,22
+INC100674,inventory-service,P3,Resolved,Network,2026-07-16 16:00:00,VPN connections failing after password reset,Critical,687
+INC100675,notification-service,P4,Closed,Platform,2026-07-17 12:00:00,Application deployment caused errors,None,27
+INC100676,inventory-service,P3,Resolved,DBA,2026-07-18 08:00:00,Inventory data synchronization failed,High,575
+INC100677,payment-api,P3,Closed,Network,2026-07-19 04:00:00,API latency increased significantly,High,373
+INC100678,inventory-service,P2,Resolved,DBA,2026-07-20 00:00:00,Application deployment caused errors,Medium,423
+INC100679,vpn-service,P2,Closed,SRE,2026-07-20 20:00:00,VPN connections failing after password reset,Low,586
+INC100680,notification-service,P4,Closed,Platform,2026-07-21 16:00:00,Users unable to authenticate,Low,645
+INC100681,auth-service,P2,Closed,Security,2026-07-22 12:00:00,API latency increased significantly,High,100
+INC100682,vpn-service,P2,Closed,Network,2026-07-23 08:00:00,Messages delayed in processing,Critical,22
+INC100683,vpn-service,P2,Investigating,Network,2026-07-24 04:00:00,Inventory data synchronization failed,High,98
+INC100684,auth-service,P2,Closed,DBA,2026-07-25 00:00:00,API latency increased significantly,Medium,494
+INC100685,data-platform,P4,Investigating,Network,2026-07-25 20:00:00,Users unable to authenticate,High,413
+INC100686,order-service,P3,Closed,Security,2026-07-26 16:00:00,Users unable to authenticate,None,69
+INC100687,inventory-service,P4,Closed,Platform,2026-07-27 12:00:00,Service returning intermittent 5xx errors,High,176
+INC100688,order-service,P2,Resolved,Security,2026-07-28 08:00:00,Messages delayed in processing,None,391
+INC100689,data-platform,P3,Closed,Platform,2026-07-29 04:00:00,VPN connections failing after password reset,Critical,528
+INC100690,vpn-service,P3,Investigating,Network,2026-07-30 00:00:00,Database connection pool exhausted,Critical,253
+INC100691,data-platform,P3,Closed,DBA,2026-07-30 20:00:00,Messages delayed in processing,Medium,684
+INC100692,vpn-service,P4,Closed,Application Support,2026-07-31 16:00:00,Inventory data synchronization failed,Low,714
+INC100693,vpn-service,P4,Open,Platform,2026-08-01 12:00:00,Inventory data synchronization failed,High,553
+INC100694,payment-api,P4,Closed,DBA,2026-08-02 08:00:00,Users unable to authenticate,High,332
+INC100695,customer-portal,P2,Closed,SRE,2026-08-03 04:00:00,VPN connections failing after password reset,High,632
+INC100696,notification-service,P2,Open,SRE,2026-08-04 00:00:00,Application deployment caused errors,Medium,526
+INC100697,inventory-service,P3,Closed,Security,2026-08-04 20:00:00,Inventory data synchronization failed,Low,378
+INC100698,payment-api,P2,Resolved,Security,2026-08-05 16:00:00,API latency increased significantly,None,325
+INC100699,payment-api,P4,Closed,Network,2026-08-06 12:00:00,Database connection pool exhausted,Low,600
+INC100700,inventory-service,P3,Investigating,DBA,2026-08-07 08:00:00,Application deployment caused errors,Medium,405
+INC100701,inventory-service,P3,Closed,Network,2026-08-08 04:00:00,Service returning intermittent 5xx errors,Medium,139
+INC100702,auth-service,P4,Closed,Platform,2026-08-09 00:00:00,VPN connections failing after password reset,Medium,719
+INC100703,auth-service,P4,Investigating,Network,2026-08-09 20:00:00,Service returning intermittent 5xx errors,Low,58
+INC100704,auth-service,P1,Resolved,Platform,2026-08-10 16:00:00,Application deployment caused errors,Critical,503
+INC100705,inventory-service,P1,Closed,Security,2026-08-11 12:00:00,Service returning intermittent 5xx errors,Low,475
+INC100706,payment-api,P3,Closed,Network,2026-08-12 08:00:00,Service returning intermittent 5xx errors,Critical,426
+INC100707,inventory-service,P3,Resolved,Platform,2026-08-13 04:00:00,API latency increased significantly,Low,46
+INC100708,order-service,P2,Investigating,DBA,2026-08-14 00:00:00,Users unable to authenticate,Medium,359
+INC100709,order-service,P3,Investigating,Security,2026-08-14 20:00:00,Database connection pool exhausted,High,643
+INC100710,notification-service,P4,Closed,Platform,2026-08-15 16:00:00,API latency increased significantly,Low,180
+INC100711,inventory-service,P4,Closed,Application Support,2026-08-16 12:00:00,API latency increased significantly,Low,501
+INC100712,notification-service,P3,Closed,Network,2026-08-17 08:00:00,VPN connections failing after password reset,Low,619
+INC100713,data-platform,P3,Closed,DBA,2026-08-18 04:00:00,VPN connections failing after password reset,Critical,686
+INC100714,vpn-service,P2,Closed,Application Support,2026-08-19 00:00:00,Application deployment caused errors,None,376
+INC100715,data-platform,P3,Investigating,Network,2026-08-19 20:00:00,Database connection pool exhausted,Medium,232
+INC100716,inventory-service,P3,Investigating,Platform,2026-08-20 16:00:00,VPN connections failing after password reset,High,506
+INC100717,order-service,P3,Closed,Security,2026-08-21 12:00:00,Messages delayed in processing,High,355
+INC100718,auth-service,P3,Closed,SRE,2026-08-22 08:00:00,Users unable to authenticate,Medium,455
+INC100719,inventory-service,P1,Resolved,Network,2026-08-23 04:00:00,Messages delayed in processing,None,536
+INC100720,auth-service,P1,Resolved,Application Support,2026-08-24 00:00:00,Inventory data synchronization failed,None,514
+INC100721,vpn-service,P2,Closed,Network,2026-08-24 20:00:00,API latency increased significantly,Medium,182
+INC100722,data-platform,P4,Resolved,Security,2026-08-25 16:00:00,Users unable to authenticate,Critical,546
+INC100723,payment-api,P3,Investigating,DBA,2026-08-26 12:00:00,API latency increased significantly,None,394
+INC100724,data-platform,P2,Closed,Platform,2026-08-27 08:00:00,API latency increased significantly,Critical,670
+INC100725,payment-api,P4,Resolved,Platform,2026-08-28 04:00:00,VPN connections failing after password reset,High,478
+INC100726,notification-service,P3,Closed,DBA,2026-08-29 00:00:00,Inventory data synchronization failed,None,643
+INC100727,payment-api,P3,Open,SRE,2026-08-29 20:00:00,VPN connections failing after password reset,Low,704
+INC100728,order-service,P4,Open,Network,2026-08-30 16:00:00,Users unable to authenticate,Low,716
+INC100729,notification-service,P1,Closed,Network,2026-08-31 12:00:00,API latency increased significantly,Critical,538
+INC100730,notification-service,P2,Resolved,Application Support,2026-09-01 08:00:00,Messages delayed in processing,Medium,434
+INC100731,order-service,P3,Closed,SRE,2026-09-02 04:00:00,API latency increased significantly,Low,93
+INC100732,vpn-service,P2,Investigating,Application Support,2026-09-03 00:00:00,VPN connections failing after password reset,Low,284
+INC100733,data-platform,P3,Closed,Network,2026-09-03 20:00:00,Messages delayed in processing,Medium,347
+INC100734,auth-service,P2,Closed,DBA,2026-09-04 16:00:00,API latency increased significantly,None,564
+INC100735,notification-service,P2,Closed,DBA,2026-09-05 12:00:00,Messages delayed in processing,Low,428
+INC100736,notification-service,P2,Investigating,Platform,2026-09-06 08:00:00,Database connection pool exhausted,None,321
+INC100737,customer-portal,P3,Resolved,Application Support,2026-09-07 04:00:00,Users unable to authenticate,High,114
+INC100738,notification-service,P2,Resolved,Platform,2026-09-08 00:00:00,API latency increased significantly,High,518
+INC100739,vpn-service,P2,Closed,SRE,2026-09-08 20:00:00,Database connection pool exhausted,Medium,316
+INC100740,data-platform,P4,Resolved,Security,2026-09-09 16:00:00,Service returning intermittent 5xx errors,None,35
+INC100741,data-platform,P3,Open,DBA,2026-09-10 12:00:00,Application deployment caused errors,Low,211
+INC100742,notification-service,P3,Resolved,Application Support,2026-09-11 08:00:00,VPN connections failing after password reset,Critical,634
+INC100743,customer-portal,P1,Resolved,Network,2026-09-12 04:00:00,Service returning intermittent 5xx errors,Low,94
+INC100744,data-platform,P3,Resolved,SRE,2026-09-13 00:00:00,Inventory data synchronization failed,None,298
+INC100745,customer-portal,P2,Investigating,SRE,2026-09-13 20:00:00,Inventory data synchronization failed,None,373
+INC100746,inventory-service,P3,Resolved,Network,2026-09-14 16:00:00,Service returning intermittent 5xx errors,Critical,69
+INC100747,customer-portal,P2,Closed,Platform,2026-09-15 12:00:00,Users unable to authenticate,None,127
+INC100748,customer-portal,P4,Resolved,Application Support,2026-09-16 08:00:00,API latency increased significantly,Medium,677
+INC100749,auth-service,P4,Resolved,SRE,2026-09-17 04:00:00,VPN connections failing after password reset,Critical,429
+INC100750,vpn-service,P2,Closed,Application Support,2026-09-18 00:00:00,Messages delayed in processing,High,159
+INC100751,auth-service,P2,Closed,Platform,2026-09-18 20:00:00,Database connection pool exhausted,Medium,130
+INC100752,payment-api,P2,Resolved,SRE,2026-09-19 16:00:00,VPN connections failing after password reset,Low,312
+INC100753,vpn-service,P3,Closed,Platform,2026-09-20 12:00:00,Service returning intermittent 5xx errors,None,523
+INC100754,inventory-service,P2,Closed,SRE,2026-09-21 08:00:00,Messages delayed in processing,None,528
+INC100755,order-service,P4,Closed,Network,2026-09-22 04:00:00,Application deployment caused errors,Critical,148
+INC100756,notification-service,P4,Closed,Platform,2026-09-23 00:00:00,VPN connections failing after password reset,None,525
+INC100757,order-service,P4,Closed,DBA,2026-09-23 20:00:00,Database connection pool exhausted,None,646
+INC100758,auth-service,P3,Open,DBA,2026-09-24 16:00:00,API latency increased significantly,Critical,170
+INC100759,notification-service,P4,Resolved,SRE,2026-09-25 12:00:00,Application deployment caused errors,Medium,28
+INC100760,auth-service,P1,Closed,SRE,2026-09-26 08:00:00,Service returning intermittent 5xx errors,Low,690
+INC100761,inventory-service,P3,Closed,SRE,2026-09-27 04:00:00,API latency increased significantly,High,380
+INC100762,vpn-service,P3,Closed,Platform,2026-09-28 00:00:00,Users unable to authenticate,Medium,561
+INC100763,vpn-service,P4,Investigating,SRE,2026-09-28 20:00:00,Inventory data synchronization failed,Critical,237
+INC100764,customer-portal,P3,Closed,Platform,2026-09-29 16:00:00,Database connection pool exhausted,Medium,222
+INC100765,data-platform,P4,Investigating,DBA,2026-09-30 12:00:00,Application deployment caused errors,High,169
+INC100766,inventory-service,P2,Closed,Platform,2026-10-01 08:00:00,Messages delayed in processing,Critical,164
+INC100767,order-service,P4,Closed,Platform,2026-10-02 04:00:00,VPN connections failing after password reset,Medium,344
+INC100768,auth-service,P3,Closed,Network,2026-10-03 00:00:00,VPN connections failing after password reset,Low,85
+INC100769,order-service,P3,Closed,DBA,2026-10-03 20:00:00,Users unable to authenticate,Critical,607
+INC100770,notification-service,P4,Closed,Platform,2026-10-04 16:00:00,VPN connections failing after password reset,Low,372
+INC100771,vpn-service,P3,Closed,Platform,2026-10-05 12:00:00,Messages delayed in processing,None,659
+INC100772,payment-api,P3,Closed,Network,2026-10-06 08:00:00,Application deployment caused errors,Medium,366
+INC100773,notification-service,P3,Closed,SRE,2026-10-07 04:00:00,VPN connections failing after password reset,Critical,225
+INC100774,data-platform,P2,Closed,Network,2026-10-08 00:00:00,Application deployment caused errors,None,375
+INC100775,vpn-service,P3,Open,Application Support,2026-10-08 20:00:00,Application deployment caused errors,Critical,119
+INC100776,order-service,P2,Closed,Network,2026-10-09 16:00:00,VPN connections failing after password reset,Critical,595
+INC100777,payment-api,P2,Resolved,SRE,2026-10-10 12:00:00,Database connection pool exhausted,Critical,521
+INC100778,customer-portal,P4,Closed,Security,2026-10-11 08:00:00,Users unable to authenticate,Medium,114
+INC100779,data-platform,P3,Closed,SRE,2026-10-12 04:00:00,API latency increased significantly,Low,423
+INC100780,vpn-service,P3,Resolved,Platform,2026-10-13 00:00:00,Application deployment caused errors,Medium,391
+INC100781,notification-service,P3,Investigating,SRE,2026-10-13 20:00:00,Users unable to authenticate,None,152
+INC100782,payment-api,P3,Resolved,Application Support,2026-10-14 16:00:00,Database connection pool exhausted,Critical,96
+INC100783,payment-api,P3,Closed,Application Support,2026-10-15 12:00:00,Messages delayed in processing,High,549
+INC100784,order-service,P4,Resolved,DBA,2026-10-16 08:00:00,Users unable to authenticate,Medium,197
+INC100785,inventory-service,P4,Investigating,DBA,2026-10-17 04:00:00,Application deployment caused errors,Medium,378
+INC100786,payment-api,P3,Closed,DBA,2026-10-18 00:00:00,Messages delayed in processing,High,185
+INC100787,notification-service,P3,Closed,DBA,2026-10-18 20:00:00,Service returning intermittent 5xx errors,Medium,473
+INC100788,inventory-service,P3,Investigating,DBA,2026-10-19 16:00:00,Users unable to authenticate,Critical,44
+INC100789,payment-api,P3,Resolved,Application Support,2026-10-20 12:00:00,Messages delayed in processing,Critical,265
+INC100790,payment-api,P3,Closed,Security,2026-10-21 08:00:00,Inventory data synchronization failed,Critical,398
+INC100791,order-service,P3,Closed,SRE,2026-10-22 04:00:00,Application deployment caused errors,High,321
+INC100792,notification-service,P3,Closed,Network,2026-10-23 00:00:00,Inventory data synchronization failed,High,444
+INC100793,data-platform,P3,Resolved,Application Support,2026-10-23 20:00:00,Service returning intermittent 5xx errors,Low,138
+INC100794,order-service,P3,Resolved,Network,2026-10-24 16:00:00,Messages delayed in processing,None,323
+INC100795,customer-portal,P3,Open,Platform,2026-10-25 12:00:00,Service returning intermittent 5xx errors,Medium,547
+INC100796,vpn-service,P2,Closed,Application Support,2026-10-26 08:00:00,Service returning intermittent 5xx errors,Critical,246
+INC100797,order-service,P2,Open,DBA,2026-10-27 04:00:00,Messages delayed in processing,None,121
+INC100798,customer-portal,P4,Open,DBA,2026-10-28 00:00:00,Database connection pool exhausted,Medium,611
+INC100799,order-service,P3,Closed,Network,2026-10-28 20:00:00,Messages delayed in processing,None,562
+INC100800,payment-api,P2,Closed,SRE,2026-10-29 16:00:00,Inventory data synchronization failed,Medium,493
+INC100801,customer-portal,P3,Closed,Network,2026-10-30 12:00:00,Service returning intermittent 5xx errors,None,576
+INC100802,inventory-service,P4,Closed,Network,2026-10-31 08:00:00,VPN connections failing after password reset,High,562
+INC100803,vpn-service,P2,Closed,Application Support,2026-11-01 04:00:00,Inventory data synchronization failed,Critical,540
+INC100804,notification-service,P4,Resolved,Platform,2026-11-02 00:00:00,Database connection pool exhausted,High,371
+INC100805,data-platform,P4,Resolved,SRE,2026-11-02 20:00:00,VPN connections failing after password reset,High,23
+INC100806,inventory-service,P3,Closed,Network,2026-11-03 16:00:00,Database connection pool exhausted,Low,433
+INC100807,payment-api,P3,Resolved,Application Support,2026-11-04 12:00:00,Application deployment caused errors,Medium,203
+INC100808,order-service,P1,Closed,Network,2026-11-05 08:00:00,Service returning intermittent 5xx errors,None,559
+INC100809,vpn-service,P4,Closed,Network,2026-11-06 04:00:00,Application deployment caused errors,Low,342
+INC100810,payment-api,P3,Closed,Security,2026-11-07 00:00:00,Inventory data synchronization failed,Medium,652
+INC100811,vpn-service,P4,Open,DBA,2026-11-07 20:00:00,Inventory data synchronization failed,High,432
+INC100812,notification-service,P3,Resolved,Platform,2026-11-08 16:00:00,Database connection pool exhausted,None,400
+INC100813,customer-portal,P1,Investigating,Application Support,2026-11-09 12:00:00,VPN connections failing after password reset,Critical,662
+INC100814,data-platform,P1,Resolved,DBA,2026-11-10 08:00:00,API latency increased significantly,Medium,347
+INC100815,data-platform,P3,Resolved,SRE,2026-11-11 04:00:00,API latency increased significantly,Critical,276
+INC100816,payment-api,P3,Investigating,Network,2026-11-12 00:00:00,Application deployment caused errors,Medium,273
+INC100817,payment-api,P1,Closed,Application Support,2026-11-12 20:00:00,VPN connections failing after password reset,Medium,631
+INC100818,notification-service,P4,Closed,Network,2026-11-13 16:00:00,Messages delayed in processing,High,546
+INC100819,vpn-service,P4,Closed,DBA,2026-11-14 12:00:00,Service returning intermittent 5xx errors,Critical,126
+INC100820,payment-api,P3,Open,DBA,2026-11-15 08:00:00,Inventory data synchronization failed,None,359
+INC100821,notification-service,P3,Open,Security,2026-11-16 04:00:00,Messages delayed in processing,Medium,273
+INC100822,auth-service,P1,Resolved,Application Support,2026-11-17 00:00:00,Application deployment caused errors,None,469
+INC100823,notification-service,P4,Investigating,SRE,2026-11-17 20:00:00,Users unable to authenticate,Medium,47
+INC100824,inventory-service,P3,Resolved,DBA,2026-11-18 16:00:00,VPN connections failing after password reset,Critical,517
+INC100825,payment-api,P4,Closed,DBA,2026-11-19 12:00:00,VPN connections failing after password reset,Critical,537
+INC100826,notification-service,P3,Resolved,SRE,2026-11-20 08:00:00,VPN connections failing after password reset,Low,170
+INC100827,vpn-service,P3,Investigating,Security,2026-11-21 04:00:00,Service returning intermittent 5xx errors,Low,116
+INC100828,data-platform,P2,Closed,SRE,2026-11-22 00:00:00,Database connection pool exhausted,Medium,455
+INC100829,payment-api,P2,Closed,Network,2026-11-22 20:00:00,API latency increased significantly,Low,192
+INC100830,auth-service,P4,Closed,Platform,2026-11-23 16:00:00,VPN connections failing after password reset,None,678
+INC100831,auth-service,P3,Resolved,SRE,2026-11-24 12:00:00,Users unable to authenticate,Low,560
+INC100832,order-service,P3,Closed,Security,2026-11-25 08:00:00,Database connection pool exhausted,Medium,688
+INC100833,auth-service,P4,Investigating,Platform,2026-11-26 04:00:00,VPN connections failing after password reset,Medium,389
+INC100834,data-platform,P4,Resolved,Platform,2026-11-27 00:00:00,Service returning intermittent 5xx errors,Critical,676
+INC100835,data-platform,P4,Closed,Application Support,2026-11-27 20:00:00,Inventory data synchronization failed,Medium,19
+INC100836,data-platform,P2,Closed,Application Support,2026-11-28 16:00:00,Messages delayed in processing,Low,215
+INC100837,auth-service,P3,Resolved,SRE,2026-11-29 12:00:00,Service returning intermittent 5xx errors,High,11
+INC100838,payment-api,P4,Closed,Platform,2026-11-30 08:00:00,Service returning intermittent 5xx errors,High,491
+INC100839,vpn-service,P3,Open,Security,2026-12-01 04:00:00,Inventory data synchronization failed,Medium,372
+INC100840,customer-portal,P2,Investigating,Security,2026-12-02 00:00:00,API latency increased significantly,Medium,214
+INC100841,notification-service,P4,Open,Application Support,2026-12-02 20:00:00,Inventory data synchronization failed,Low,226
+INC100842,vpn-service,P3,Closed,DBA,2026-12-03 16:00:00,Database connection pool exhausted,Critical,467
+INC100843,payment-api,P3,Resolved,SRE,2026-12-04 12:00:00,API latency increased significantly,Critical,138
+INC100844,payment-api,P4,Closed,Application Support,2026-12-05 08:00:00,API latency increased significantly,None,375
+INC100845,payment-api,P3,Open,SRE,2026-12-06 04:00:00,Messages delayed in processing,Low,445
+INC100846,auth-service,P3,Closed,SRE,2026-12-07 00:00:00,Service returning intermittent 5xx errors,Low,180
+INC100847,payment-api,P3,Closed,Security,2026-12-07 20:00:00,Database connection pool exhausted,Critical,172
+INC100848,data-platform,P3,Investigating,DBA,2026-12-08 16:00:00,API latency increased significantly,None,261
+INC100849,inventory-service,P2,Open,SRE,2026-12-09 12:00:00,Users unable to authenticate,Low,430
+INC100850,vpn-service,P4,Open,Platform,2026-12-10 08:00:00,API latency increased significantly,Low,190
+INC100851,data-platform,P4,Closed,DBA,2026-12-11 04:00:00,VPN connections failing after password reset,Medium,279
+INC100852,vpn-service,P2,Resolved,Platform,2026-12-12 00:00:00,Messages delayed in processing,Low,395
+INC100853,auth-service,P3,Closed,Security,2026-12-12 20:00:00,Service returning intermittent 5xx errors,Medium,142
+INC100854,customer-portal,P4,Resolved,Network,2026-12-13 16:00:00,Inventory data synchronization failed,High,413
+INC100855,data-platform,P1,Closed,DBA,2026-12-14 12:00:00,Application deployment caused errors,Critical,108
+INC100856,auth-service,P3,Closed,Network,2026-12-15 08:00:00,Messages delayed in processing,None,111
+INC100857,payment-api,P3,Closed,Network,2026-12-16 04:00:00,Application deployment caused errors,None,178
+INC100858,notification-service,P3,Closed,Network,2026-12-17 00:00:00,Database connection pool exhausted,None,213
+INC100859,data-platform,P2,Investigating,Security,2026-12-17 20:00:00,Inventory data synchronization failed,Critical,31
+INC100860,vpn-service,P3,Closed,DBA,2026-12-18 16:00:00,Messages delayed in processing,High,692
+INC100861,vpn-service,P3,Open,DBA,2026-12-19 12:00:00,VPN connections failing after password reset,Medium,228
+INC100862,payment-api,P3,Closed,DBA,2026-12-20 08:00:00,Users unable to authenticate,High,581
+INC100863,data-platform,P1,Closed,Platform,2026-12-21 04:00:00,VPN connections failing after password reset,Medium,650
+INC100864,data-platform,P3,Closed,Application Support,2026-12-22 00:00:00,Application deployment caused errors,Low,578
+INC100865,notification-service,P3,Closed,DBA,2026-12-22 20:00:00,Application deployment caused errors,Medium,600
+INC100866,data-platform,P2,Resolved,Security,2026-12-23 16:00:00,Database connection pool exhausted,High,81
+INC100867,data-platform,P2,Resolved,Application Support,2026-12-24 12:00:00,Users unable to authenticate,None,274
+INC100868,order-service,P2,Resolved,Application Support,2026-12-25 08:00:00,Messages delayed in processing,High,539
+INC100869,payment-api,P3,Closed,Security,2026-12-26 04:00:00,Service returning intermittent 5xx errors,Medium,418
+INC100870,order-service,P2,Closed,Security,2026-12-27 00:00:00,Users unable to authenticate,None,14
+INC100871,auth-service,P4,Resolved,Network,2026-12-27 20:00:00,VPN connections failing after password reset,Low,412
+INC100872,payment-api,P3,Resolved,Security,2026-12-28 16:00:00,Application deployment caused errors,Medium,581
+INC100873,payment-api,P4,Resolved,Platform,2026-12-29 12:00:00,API latency increased significantly,Low,598
+INC100874,notification-service,P4,Resolved,Security,2026-12-30 08:00:00,Database connection pool exhausted,Low,282
+INC100875,inventory-service,P2,Investigating,SRE,2026-12-31 04:00:00,API latency increased significantly,High,177
+INC100876,inventory-service,P3,Closed,Application Support,2027-01-01 00:00:00,Database connection pool exhausted,Medium,229
+INC100877,notification-service,P4,Closed,Platform,2027-01-01 20:00:00,Service returning intermittent 5xx errors,Medium,220
+INC100878,inventory-service,P3,Investigating,DBA,2027-01-02 16:00:00,VPN connections failing after password reset,High,256
+INC100879,notification-service,P3,Closed,SRE,2027-01-03 12:00:00,VPN connections failing after password reset,None,224
+INC100880,payment-api,P3,Closed,SRE,2027-01-04 08:00:00,API latency increased significantly,Low,334
+INC100881,data-platform,P1,Resolved,Application Support,2027-01-05 04:00:00,API latency increased significantly,None,39
+INC100882,order-service,P3,Investigating,Application Support,2027-01-06 00:00:00,Inventory data synchronization failed,Critical,205
+INC100883,auth-service,P4,Open,Platform,2027-01-06 20:00:00,Users unable to authenticate,None,233
+INC100884,data-platform,P4,Open,SRE,2027-01-07 16:00:00,Service returning intermittent 5xx errors,Critical,118
+INC100885,notification-service,P1,Closed,Security,2027-01-08 12:00:00,Service returning intermittent 5xx errors,None,633
+INC100886,payment-api,P4,Closed,Application Support,2027-01-09 08:00:00,Application deployment caused errors,Low,489
+INC100887,auth-service,P3,Open,Platform,2027-01-10 04:00:00,API latency increased significantly,High,657
+INC100888,payment-api,P4,Closed,DBA,2027-01-11 00:00:00,Service returning intermittent 5xx errors,Critical,408
+INC100889,customer-portal,P1,Open,Platform,2027-01-11 20:00:00,Application deployment caused errors,None,87
+INC100890,payment-api,P4,Closed,Security,2027-01-12 16:00:00,Users unable to authenticate,Low,652
+INC100891,notification-service,P4,Closed,Network,2027-01-13 12:00:00,API latency increased significantly,Critical,335
+INC100892,inventory-service,P2,Resolved,SRE,2027-01-14 08:00:00,Service returning intermittent 5xx errors,Low,495
+INC100893,vpn-service,P1,Open,Platform,2027-01-15 04:00:00,Messages delayed in processing,Low,280
+INC100894,notification-service,P4,Closed,DBA,2027-01-16 00:00:00,Messages delayed in processing,High,360
+INC100895,inventory-service,P2,Closed,Security,2027-01-16 20:00:00,Inventory data synchronization failed,None,357
+INC100896,inventory-service,P3,Resolved,SRE,2027-01-17 16:00:00,API latency increased significantly,Critical,212
+INC100897,payment-api,P4,Investigating,Application Support,2027-01-18 12:00:00,API latency increased significantly,Critical,403
+INC100898,payment-api,P3,Investigating,DBA,2027-01-19 08:00:00,Application deployment caused errors,Critical,530
+INC100899,inventory-service,P3,Closed,Application Support,2027-01-20 04:00:00,Inventory data synchronization failed,Low,24
+INC100900,payment-api,P3,Closed,Application Support,2027-01-21 00:00:00,Service returning intermittent 5xx errors,None,102
+INC100901,payment-api,P1,Closed,SRE,2027-01-21 20:00:00,Messages delayed in processing,Medium,607
+INC100902,auth-service,P4,Closed,SRE,2027-01-22 16:00:00,Inventory data synchronization failed,Low,414
+INC100903,vpn-service,P3,Closed,Security,2027-01-23 12:00:00,VPN connections failing after password reset,Critical,701
+INC100904,order-service,P2,Closed,Platform,2027-01-24 08:00:00,Messages delayed in processing,High,439
+INC100905,notification-service,P2,Resolved,SRE,2027-01-25 04:00:00,Service returning intermittent 5xx errors,Critical,473
+INC100906,order-service,P4,Closed,Network,2027-01-26 00:00:00,Service returning intermittent 5xx errors,High,648
+INC100907,auth-service,P2,Resolved,Application Support,2027-01-26 20:00:00,Service returning intermittent 5xx errors,High,478
+INC100908,customer-portal,P4,Resolved,Security,2027-01-27 16:00:00,Users unable to authenticate,None,244
+INC100909,payment-api,P4,Closed,DBA,2027-01-28 12:00:00,Application deployment caused errors,None,384
+INC100910,data-platform,P4,Closed,Platform,2027-01-29 08:00:00,Messages delayed in processing,None,177
+INC100911,auth-service,P4,Closed,Network,2027-01-30 04:00:00,Inventory data synchronization failed,Medium,247
+INC100912,order-service,P4,Resolved,Security,2027-01-31 00:00:00,API latency increased significantly,Low,492
+INC100913,vpn-service,P4,Closed,SRE,2027-01-31 20:00:00,Application deployment caused errors,Critical,115
+INC100914,inventory-service,P2,Closed,DBA,2027-02-01 16:00:00,Users unable to authenticate,None,487
+INC100915,order-service,P4,Investigating,SRE,2027-02-02 12:00:00,Application deployment caused errors,Critical,424
+INC100916,inventory-service,P3,Resolved,Platform,2027-02-03 08:00:00,Service returning intermittent 5xx errors,High,228
+INC100917,data-platform,P3,Closed,Platform,2027-02-04 04:00:00,Service returning intermittent 5xx errors,None,41
+INC100918,customer-portal,P4,Open,Security,2027-02-05 00:00:00,Service returning intermittent 5xx errors,None,510
+INC100919,notification-service,P4,Closed,Application Support,2027-02-05 20:00:00,Inventory data synchronization failed,Low,595
+INC100920,data-platform,P4,Investigating,SRE,2027-02-06 16:00:00,API latency increased significantly,Low,528
+INC100921,inventory-service,P3,Investigating,Security,2027-02-07 12:00:00,Database connection pool exhausted,Low,308
+INC100922,order-service,P3,Closed,DBA,2027-02-08 08:00:00,Database connection pool exhausted,Medium,474
+INC100923,auth-service,P3,Investigating,Application Support,2027-02-09 04:00:00,Inventory data synchronization failed,None,304
+INC100924,auth-service,P3,Closed,Application Support,2027-02-10 00:00:00,API latency increased significantly,None,264
+INC100925,vpn-service,P3,Closed,SRE,2027-02-10 20:00:00,Service returning intermittent 5xx errors,High,242
+INC100926,inventory-service,P2,Open,Security,2027-02-11 16:00:00,Database connection pool exhausted,Critical,159
+INC100927,customer-portal,P1,Closed,DBA,2027-02-12 12:00:00,API latency increased significantly,Low,698
+INC100928,order-service,P4,Closed,SRE,2027-02-13 08:00:00,Messages delayed in processing,Critical,483
+INC100929,inventory-service,P3,Closed,Platform,2027-02-14 04:00:00,Inventory data synchronization failed,Low,134
+INC100930,inventory-service,P4,Closed,Application Support,2027-02-15 00:00:00,Service returning intermittent 5xx errors,Low,624
+INC100931,notification-service,P3,Closed,DBA,2027-02-15 20:00:00,Inventory data synchronization failed,None,117
+INC100932,customer-portal,P1,Closed,Network,2027-02-16 16:00:00,Service returning intermittent 5xx errors,Medium,431
+INC100933,notification-service,P2,Resolved,Platform,2027-02-17 12:00:00,VPN connections failing after password reset,Medium,127
+INC100934,order-service,P2,Closed,Application Support,2027-02-18 08:00:00,Database connection pool exhausted,High,266
+INC100935,vpn-service,P4,Closed,Platform,2027-02-19 04:00:00,API latency increased significantly,None,477
+INC100936,auth-service,P2,Closed,SRE,2027-02-20 00:00:00,Database connection pool exhausted,None,719
+INC100937,auth-service,P3,Closed,DBA,2027-02-20 20:00:00,API latency increased significantly,Medium,714
+INC100938,order-service,P4,Resolved,Application Support,2027-02-21 16:00:00,Inventory data synchronization failed,None,645
+INC100939,inventory-service,P4,Closed,Platform,2027-02-22 12:00:00,Application deployment caused errors,None,177
+INC100940,notification-service,P2,Closed,Platform,2027-02-23 08:00:00,Inventory data synchronization failed,High,76
+INC100941,order-service,P1,Investigating,Network,2027-02-24 04:00:00,Database connection pool exhausted,Critical,652
+INC100942,vpn-service,P2,Resolved,Platform,2027-02-25 00:00:00,VPN connections failing after password reset,Medium,665
+INC100943,order-service,P1,Closed,DBA,2027-02-25 20:00:00,Database connection pool exhausted,None,207
+INC100944,auth-service,P2,Closed,Platform,2027-02-26 16:00:00,Inventory data synchronization failed,Critical,23
+INC100945,payment-api,P3,Closed,SRE,2027-02-27 12:00:00,VPN connections failing after password reset,Medium,470
+INC100946,vpn-service,P4,Open,Platform,2027-02-28 08:00:00,Database connection pool exhausted,High,64
+INC100947,auth-service,P3,Resolved,Application Support,2027-03-01 04:00:00,Database connection pool exhausted,None,38
+INC100948,vpn-service,P3,Closed,Application Support,2027-03-02 00:00:00,Database connection pool exhausted,Medium,675
+INC100949,customer-portal,P2,Closed,DBA,2027-03-02 20:00:00,VPN connections failing after password reset,None,361
+INC100950,payment-api,P4,Closed,Network,2027-03-03 16:00:00,Messages delayed in processing,High,89
+INC100951,customer-portal,P3,Closed,Security,2027-03-04 12:00:00,Database connection pool exhausted,Low,474
+INC100952,inventory-service,P4,Closed,Platform,2027-03-05 08:00:00,Inventory data synchronization failed,Critical,272
+INC100953,order-service,P4,Closed,DBA,2027-03-06 04:00:00,Inventory data synchronization failed,None,390
+INC100954,data-platform,P3,Closed,Security,2027-03-07 00:00:00,Database connection pool exhausted,High,648
+INC100955,inventory-service,P2,Closed,Security,2027-03-07 20:00:00,Application deployment caused errors,None,178
+INC100956,order-service,P2,Closed,Platform,2027-03-08 16:00:00,Users unable to authenticate,High,469
+INC100957,notification-service,P3,Investigating,Security,2027-03-09 12:00:00,Application deployment caused errors,Medium,598
+INC100958,vpn-service,P4,Resolved,DBA,2027-03-10 08:00:00,API latency increased significantly,Critical,310
+INC100959,order-service,P3,Closed,Application Support,2027-03-11 04:00:00,VPN connections failing after password reset,High,698
+INC100960,auth-service,P4,Closed,Platform,2027-03-12 00:00:00,API latency increased significantly,Low,328
+INC100961,order-service,P3,Closed,DBA,2027-03-12 20:00:00,Database connection pool exhausted,None,336
+INC100962,data-platform,P2,Investigating,Security,2027-03-13 16:00:00,API latency increased significantly,Medium,637
+INC100963,auth-service,P3,Closed,Platform,2027-03-14 12:00:00,Messages delayed in processing,Medium,461
+INC100964,vpn-service,P3,Resolved,Security,2027-03-15 08:00:00,Service returning intermittent 5xx errors,None,626
+INC100965,inventory-service,P3,Closed,SRE,2027-03-16 04:00:00,Inventory data synchronization failed,Medium,571
+INC100966,inventory-service,P3,Closed,Security,2027-03-17 00:00:00,Application deployment caused errors,Low,515
+INC100967,customer-portal,P2,Closed,DBA,2027-03-17 20:00:00,VPN connections failing after password reset,Low,181
+INC100968,vpn-service,P4,Closed,Platform,2027-03-18 16:00:00,VPN connections failing after password reset,None,293
+INC100969,payment-api,P2,Resolved,SRE,2027-03-19 12:00:00,Messages delayed in processing,Low,623
+INC100970,customer-portal,P4,Resolved,Security,2027-03-20 08:00:00,Users unable to authenticate,Low,447
+INC100971,order-service,P2,Closed,Platform,2027-03-21 04:00:00,Messages delayed in processing,None,208
+INC100972,order-service,P2,Closed,Network,2027-03-22 00:00:00,Users unable to authenticate,Medium,242
+INC100973,order-service,P3,Closed,SRE,2027-03-22 20:00:00,Messages delayed in processing,Low,560
+INC100974,auth-service,P3,Resolved,Application Support,2027-03-23 16:00:00,API latency increased significantly,None,136
+INC100975,auth-service,P3,Open,DBA,2027-03-24 12:00:00,Messages delayed in processing,Medium,89
+INC100976,payment-api,P3,Investigating,Application Support,2027-03-25 08:00:00,Inventory data synchronization failed,None,553
+INC100977,inventory-service,P4,Investigating,SRE,2027-03-26 04:00:00,Users unable to authenticate,Critical,214
+INC100978,customer-portal,P3,Resolved,Platform,2027-03-27 00:00:00,VPN connections failing after password reset,Medium,553
+INC100979,inventory-service,P3,Closed,DBA,2027-03-27 20:00:00,Database connection pool exhausted,Critical,388
+INC100980,inventory-service,P3,Closed,DBA,2027-03-28 16:00:00,API latency increased significantly,Critical,718
+INC100981,notification-service,P1,Resolved,Security,2027-03-29 12:00:00,VPN connections failing after password reset,Critical,382
+INC100982,inventory-service,P3,Investigating,Application Support,2027-03-30 08:00:00,Application deployment caused errors,Medium,625
+INC100983,notification-service,P2,Resolved,Security,2027-03-31 04:00:00,Service returning intermittent 5xx errors,Medium,613
+INC100984,inventory-service,P3,Closed,SRE,2027-04-01 00:00:00,Application deployment caused errors,High,160
+INC100985,notification-service,P1,Resolved,Platform,2027-04-01 20:00:00,Inventory data synchronization failed,None,717
+INC100986,inventory-service,P4,Closed,Application Support,2027-04-02 16:00:00,VPN connections failing after password reset,Critical,539
+INC100987,customer-portal,P3,Closed,DBA,2027-04-03 12:00:00,VPN connections failing after password reset,Low,86
+INC100988,auth-service,P4,Investigating,Application Support,2027-04-04 08:00:00,API latency increased significantly,None,14
+INC100989,data-platform,P3,Closed,DBA,2027-04-05 04:00:00,Users unable to authenticate,Low,202
+INC100990,customer-portal,P1,Closed,SRE,2027-04-06 00:00:00,VPN connections failing after password reset,Low,21
+INC100991,inventory-service,P4,Resolved,Network,2027-04-06 20:00:00,Inventory data synchronization failed,None,263
+INC100992,auth-service,P3,Open,Security,2027-04-07 16:00:00,Users unable to authenticate,High,717
+INC100993,order-service,P4,Closed,DBA,2027-04-08 12:00:00,Messages delayed in processing,None,350
+INC100994,inventory-service,P3,Closed,SRE,2027-04-09 08:00:00,Messages delayed in processing,Critical,26
+INC100995,notification-service,P3,Closed,Platform,2027-04-10 04:00:00,Inventory data synchronization failed,Medium,360
+INC100996,inventory-service,P4,Closed,Application Support,2027-04-11 00:00:00,API latency increased significantly,High,165
+INC100997,customer-portal,P3,Resolved,Application Support,2027-04-11 20:00:00,Database connection pool exhausted,Low,617
+INC100998,vpn-service,P3,Closed,Security,2027-04-12 16:00:00,Database connection pool exhausted,None,74
+INC100999,inventory-service,P3,Closed,SRE,2027-04-13 12:00:00,Inventory data synchronization failed,None,557

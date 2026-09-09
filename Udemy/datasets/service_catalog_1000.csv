@@ -1,0 +1,1001 @@
+service_id,service_name,business_domain,owner_team,criticality,sla_hours,environment,support_window
+SRV0001,vpn-service,Infrastructure,Network,Medium,2,Production,Extended Hours
+SRV0002,payment-api,Customer Experience,Security,Medium,24,Production,Extended Hours
+SRV0003,data-platform,Payments,Security,High,8,Production,Business Hours
+SRV0004,data-platform,Identity,DBA,Critical,1,Production,24x7
+SRV0005,data-platform,Payments,DBA,High,24,Development,24x7
+SRV0006,auth-service,Commerce,DBA,High,48,Production,24x7
+SRV0007,vpn-service,Commerce,Platform,High,2,Production,Business Hours
+SRV0008,inventory-service,Payments,Platform,Low,48,Production,Extended Hours
+SRV0009,order-service,Data,Application Support,High,24,Development,24x7
+SRV0010,notification-service,Payments,DBA,High,24,Production,Business Hours
+SRV0011,customer-portal,Infrastructure,Application Support,Medium,4,Production,Business Hours
+SRV0012,customer-portal,Infrastructure,DBA,Medium,1,Development,24x7
+SRV0013,customer-portal,Infrastructure,Network,Critical,4,Production,Business Hours
+SRV0014,inventory-service,Payments,DBA,High,24,Production,Extended Hours
+SRV0015,inventory-service,Customer Experience,Security,Low,8,Production,Extended Hours
+SRV0016,auth-service,Data,Platform,Critical,8,Production,Business Hours
+SRV0017,auth-service,Customer Experience,Network,Medium,24,Development,24x7
+SRV0018,vpn-service,Infrastructure,Security,Medium,4,Production,Extended Hours
+SRV0019,inventory-service,Data,SRE,High,1,Production,24x7
+SRV0020,data-platform,Payments,SRE,Medium,48,Production,Extended Hours
+SRV0021,customer-portal,Infrastructure,SRE,High,8,Production,Extended Hours
+SRV0022,customer-portal,Commerce,DBA,High,8,Production,24x7
+SRV0023,customer-portal,Customer Experience,Platform,High,8,Development,Extended Hours
+SRV0024,inventory-service,Infrastructure,Network,Low,48,Production,24x7
+SRV0025,data-platform,Payments,SRE,High,24,Development,Business Hours
+SRV0026,inventory-service,Customer Experience,Platform,Critical,24,Staging,24x7
+SRV0027,customer-portal,Payments,SRE,Low,24,Production,24x7
+SRV0028,vpn-service,Identity,Security,High,2,Staging,Extended Hours
+SRV0029,inventory-service,Identity,Network,Low,24,Staging,Business Hours
+SRV0030,order-service,Customer Experience,Platform,Medium,48,Production,Business Hours
+SRV0031,payment-api,Payments,DBA,Medium,2,Production,Business Hours
+SRV0032,inventory-service,Customer Experience,Application Support,Medium,8,Production,Extended Hours
+SRV0033,inventory-service,Identity,Security,Medium,24,Production,Extended Hours
+SRV0034,vpn-service,Data,Application Support,Critical,8,Staging,Business Hours
+SRV0035,auth-service,Payments,Network,Low,48,Production,24x7
+SRV0036,auth-service,Commerce,Network,Low,4,Production,24x7
+SRV0037,vpn-service,Data,Platform,Low,2,Production,Business Hours
+SRV0038,inventory-service,Infrastructure,Platform,Medium,1,Production,24x7
+SRV0039,payment-api,Customer Experience,Application Support,Medium,48,Staging,24x7
+SRV0040,payment-api,Infrastructure,SRE,Medium,24,Staging,24x7
+SRV0041,order-service,Data,Application Support,Critical,8,Staging,Extended Hours
+SRV0042,inventory-service,Identity,Application Support,Medium,4,Production,Business Hours
+SRV0043,auth-service,Identity,Application Support,Medium,4,Production,Extended Hours
+SRV0044,customer-portal,Customer Experience,DBA,Medium,48,Staging,Business Hours
+SRV0045,notification-service,Data,Application Support,High,24,Production,Business Hours
+SRV0046,vpn-service,Customer Experience,SRE,Medium,48,Staging,Extended Hours
+SRV0047,order-service,Commerce,Security,Medium,24,Production,Extended Hours
+SRV0048,order-service,Commerce,DBA,High,24,Production,24x7
+SRV0049,customer-portal,Infrastructure,Application Support,Low,8,Production,24x7
+SRV0050,auth-service,Infrastructure,SRE,Medium,2,Staging,Business Hours
+SRV0051,payment-api,Identity,Application Support,Critical,8,Production,24x7
+SRV0052,data-platform,Data,DBA,Critical,24,Development,24x7
+SRV0053,payment-api,Identity,SRE,Medium,8,Production,24x7
+SRV0054,data-platform,Infrastructure,DBA,High,1,Production,Extended Hours
+SRV0055,auth-service,Payments,SRE,Medium,48,Staging,Business Hours
+SRV0056,notification-service,Infrastructure,SRE,High,24,Production,24x7
+SRV0057,vpn-service,Customer Experience,DBA,Critical,4,Production,Extended Hours
+SRV0058,notification-service,Payments,Security,High,4,Development,Business Hours
+SRV0059,notification-service,Data,SRE,Medium,1,Staging,Extended Hours
+SRV0060,customer-portal,Payments,Platform,Low,48,Production,24x7
+SRV0061,inventory-service,Commerce,Network,Low,2,Staging,Extended Hours
+SRV0062,notification-service,Commerce,DBA,Medium,4,Production,24x7
+SRV0063,order-service,Data,SRE,Medium,4,Production,Business Hours
+SRV0064,payment-api,Customer Experience,DBA,Critical,2,Production,Business Hours
+SRV0065,vpn-service,Commerce,Network,Medium,8,Production,24x7
+SRV0066,auth-service,Commerce,Application Support,Low,48,Production,Business Hours
+SRV0067,vpn-service,Payments,Platform,High,48,Production,24x7
+SRV0068,vpn-service,Customer Experience,Network,Low,8,Staging,Business Hours
+SRV0069,payment-api,Identity,SRE,High,1,Production,Extended Hours
+SRV0070,notification-service,Commerce,Application Support,Critical,48,Production,24x7
+SRV0071,notification-service,Payments,Application Support,Medium,2,Staging,Business Hours
+SRV0072,auth-service,Identity,Network,Low,48,Development,Extended Hours
+SRV0073,data-platform,Data,Network,High,4,Production,24x7
+SRV0074,payment-api,Customer Experience,Application Support,Medium,8,Development,24x7
+SRV0075,auth-service,Identity,Platform,High,4,Staging,24x7
+SRV0076,vpn-service,Data,Platform,Medium,4,Production,Business Hours
+SRV0077,notification-service,Customer Experience,Platform,Medium,1,Production,24x7
+SRV0078,payment-api,Commerce,Security,High,8,Production,Extended Hours
+SRV0079,auth-service,Identity,Platform,Medium,4,Staging,24x7
+SRV0080,customer-portal,Payments,SRE,Medium,48,Production,Business Hours
+SRV0081,payment-api,Customer Experience,SRE,Medium,4,Production,24x7
+SRV0082,auth-service,Payments,Application Support,High,48,Staging,24x7
+SRV0083,inventory-service,Identity,Application Support,Critical,2,Production,24x7
+SRV0084,payment-api,Payments,Application Support,Low,2,Production,Business Hours
+SRV0085,customer-portal,Infrastructure,Platform,Medium,1,Development,24x7
+SRV0086,customer-portal,Commerce,Network,Medium,24,Development,24x7
+SRV0087,vpn-service,Infrastructure,Network,Medium,1,Staging,Business Hours
+SRV0088,vpn-service,Data,DBA,Medium,2,Production,Business Hours
+SRV0089,data-platform,Payments,SRE,High,48,Production,24x7
+SRV0090,customer-portal,Identity,DBA,Medium,8,Production,Business Hours
+SRV0091,inventory-service,Payments,SRE,Medium,8,Production,Business Hours
+SRV0092,inventory-service,Payments,Platform,Critical,24,Production,Extended Hours
+SRV0093,data-platform,Commerce,Platform,Critical,24,Development,Business Hours
+SRV0094,notification-service,Identity,Security,Medium,48,Staging,Extended Hours
+SRV0095,vpn-service,Payments,Application Support,Low,8,Production,24x7
+SRV0096,inventory-service,Commerce,Security,Medium,4,Production,24x7
+SRV0097,vpn-service,Commerce,Network,Critical,1,Production,Business Hours
+SRV0098,notification-service,Customer Experience,DBA,Low,4,Production,24x7
+SRV0099,notification-service,Data,DBA,Critical,24,Staging,Extended Hours
+SRV0100,notification-service,Commerce,SRE,High,2,Production,Business Hours
+SRV0101,customer-portal,Commerce,Application Support,Low,24,Staging,Business Hours
+SRV0102,inventory-service,Payments,Application Support,Medium,1,Production,Business Hours
+SRV0103,customer-portal,Commerce,Platform,Low,1,Production,24x7
+SRV0104,notification-service,Data,SRE,Medium,4,Development,Business Hours
+SRV0105,customer-portal,Payments,SRE,Medium,2,Production,Extended Hours
+SRV0106,data-platform,Customer Experience,DBA,High,48,Production,Business Hours
+SRV0107,inventory-service,Data,SRE,High,4,Production,Business Hours
+SRV0108,notification-service,Infrastructure,SRE,Low,4,Production,Business Hours
+SRV0109,auth-service,Identity,DBA,Low,4,Production,Business Hours
+SRV0110,data-platform,Customer Experience,SRE,High,2,Production,Extended Hours
+SRV0111,data-platform,Commerce,SRE,High,48,Production,Extended Hours
+SRV0112,auth-service,Customer Experience,SRE,High,24,Production,Business Hours
+SRV0113,customer-portal,Data,Security,High,1,Production,Extended Hours
+SRV0114,notification-service,Data,Network,Low,2,Staging,24x7
+SRV0115,data-platform,Identity,Platform,Critical,1,Development,24x7
+SRV0116,notification-service,Customer Experience,DBA,High,2,Production,24x7
+SRV0117,order-service,Identity,Platform,Low,8,Production,Extended Hours
+SRV0118,customer-portal,Payments,DBA,Medium,48,Production,Business Hours
+SRV0119,vpn-service,Commerce,Network,Medium,4,Production,Business Hours
+SRV0120,data-platform,Customer Experience,Security,High,1,Production,24x7
+SRV0121,vpn-service,Customer Experience,DBA,Critical,1,Staging,Business Hours
+SRV0122,customer-portal,Customer Experience,Security,High,4,Production,24x7
+SRV0123,order-service,Data,Platform,Critical,2,Production,Business Hours
+SRV0124,auth-service,Customer Experience,SRE,Critical,8,Staging,Business Hours
+SRV0125,vpn-service,Commerce,DBA,High,1,Staging,Extended Hours
+SRV0126,data-platform,Commerce,SRE,High,2,Production,Extended Hours
+SRV0127,auth-service,Identity,Network,Critical,8,Production,24x7
+SRV0128,auth-service,Infrastructure,DBA,Low,2,Development,Extended Hours
+SRV0129,inventory-service,Identity,Security,Critical,4,Production,Business Hours
+SRV0130,order-service,Identity,DBA,High,2,Staging,Business Hours
+SRV0131,order-service,Commerce,Application Support,Low,1,Staging,Business Hours
+SRV0132,customer-portal,Data,DBA,Critical,4,Production,24x7
+SRV0133,notification-service,Identity,Network,Medium,2,Production,24x7
+SRV0134,vpn-service,Commerce,Platform,Medium,48,Production,Business Hours
+SRV0135,vpn-service,Identity,Security,Medium,48,Production,Extended Hours
+SRV0136,order-service,Data,Security,High,4,Production,Business Hours
+SRV0137,data-platform,Infrastructure,Platform,Medium,2,Staging,Business Hours
+SRV0138,notification-service,Infrastructure,SRE,Medium,4,Staging,Extended Hours
+SRV0139,auth-service,Payments,SRE,High,8,Development,Extended Hours
+SRV0140,data-platform,Commerce,DBA,Critical,4,Development,Business Hours
+SRV0141,customer-portal,Data,DBA,Critical,24,Staging,24x7
+SRV0142,notification-service,Identity,SRE,Medium,48,Production,Extended Hours
+SRV0143,notification-service,Payments,SRE,High,4,Production,Extended Hours
+SRV0144,vpn-service,Identity,DBA,Critical,1,Production,Extended Hours
+SRV0145,vpn-service,Infrastructure,Network,Medium,1,Production,Extended Hours
+SRV0146,data-platform,Data,Network,Low,48,Production,Business Hours
+SRV0147,inventory-service,Payments,Platform,Critical,4,Production,24x7
+SRV0148,order-service,Infrastructure,Security,Critical,2,Production,24x7
+SRV0149,order-service,Identity,Security,High,8,Production,Extended Hours
+SRV0150,vpn-service,Infrastructure,SRE,Medium,48,Staging,Business Hours
+SRV0151,auth-service,Data,SRE,Medium,4,Production,Business Hours
+SRV0152,inventory-service,Payments,DBA,Low,2,Production,Business Hours
+SRV0153,notification-service,Commerce,DBA,Critical,48,Production,Extended Hours
+SRV0154,payment-api,Infrastructure,SRE,High,1,Production,Business Hours
+SRV0155,notification-service,Commerce,SRE,High,48,Production,24x7
+SRV0156,customer-portal,Infrastructure,Security,High,8,Production,Extended Hours
+SRV0157,customer-portal,Infrastructure,Network,Medium,1,Production,Business Hours
+SRV0158,inventory-service,Payments,SRE,Medium,2,Staging,24x7
+SRV0159,payment-api,Customer Experience,DBA,High,24,Production,24x7
+SRV0160,auth-service,Commerce,SRE,Medium,24,Development,Business Hours
+SRV0161,order-service,Infrastructure,Platform,Critical,2,Staging,Extended Hours
+SRV0162,inventory-service,Commerce,Security,Medium,8,Production,24x7
+SRV0163,payment-api,Data,Platform,High,48,Production,24x7
+SRV0164,customer-portal,Commerce,SRE,Medium,24,Production,24x7
+SRV0165,customer-portal,Customer Experience,Application Support,Critical,24,Staging,24x7
+SRV0166,inventory-service,Payments,Platform,Low,2,Staging,Business Hours
+SRV0167,customer-portal,Customer Experience,DBA,Low,8,Staging,24x7
+SRV0168,payment-api,Identity,Security,Medium,24,Development,Extended Hours
+SRV0169,inventory-service,Customer Experience,Application Support,Low,1,Production,Business Hours
+SRV0170,data-platform,Payments,Security,Critical,2,Staging,Business Hours
+SRV0171,inventory-service,Payments,Network,Medium,48,Production,24x7
+SRV0172,customer-portal,Payments,Application Support,High,48,Production,24x7
+SRV0173,order-service,Data,SRE,Low,2,Production,Business Hours
+SRV0174,auth-service,Identity,Platform,High,24,Staging,24x7
+SRV0175,auth-service,Data,Platform,High,8,Production,Business Hours
+SRV0176,order-service,Infrastructure,DBA,Medium,8,Production,Business Hours
+SRV0177,inventory-service,Payments,Application Support,Critical,8,Production,Business Hours
+SRV0178,order-service,Data,Security,Medium,48,Development,Business Hours
+SRV0179,vpn-service,Infrastructure,Application Support,High,4,Production,Extended Hours
+SRV0180,notification-service,Commerce,SRE,Medium,8,Production,Extended Hours
+SRV0181,payment-api,Customer Experience,Security,Low,24,Production,24x7
+SRV0182,inventory-service,Data,Security,Medium,8,Production,Business Hours
+SRV0183,inventory-service,Payments,Network,High,48,Development,Extended Hours
+SRV0184,payment-api,Data,SRE,Critical,2,Development,Extended Hours
+SRV0185,order-service,Commerce,SRE,Critical,48,Staging,24x7
+SRV0186,data-platform,Payments,Application Support,Critical,24,Staging,Extended Hours
+SRV0187,customer-portal,Customer Experience,Platform,Medium,48,Production,Extended Hours
+SRV0188,order-service,Identity,DBA,High,4,Production,Business Hours
+SRV0189,auth-service,Payments,Application Support,High,4,Production,Extended Hours
+SRV0190,payment-api,Identity,Network,High,1,Staging,Business Hours
+SRV0191,customer-portal,Infrastructure,Platform,Low,48,Production,Extended Hours
+SRV0192,data-platform,Data,Network,Critical,24,Staging,Extended Hours
+SRV0193,vpn-service,Infrastructure,Platform,High,2,Production,Extended Hours
+SRV0194,notification-service,Commerce,Platform,Medium,1,Production,Extended Hours
+SRV0195,data-platform,Payments,Security,Critical,24,Production,Extended Hours
+SRV0196,notification-service,Commerce,Network,Low,24,Staging,Business Hours
+SRV0197,notification-service,Identity,Security,Critical,8,Staging,Business Hours
+SRV0198,order-service,Data,Security,Medium,1,Production,Business Hours
+SRV0199,payment-api,Identity,DBA,Medium,48,Staging,Extended Hours
+SRV0200,order-service,Customer Experience,DBA,Medium,4,Staging,Business Hours
+SRV0201,data-platform,Commerce,Platform,Medium,24,Production,24x7
+SRV0202,inventory-service,Identity,DBA,Medium,48,Staging,Extended Hours
+SRV0203,data-platform,Customer Experience,Security,High,8,Production,Extended Hours
+SRV0204,payment-api,Data,Platform,Medium,1,Production,Extended Hours
+SRV0205,auth-service,Identity,Platform,Medium,48,Production,24x7
+SRV0206,customer-portal,Commerce,Security,Medium,24,Production,Extended Hours
+SRV0207,customer-portal,Identity,Application Support,Medium,48,Production,Extended Hours
+SRV0208,vpn-service,Infrastructure,Network,High,8,Production,24x7
+SRV0209,order-service,Data,Security,High,48,Production,24x7
+SRV0210,notification-service,Infrastructure,Platform,High,48,Staging,24x7
+SRV0211,notification-service,Customer Experience,DBA,Critical,2,Production,Extended Hours
+SRV0212,order-service,Infrastructure,Application Support,High,2,Production,Extended Hours
+SRV0213,vpn-service,Commerce,Network,Critical,1,Production,Business Hours
+SRV0214,auth-service,Identity,DBA,Medium,24,Production,Business Hours
+SRV0215,payment-api,Data,SRE,Medium,2,Staging,Business Hours
+SRV0216,notification-service,Commerce,DBA,Medium,4,Development,Extended Hours
+SRV0217,notification-service,Identity,DBA,Medium,24,Production,24x7
+SRV0218,customer-portal,Infrastructure,Application Support,Critical,4,Staging,24x7
+SRV0219,data-platform,Customer Experience,Platform,Critical,1,Production,24x7
+SRV0220,auth-service,Commerce,Network,Medium,4,Development,Extended Hours
+SRV0221,customer-portal,Infrastructure,DBA,Medium,1,Production,Business Hours
+SRV0222,auth-service,Customer Experience,Application Support,Medium,4,Production,Extended Hours
+SRV0223,auth-service,Payments,Platform,Medium,24,Production,Extended Hours
+SRV0224,notification-service,Commerce,Security,Medium,8,Production,24x7
+SRV0225,notification-service,Infrastructure,Application Support,Medium,24,Production,Extended Hours
+SRV0226,notification-service,Commerce,DBA,Medium,1,Production,24x7
+SRV0227,data-platform,Infrastructure,Network,Medium,24,Production,Extended Hours
+SRV0228,payment-api,Commerce,Platform,Critical,4,Staging,Extended Hours
+SRV0229,inventory-service,Payments,Platform,Critical,2,Staging,Extended Hours
+SRV0230,payment-api,Commerce,SRE,High,8,Production,24x7
+SRV0231,vpn-service,Commerce,SRE,Medium,1,Development,Extended Hours
+SRV0232,notification-service,Customer Experience,Network,Medium,4,Production,Extended Hours
+SRV0233,data-platform,Payments,SRE,High,4,Development,24x7
+SRV0234,inventory-service,Payments,SRE,High,1,Production,Business Hours
+SRV0235,order-service,Payments,Security,Medium,48,Staging,Extended Hours
+SRV0236,notification-service,Data,SRE,High,4,Development,Business Hours
+SRV0237,data-platform,Customer Experience,SRE,Medium,1,Staging,Business Hours
+SRV0238,auth-service,Data,DBA,High,4,Staging,24x7
+SRV0239,data-platform,Infrastructure,Application Support,High,48,Production,Business Hours
+SRV0240,notification-service,Customer Experience,Security,High,24,Staging,Extended Hours
+SRV0241,payment-api,Data,SRE,High,8,Production,Business Hours
+SRV0242,vpn-service,Data,Platform,Critical,48,Production,Extended Hours
+SRV0243,auth-service,Identity,Security,High,1,Development,Extended Hours
+SRV0244,inventory-service,Customer Experience,Security,High,8,Production,Extended Hours
+SRV0245,auth-service,Infrastructure,Network,High,2,Production,Business Hours
+SRV0246,auth-service,Customer Experience,Application Support,Medium,24,Development,Extended Hours
+SRV0247,notification-service,Customer Experience,Application Support,Critical,48,Production,24x7
+SRV0248,notification-service,Commerce,Security,High,1,Production,Business Hours
+SRV0249,notification-service,Payments,Security,Critical,1,Production,24x7
+SRV0250,customer-portal,Customer Experience,Security,Low,48,Staging,Extended Hours
+SRV0251,data-platform,Commerce,SRE,Medium,4,Development,Extended Hours
+SRV0252,payment-api,Customer Experience,Security,Low,2,Production,Business Hours
+SRV0253,data-platform,Infrastructure,Application Support,Low,1,Production,Business Hours
+SRV0254,customer-portal,Identity,Platform,High,4,Production,Business Hours
+SRV0255,inventory-service,Commerce,SRE,Medium,1,Staging,Extended Hours
+SRV0256,vpn-service,Data,Network,High,2,Staging,24x7
+SRV0257,customer-portal,Commerce,Platform,Low,2,Development,Extended Hours
+SRV0258,order-service,Identity,Application Support,High,1,Production,24x7
+SRV0259,data-platform,Identity,Network,High,48,Production,24x7
+SRV0260,data-platform,Data,DBA,Low,24,Production,Extended Hours
+SRV0261,auth-service,Payments,Application Support,Medium,48,Production,Extended Hours
+SRV0262,inventory-service,Payments,Security,Low,2,Production,Business Hours
+SRV0263,customer-portal,Payments,Security,Critical,2,Production,Business Hours
+SRV0264,inventory-service,Infrastructure,Application Support,High,2,Production,Extended Hours
+SRV0265,order-service,Payments,Security,High,8,Development,Extended Hours
+SRV0266,payment-api,Commerce,Platform,High,2,Production,Extended Hours
+SRV0267,vpn-service,Payments,Security,Medium,2,Production,Extended Hours
+SRV0268,notification-service,Data,Platform,High,48,Staging,Business Hours
+SRV0269,order-service,Payments,Platform,Medium,4,Production,24x7
+SRV0270,payment-api,Payments,DBA,High,24,Production,24x7
+SRV0271,payment-api,Commerce,Platform,Medium,2,Production,Business Hours
+SRV0272,order-service,Infrastructure,SRE,Low,48,Production,Business Hours
+SRV0273,notification-service,Payments,Application Support,Medium,24,Production,Extended Hours
+SRV0274,customer-portal,Commerce,DBA,High,48,Production,24x7
+SRV0275,notification-service,Infrastructure,Security,High,8,Production,Extended Hours
+SRV0276,order-service,Data,Security,Critical,48,Production,Extended Hours
+SRV0277,payment-api,Infrastructure,DBA,Medium,4,Production,Extended Hours
+SRV0278,inventory-service,Identity,DBA,Medium,4,Production,Business Hours
+SRV0279,auth-service,Customer Experience,Security,Critical,1,Production,24x7
+SRV0280,payment-api,Payments,Platform,Low,2,Development,Business Hours
+SRV0281,auth-service,Data,Security,Medium,24,Production,Business Hours
+SRV0282,customer-portal,Commerce,Security,Medium,2,Production,Business Hours
+SRV0283,inventory-service,Payments,Platform,High,1,Production,Business Hours
+SRV0284,vpn-service,Customer Experience,SRE,Low,2,Staging,Business Hours
+SRV0285,auth-service,Infrastructure,Application Support,High,4,Production,Business Hours
+SRV0286,payment-api,Identity,Application Support,High,24,Production,24x7
+SRV0287,auth-service,Payments,Application Support,Low,1,Production,Business Hours
+SRV0288,customer-portal,Infrastructure,SRE,Low,1,Production,24x7
+SRV0289,auth-service,Data,Application Support,Medium,24,Staging,Business Hours
+SRV0290,customer-portal,Payments,Application Support,Critical,1,Production,Business Hours
+SRV0291,vpn-service,Customer Experience,Security,High,4,Staging,Extended Hours
+SRV0292,order-service,Infrastructure,Network,Medium,24,Production,Extended Hours
+SRV0293,notification-service,Commerce,DBA,Medium,8,Staging,Business Hours
+SRV0294,notification-service,Identity,Network,High,1,Production,24x7
+SRV0295,auth-service,Identity,SRE,Critical,24,Staging,Extended Hours
+SRV0296,auth-service,Commerce,DBA,Medium,1,Staging,24x7
+SRV0297,order-service,Payments,Platform,Medium,2,Production,24x7
+SRV0298,order-service,Commerce,Platform,High,1,Production,24x7
+SRV0299,payment-api,Identity,SRE,Medium,8,Production,Extended Hours
+SRV0300,notification-service,Payments,Network,Low,24,Production,Business Hours
+SRV0301,customer-portal,Payments,SRE,High,8,Staging,24x7
+SRV0302,customer-portal,Commerce,Application Support,Medium,1,Production,24x7
+SRV0303,inventory-service,Commerce,Application Support,Medium,4,Staging,Business Hours
+SRV0304,vpn-service,Commerce,Security,Medium,1,Staging,Extended Hours
+SRV0305,data-platform,Infrastructure,Platform,Low,4,Staging,Business Hours
+SRV0306,vpn-service,Data,SRE,Medium,2,Staging,24x7
+SRV0307,order-service,Identity,DBA,Medium,24,Production,Business Hours
+SRV0308,payment-api,Customer Experience,Security,Critical,24,Production,Business Hours
+SRV0309,auth-service,Infrastructure,SRE,Medium,24,Production,24x7
+SRV0310,customer-portal,Commerce,Application Support,Critical,2,Staging,24x7
+SRV0311,customer-portal,Payments,Network,Critical,1,Development,24x7
+SRV0312,auth-service,Customer Experience,Security,Medium,1,Production,Business Hours
+SRV0313,auth-service,Infrastructure,SRE,Medium,48,Development,24x7
+SRV0314,auth-service,Commerce,Network,Low,48,Development,24x7
+SRV0315,notification-service,Payments,Network,Medium,2,Production,24x7
+SRV0316,order-service,Payments,SRE,Medium,48,Staging,Extended Hours
+SRV0317,payment-api,Identity,Security,High,8,Production,Business Hours
+SRV0318,inventory-service,Identity,Application Support,Medium,2,Production,Extended Hours
+SRV0319,data-platform,Identity,DBA,Low,2,Production,Business Hours
+SRV0320,order-service,Commerce,Network,High,2,Production,24x7
+SRV0321,customer-portal,Payments,DBA,Medium,24,Staging,24x7
+SRV0322,customer-portal,Identity,Network,Medium,2,Production,Extended Hours
+SRV0323,order-service,Customer Experience,Network,High,2,Staging,Business Hours
+SRV0324,customer-portal,Customer Experience,Security,Medium,24,Staging,24x7
+SRV0325,vpn-service,Payments,DBA,High,2,Staging,Business Hours
+SRV0326,vpn-service,Infrastructure,Platform,Critical,2,Production,Business Hours
+SRV0327,customer-portal,Customer Experience,Network,High,24,Production,24x7
+SRV0328,vpn-service,Data,Application Support,High,48,Production,Extended Hours
+SRV0329,data-platform,Commerce,DBA,High,8,Production,24x7
+SRV0330,payment-api,Commerce,SRE,Low,24,Production,24x7
+SRV0331,order-service,Identity,Application Support,High,48,Production,Extended Hours
+SRV0332,notification-service,Commerce,Security,Medium,8,Production,Business Hours
+SRV0333,order-service,Customer Experience,Platform,Medium,24,Production,24x7
+SRV0334,order-service,Data,Application Support,Critical,1,Production,24x7
+SRV0335,order-service,Commerce,Application Support,High,1,Production,Business Hours
+SRV0336,notification-service,Payments,Application Support,Low,48,Development,Extended Hours
+SRV0337,customer-portal,Customer Experience,Network,Medium,1,Production,24x7
+SRV0338,inventory-service,Payments,Application Support,Low,24,Development,Business Hours
+SRV0339,auth-service,Infrastructure,Security,High,4,Production,Business Hours
+SRV0340,vpn-service,Identity,Application Support,Medium,24,Production,Extended Hours
+SRV0341,payment-api,Identity,DBA,Medium,8,Development,Extended Hours
+SRV0342,payment-api,Identity,Platform,Low,1,Development,24x7
+SRV0343,payment-api,Commerce,Platform,Critical,4,Production,Business Hours
+SRV0344,customer-portal,Infrastructure,Application Support,Low,24,Production,Extended Hours
+SRV0345,inventory-service,Commerce,DBA,High,48,Production,Business Hours
+SRV0346,vpn-service,Payments,Application Support,Medium,24,Production,24x7
+SRV0347,order-service,Identity,DBA,Medium,48,Staging,24x7
+SRV0348,auth-service,Payments,DBA,Medium,48,Production,Business Hours
+SRV0349,customer-portal,Commerce,SRE,High,48,Production,Extended Hours
+SRV0350,auth-service,Customer Experience,Network,Medium,8,Production,24x7
+SRV0351,order-service,Customer Experience,DBA,High,4,Production,24x7
+SRV0352,notification-service,Customer Experience,SRE,Medium,8,Production,24x7
+SRV0353,payment-api,Payments,SRE,Medium,24,Production,Business Hours
+SRV0354,data-platform,Commerce,DBA,Medium,4,Development,24x7
+SRV0355,auth-service,Payments,Platform,Medium,24,Production,24x7
+SRV0356,notification-service,Commerce,Security,Medium,24,Production,Business Hours
+SRV0357,data-platform,Data,Network,Medium,2,Production,Extended Hours
+SRV0358,data-platform,Infrastructure,Network,Medium,48,Production,24x7
+SRV0359,notification-service,Commerce,SRE,Medium,48,Production,Business Hours
+SRV0360,notification-service,Payments,Network,Medium,8,Production,Business Hours
+SRV0361,auth-service,Commerce,DBA,Medium,2,Development,Extended Hours
+SRV0362,auth-service,Commerce,DBA,Medium,2,Development,Extended Hours
+SRV0363,order-service,Data,Platform,High,48,Staging,Extended Hours
+SRV0364,inventory-service,Payments,SRE,Medium,1,Staging,24x7
+SRV0365,inventory-service,Data,Application Support,Critical,4,Production,Extended Hours
+SRV0366,data-platform,Commerce,Application Support,High,8,Production,24x7
+SRV0367,customer-portal,Infrastructure,Application Support,Medium,2,Production,Extended Hours
+SRV0368,data-platform,Customer Experience,Platform,High,48,Staging,24x7
+SRV0369,order-service,Identity,DBA,Medium,8,Production,24x7
+SRV0370,auth-service,Infrastructure,SRE,Low,1,Production,24x7
+SRV0371,notification-service,Payments,Application Support,High,2,Production,24x7
+SRV0372,auth-service,Customer Experience,SRE,Critical,4,Production,Business Hours
+SRV0373,order-service,Commerce,Network,Critical,2,Staging,Business Hours
+SRV0374,data-platform,Infrastructure,Application Support,High,48,Production,Extended Hours
+SRV0375,data-platform,Infrastructure,Security,Medium,4,Production,24x7
+SRV0376,customer-portal,Data,Application Support,Medium,8,Production,24x7
+SRV0377,auth-service,Commerce,Network,Medium,8,Staging,24x7
+SRV0378,payment-api,Infrastructure,SRE,High,2,Production,24x7
+SRV0379,payment-api,Commerce,SRE,Medium,8,Production,Extended Hours
+SRV0380,data-platform,Data,SRE,Critical,4,Production,Business Hours
+SRV0381,data-platform,Data,SRE,Medium,1,Production,24x7
+SRV0382,inventory-service,Commerce,Network,Medium,4,Staging,24x7
+SRV0383,inventory-service,Payments,SRE,Critical,8,Production,Extended Hours
+SRV0384,customer-portal,Identity,Platform,Medium,1,Development,Business Hours
+SRV0385,auth-service,Customer Experience,Network,Medium,24,Production,24x7
+SRV0386,payment-api,Data,Security,High,8,Production,Extended Hours
+SRV0387,notification-service,Data,Security,Medium,2,Development,24x7
+SRV0388,payment-api,Identity,SRE,Medium,8,Production,24x7
+SRV0389,payment-api,Infrastructure,Application Support,Critical,2,Staging,Extended Hours
+SRV0390,data-platform,Commerce,DBA,High,8,Production,Business Hours
+SRV0391,inventory-service,Identity,Network,Medium,1,Production,24x7
+SRV0392,order-service,Payments,Network,Low,8,Production,Extended Hours
+SRV0393,auth-service,Commerce,Application Support,Medium,1,Production,24x7
+SRV0394,auth-service,Data,Network,Medium,1,Staging,Extended Hours
+SRV0395,order-service,Identity,Platform,Medium,2,Production,Business Hours
+SRV0396,customer-portal,Identity,Network,High,2,Production,Extended Hours
+SRV0397,inventory-service,Identity,SRE,Critical,4,Production,Extended Hours
+SRV0398,auth-service,Identity,SRE,High,1,Production,Extended Hours
+SRV0399,auth-service,Infrastructure,Platform,Low,2,Production,Extended Hours
+SRV0400,payment-api,Commerce,Platform,Medium,1,Development,Business Hours
+SRV0401,order-service,Commerce,Network,Low,48,Production,24x7
+SRV0402,customer-portal,Payments,SRE,High,24,Production,Business Hours
+SRV0403,auth-service,Data,DBA,Medium,2,Production,Business Hours
+SRV0404,inventory-service,Customer Experience,SRE,Medium,1,Production,Extended Hours
+SRV0405,order-service,Infrastructure,Platform,High,48,Production,24x7
+SRV0406,auth-service,Commerce,Application Support,High,24,Staging,Extended Hours
+SRV0407,notification-service,Identity,SRE,Medium,48,Production,Business Hours
+SRV0408,customer-portal,Commerce,Platform,Medium,2,Staging,Extended Hours
+SRV0409,customer-portal,Payments,DBA,Medium,4,Production,Business Hours
+SRV0410,order-service,Payments,Platform,High,1,Production,Business Hours
+SRV0411,auth-service,Infrastructure,Platform,Medium,4,Development,24x7
+SRV0412,order-service,Customer Experience,SRE,Critical,1,Development,Extended Hours
+SRV0413,inventory-service,Customer Experience,Network,Critical,1,Development,24x7
+SRV0414,auth-service,Data,Security,Medium,8,Production,24x7
+SRV0415,inventory-service,Customer Experience,DBA,High,48,Development,Business Hours
+SRV0416,payment-api,Commerce,Application Support,Low,8,Staging,24x7
+SRV0417,inventory-service,Identity,Security,Medium,24,Staging,Extended Hours
+SRV0418,payment-api,Identity,Security,Critical,24,Staging,Business Hours
+SRV0419,auth-service,Identity,Network,Critical,48,Development,24x7
+SRV0420,customer-portal,Infrastructure,DBA,Medium,1,Production,24x7
+SRV0421,inventory-service,Payments,DBA,High,2,Staging,24x7
+SRV0422,notification-service,Customer Experience,Security,High,8,Staging,Business Hours
+SRV0423,order-service,Infrastructure,DBA,High,24,Staging,Business Hours
+SRV0424,auth-service,Commerce,Network,High,24,Staging,24x7
+SRV0425,order-service,Infrastructure,SRE,Medium,24,Production,Extended Hours
+SRV0426,data-platform,Payments,Application Support,Medium,2,Production,Business Hours
+SRV0427,payment-api,Commerce,Network,Critical,4,Production,Business Hours
+SRV0428,notification-service,Payments,Security,Medium,1,Staging,Business Hours
+SRV0429,order-service,Payments,Security,High,2,Staging,Business Hours
+SRV0430,payment-api,Payments,SRE,Medium,1,Staging,24x7
+SRV0431,notification-service,Infrastructure,DBA,Critical,48,Staging,Extended Hours
+SRV0432,payment-api,Infrastructure,Network,Medium,1,Production,24x7
+SRV0433,customer-portal,Customer Experience,Platform,High,4,Production,24x7
+SRV0434,auth-service,Customer Experience,Platform,Medium,48,Production,Business Hours
+SRV0435,inventory-service,Customer Experience,DBA,High,48,Development,Extended Hours
+SRV0436,payment-api,Customer Experience,SRE,Low,4,Production,Extended Hours
+SRV0437,payment-api,Payments,DBA,High,4,Development,24x7
+SRV0438,inventory-service,Infrastructure,Application Support,Low,8,Development,Business Hours
+SRV0439,vpn-service,Infrastructure,SRE,Low,24,Production,Business Hours
+SRV0440,payment-api,Payments,SRE,High,24,Staging,24x7
+SRV0441,order-service,Payments,SRE,High,8,Production,Extended Hours
+SRV0442,data-platform,Customer Experience,Security,High,4,Production,24x7
+SRV0443,customer-portal,Customer Experience,Application Support,Low,4,Production,24x7
+SRV0444,order-service,Identity,Application Support,Medium,8,Production,24x7
+SRV0445,data-platform,Payments,SRE,Medium,48,Production,Extended Hours
+SRV0446,notification-service,Commerce,Network,Critical,1,Production,24x7
+SRV0447,customer-portal,Payments,SRE,Medium,24,Production,Extended Hours
+SRV0448,data-platform,Infrastructure,Network,Critical,4,Production,Extended Hours
+SRV0449,notification-service,Commerce,Platform,Critical,1,Production,24x7
+SRV0450,inventory-service,Payments,DBA,High,1,Production,24x7
+SRV0451,order-service,Customer Experience,Application Support,Medium,4,Development,Extended Hours
+SRV0452,vpn-service,Infrastructure,Security,Low,2,Production,24x7
+SRV0453,data-platform,Customer Experience,SRE,Medium,1,Production,Business Hours
+SRV0454,vpn-service,Customer Experience,Platform,High,2,Development,Extended Hours
+SRV0455,notification-service,Payments,Platform,High,48,Staging,24x7
+SRV0456,customer-portal,Infrastructure,Platform,Medium,24,Staging,Business Hours
+SRV0457,payment-api,Infrastructure,Network,Medium,2,Staging,Business Hours
+SRV0458,auth-service,Infrastructure,DBA,High,24,Production,Business Hours
+SRV0459,vpn-service,Identity,Security,High,4,Staging,Extended Hours
+SRV0460,customer-portal,Commerce,Application Support,Medium,24,Production,Business Hours
+SRV0461,payment-api,Customer Experience,Security,Low,2,Production,24x7
+SRV0462,auth-service,Payments,Platform,Medium,1,Production,Extended Hours
+SRV0463,payment-api,Data,Platform,Critical,2,Staging,Business Hours
+SRV0464,inventory-service,Infrastructure,Network,Medium,48,Production,24x7
+SRV0465,inventory-service,Infrastructure,Security,High,8,Production,Business Hours
+SRV0466,order-service,Data,Application Support,Low,1,Production,24x7
+SRV0467,notification-service,Infrastructure,Network,High,48,Staging,Business Hours
+SRV0468,order-service,Customer Experience,Platform,High,24,Production,Extended Hours
+SRV0469,vpn-service,Infrastructure,SRE,Medium,8,Production,24x7
+SRV0470,data-platform,Payments,SRE,High,24,Production,Extended Hours
+SRV0471,payment-api,Identity,DBA,High,2,Staging,Extended Hours
+SRV0472,customer-portal,Identity,DBA,Medium,8,Production,Extended Hours
+SRV0473,data-platform,Commerce,DBA,Medium,48,Development,Business Hours
+SRV0474,inventory-service,Commerce,SRE,Medium,4,Production,24x7
+SRV0475,data-platform,Identity,Network,High,1,Production,24x7
+SRV0476,customer-portal,Infrastructure,Platform,Critical,24,Production,Extended Hours
+SRV0477,payment-api,Payments,Network,Medium,24,Production,Business Hours
+SRV0478,data-platform,Infrastructure,DBA,High,24,Production,Business Hours
+SRV0479,data-platform,Data,Platform,High,8,Production,Extended Hours
+SRV0480,notification-service,Customer Experience,DBA,Low,1,Development,Extended Hours
+SRV0481,order-service,Payments,Platform,Low,1,Production,Extended Hours
+SRV0482,payment-api,Identity,DBA,Critical,24,Production,Extended Hours
+SRV0483,notification-service,Customer Experience,Network,Medium,48,Production,Extended Hours
+SRV0484,notification-service,Commerce,Network,Medium,1,Production,24x7
+SRV0485,notification-service,Data,SRE,High,8,Production,24x7
+SRV0486,auth-service,Payments,DBA,Medium,8,Production,24x7
+SRV0487,notification-service,Infrastructure,Application Support,Critical,4,Production,Business Hours
+SRV0488,notification-service,Identity,DBA,Critical,8,Production,Business Hours
+SRV0489,data-platform,Customer Experience,Security,Low,48,Development,Extended Hours
+SRV0490,inventory-service,Commerce,Security,Medium,24,Staging,Extended Hours
+SRV0491,notification-service,Identity,SRE,High,1,Development,Extended Hours
+SRV0492,order-service,Data,Security,Medium,4,Production,24x7
+SRV0493,notification-service,Commerce,Platform,Low,48,Development,Extended Hours
+SRV0494,notification-service,Commerce,DBA,High,2,Production,Extended Hours
+SRV0495,data-platform,Customer Experience,Application Support,Low,48,Production,Extended Hours
+SRV0496,data-platform,Commerce,Application Support,Low,4,Staging,Business Hours
+SRV0497,payment-api,Commerce,Network,High,8,Production,Extended Hours
+SRV0498,data-platform,Data,Application Support,Medium,2,Production,Business Hours
+SRV0499,data-platform,Identity,DBA,Medium,48,Staging,24x7
+SRV0500,inventory-service,Infrastructure,SRE,Medium,8,Production,Business Hours
+SRV0501,inventory-service,Identity,Platform,High,8,Production,24x7
+SRV0502,notification-service,Identity,Application Support,Critical,4,Production,Extended Hours
+SRV0503,order-service,Payments,Application Support,High,1,Production,24x7
+SRV0504,order-service,Commerce,Application Support,Medium,24,Development,24x7
+SRV0505,data-platform,Data,Network,Medium,2,Production,Business Hours
+SRV0506,data-platform,Infrastructure,Platform,Medium,2,Production,Business Hours
+SRV0507,auth-service,Customer Experience,Security,Medium,24,Production,Business Hours
+SRV0508,data-platform,Infrastructure,SRE,Critical,2,Development,24x7
+SRV0509,customer-portal,Identity,Application Support,Critical,24,Staging,Business Hours
+SRV0510,auth-service,Infrastructure,DBA,Medium,4,Production,Extended Hours
+SRV0511,vpn-service,Identity,DBA,Medium,24,Development,24x7
+SRV0512,auth-service,Identity,Network,Medium,1,Production,Extended Hours
+SRV0513,auth-service,Commerce,Application Support,High,24,Development,24x7
+SRV0514,customer-portal,Data,Security,High,2,Production,24x7
+SRV0515,order-service,Identity,SRE,Low,48,Production,Extended Hours
+SRV0516,auth-service,Customer Experience,DBA,High,4,Production,24x7
+SRV0517,auth-service,Identity,Application Support,Critical,1,Development,Business Hours
+SRV0518,order-service,Commerce,SRE,Medium,4,Development,Business Hours
+SRV0519,auth-service,Data,Security,Medium,1,Production,Business Hours
+SRV0520,auth-service,Commerce,Platform,Low,2,Production,Business Hours
+SRV0521,vpn-service,Commerce,DBA,Low,24,Production,Business Hours
+SRV0522,inventory-service,Customer Experience,Application Support,Medium,8,Production,Extended Hours
+SRV0523,payment-api,Commerce,Network,Critical,24,Production,Business Hours
+SRV0524,payment-api,Payments,SRE,Medium,48,Production,Business Hours
+SRV0525,data-platform,Infrastructure,SRE,Low,4,Staging,Extended Hours
+SRV0526,customer-portal,Infrastructure,Security,High,8,Production,Business Hours
+SRV0527,auth-service,Identity,Application Support,Low,1,Development,Extended Hours
+SRV0528,notification-service,Customer Experience,Platform,Medium,2,Production,Extended Hours
+SRV0529,data-platform,Commerce,Application Support,Critical,24,Production,Extended Hours
+SRV0530,order-service,Payments,Network,Medium,1,Production,Business Hours
+SRV0531,notification-service,Identity,SRE,Medium,4,Production,Business Hours
+SRV0532,order-service,Infrastructure,DBA,Critical,1,Production,24x7
+SRV0533,payment-api,Identity,Application Support,High,48,Staging,24x7
+SRV0534,data-platform,Commerce,Platform,Medium,8,Production,24x7
+SRV0535,vpn-service,Infrastructure,Application Support,High,8,Production,Business Hours
+SRV0536,vpn-service,Customer Experience,DBA,High,24,Development,24x7
+SRV0537,payment-api,Commerce,Network,Medium,2,Production,24x7
+SRV0538,inventory-service,Customer Experience,Security,Medium,1,Production,Business Hours
+SRV0539,inventory-service,Identity,Network,Medium,4,Staging,Business Hours
+SRV0540,payment-api,Customer Experience,SRE,Low,2,Production,24x7
+SRV0541,vpn-service,Identity,Application Support,Low,2,Production,Business Hours
+SRV0542,payment-api,Payments,Network,Medium,2,Staging,Business Hours
+SRV0543,customer-portal,Infrastructure,DBA,High,24,Development,24x7
+SRV0544,vpn-service,Infrastructure,Security,Medium,2,Production,24x7
+SRV0545,inventory-service,Customer Experience,SRE,High,1,Production,24x7
+SRV0546,notification-service,Customer Experience,Security,Medium,48,Staging,Extended Hours
+SRV0547,order-service,Payments,Network,Medium,1,Production,24x7
+SRV0548,data-platform,Data,DBA,High,2,Production,24x7
+SRV0549,payment-api,Infrastructure,Network,Medium,4,Production,24x7
+SRV0550,notification-service,Data,Security,Medium,1,Staging,Business Hours
+SRV0551,payment-api,Payments,Platform,Low,48,Production,Extended Hours
+SRV0552,auth-service,Payments,SRE,High,4,Production,24x7
+SRV0553,inventory-service,Infrastructure,Network,Low,24,Production,Extended Hours
+SRV0554,order-service,Customer Experience,SRE,Critical,1,Production,24x7
+SRV0555,auth-service,Identity,Platform,Medium,8,Development,Business Hours
+SRV0556,data-platform,Payments,DBA,Low,1,Production,24x7
+SRV0557,customer-portal,Commerce,Security,High,2,Production,24x7
+SRV0558,data-platform,Identity,Security,Critical,4,Development,Business Hours
+SRV0559,payment-api,Customer Experience,Platform,Medium,48,Production,Business Hours
+SRV0560,auth-service,Customer Experience,Security,Medium,2,Production,Extended Hours
+SRV0561,customer-portal,Data,Network,High,24,Production,Business Hours
+SRV0562,inventory-service,Customer Experience,Platform,Medium,1,Staging,24x7
+SRV0563,order-service,Identity,Security,Medium,2,Staging,Business Hours
+SRV0564,auth-service,Customer Experience,DBA,High,8,Staging,Extended Hours
+SRV0565,inventory-service,Commerce,Network,Medium,4,Production,Business Hours
+SRV0566,vpn-service,Commerce,DBA,High,8,Production,Business Hours
+SRV0567,auth-service,Payments,Security,High,24,Production,Business Hours
+SRV0568,customer-portal,Identity,Platform,Medium,1,Development,Business Hours
+SRV0569,order-service,Identity,SRE,High,24,Production,Extended Hours
+SRV0570,notification-service,Commerce,DBA,Low,48,Production,Business Hours
+SRV0571,auth-service,Identity,SRE,Medium,24,Staging,Business Hours
+SRV0572,auth-service,Payments,DBA,Medium,2,Production,Business Hours
+SRV0573,auth-service,Data,Network,High,4,Production,Business Hours
+SRV0574,inventory-service,Customer Experience,Platform,High,48,Production,Extended Hours
+SRV0575,payment-api,Payments,DBA,Medium,24,Production,Extended Hours
+SRV0576,notification-service,Data,Network,Medium,48,Development,Extended Hours
+SRV0577,order-service,Customer Experience,Network,Medium,48,Production,Business Hours
+SRV0578,customer-portal,Commerce,Platform,High,4,Development,Extended Hours
+SRV0579,data-platform,Identity,Security,High,1,Production,24x7
+SRV0580,data-platform,Payments,Application Support,Critical,2,Production,24x7
+SRV0581,data-platform,Customer Experience,DBA,Medium,2,Development,24x7
+SRV0582,vpn-service,Commerce,Platform,High,48,Development,Business Hours
+SRV0583,auth-service,Payments,Application Support,Medium,2,Production,Extended Hours
+SRV0584,data-platform,Customer Experience,SRE,Medium,4,Staging,24x7
+SRV0585,auth-service,Infrastructure,Platform,High,48,Development,24x7
+SRV0586,customer-portal,Infrastructure,SRE,Medium,1,Staging,Business Hours
+SRV0587,inventory-service,Payments,Application Support,Medium,8,Production,Extended Hours
+SRV0588,notification-service,Payments,SRE,Low,8,Production,24x7
+SRV0589,inventory-service,Identity,DBA,Critical,48,Production,Extended Hours
+SRV0590,inventory-service,Payments,Platform,Medium,4,Production,24x7
+SRV0591,order-service,Data,Platform,Critical,8,Production,24x7
+SRV0592,inventory-service,Commerce,DBA,Medium,48,Production,Business Hours
+SRV0593,order-service,Infrastructure,Security,Medium,48,Production,Extended Hours
+SRV0594,order-service,Payments,SRE,High,24,Production,Extended Hours
+SRV0595,inventory-service,Infrastructure,SRE,Medium,24,Production,24x7
+SRV0596,inventory-service,Customer Experience,Platform,Medium,48,Production,24x7
+SRV0597,customer-portal,Payments,Application Support,High,48,Production,Business Hours
+SRV0598,auth-service,Data,SRE,Medium,24,Production,Business Hours
+SRV0599,customer-portal,Data,Platform,Critical,2,Development,24x7
+SRV0600,order-service,Payments,Network,Low,8,Production,Business Hours
+SRV0601,auth-service,Identity,Platform,Medium,2,Production,24x7
+SRV0602,auth-service,Infrastructure,SRE,Medium,8,Production,Extended Hours
+SRV0603,vpn-service,Customer Experience,DBA,Low,4,Production,24x7
+SRV0604,customer-portal,Commerce,DBA,Medium,48,Production,Business Hours
+SRV0605,notification-service,Payments,Platform,High,8,Production,Business Hours
+SRV0606,auth-service,Identity,Security,Critical,48,Production,24x7
+SRV0607,vpn-service,Customer Experience,SRE,High,24,Staging,Business Hours
+SRV0608,auth-service,Data,Security,Low,48,Production,24x7
+SRV0609,order-service,Commerce,Platform,Low,2,Production,Business Hours
+SRV0610,data-platform,Payments,Platform,Medium,24,Production,Business Hours
+SRV0611,auth-service,Infrastructure,Platform,High,2,Production,24x7
+SRV0612,inventory-service,Commerce,Application Support,High,8,Production,24x7
+SRV0613,data-platform,Data,DBA,Low,4,Staging,24x7
+SRV0614,payment-api,Customer Experience,Security,Critical,2,Production,Extended Hours
+SRV0615,payment-api,Data,Platform,Medium,48,Production,24x7
+SRV0616,data-platform,Customer Experience,SRE,High,48,Production,Extended Hours
+SRV0617,customer-portal,Data,SRE,High,8,Production,Business Hours
+SRV0618,vpn-service,Commerce,Network,Medium,1,Staging,Extended Hours
+SRV0619,vpn-service,Customer Experience,Platform,Low,2,Production,Extended Hours
+SRV0620,vpn-service,Data,Security,Medium,2,Production,24x7
+SRV0621,vpn-service,Infrastructure,Security,Medium,48,Production,Business Hours
+SRV0622,data-platform,Identity,Platform,High,4,Staging,Extended Hours
+SRV0623,order-service,Infrastructure,Network,Low,1,Production,24x7
+SRV0624,vpn-service,Data,Network,Medium,8,Development,Business Hours
+SRV0625,customer-portal,Payments,Security,Medium,48,Development,Business Hours
+SRV0626,inventory-service,Identity,DBA,Medium,8,Staging,24x7
+SRV0627,payment-api,Customer Experience,DBA,High,4,Production,Extended Hours
+SRV0628,vpn-service,Data,SRE,Critical,2,Staging,24x7
+SRV0629,inventory-service,Infrastructure,Network,Low,48,Production,Extended Hours
+SRV0630,vpn-service,Identity,Application Support,Medium,1,Development,24x7
+SRV0631,customer-portal,Identity,Network,High,48,Production,Business Hours
+SRV0632,customer-portal,Customer Experience,Platform,High,2,Production,Business Hours
+SRV0633,inventory-service,Commerce,Platform,Low,1,Production,Extended Hours
+SRV0634,data-platform,Customer Experience,SRE,Medium,4,Staging,Extended Hours
+SRV0635,inventory-service,Infrastructure,Security,Medium,1,Development,Extended Hours
+SRV0636,data-platform,Commerce,SRE,Critical,1,Production,Extended Hours
+SRV0637,auth-service,Customer Experience,DBA,Low,2,Production,Extended Hours
+SRV0638,data-platform,Infrastructure,Network,Low,24,Staging,24x7
+SRV0639,notification-service,Payments,SRE,Medium,24,Staging,Extended Hours
+SRV0640,vpn-service,Payments,Application Support,High,2,Staging,Business Hours
+SRV0641,payment-api,Payments,Security,Medium,8,Production,Business Hours
+SRV0642,order-service,Infrastructure,Security,Medium,4,Production,24x7
+SRV0643,payment-api,Payments,Application Support,Medium,4,Development,Extended Hours
+SRV0644,order-service,Identity,Application Support,Low,4,Production,24x7
+SRV0645,data-platform,Commerce,Security,Medium,48,Production,Business Hours
+SRV0646,notification-service,Payments,DBA,High,8,Production,24x7
+SRV0647,data-platform,Identity,Security,Medium,8,Production,Business Hours
+SRV0648,notification-service,Infrastructure,Network,Medium,48,Staging,Business Hours
+SRV0649,vpn-service,Customer Experience,Platform,High,8,Production,Business Hours
+SRV0650,vpn-service,Commerce,Network,High,1,Production,Business Hours
+SRV0651,inventory-service,Infrastructure,Network,Medium,2,Production,Extended Hours
+SRV0652,vpn-service,Data,SRE,High,4,Development,Extended Hours
+SRV0653,payment-api,Commerce,Application Support,Medium,1,Staging,Business Hours
+SRV0654,notification-service,Data,Application Support,Critical,24,Production,Extended Hours
+SRV0655,inventory-service,Customer Experience,Network,High,4,Staging,Extended Hours
+SRV0656,vpn-service,Payments,Network,High,1,Production,24x7
+SRV0657,inventory-service,Data,Application Support,Medium,4,Staging,Business Hours
+SRV0658,auth-service,Payments,Network,Medium,24,Staging,Extended Hours
+SRV0659,notification-service,Customer Experience,Security,Medium,48,Production,Business Hours
+SRV0660,vpn-service,Data,DBA,Medium,48,Development,24x7
+SRV0661,payment-api,Payments,Platform,Critical,48,Production,Business Hours
+SRV0662,payment-api,Data,Security,Medium,8,Production,Business Hours
+SRV0663,notification-service,Commerce,Platform,Low,48,Production,Extended Hours
+SRV0664,inventory-service,Payments,Platform,Medium,48,Staging,Business Hours
+SRV0665,inventory-service,Customer Experience,Security,High,8,Production,24x7
+SRV0666,payment-api,Commerce,Security,Medium,4,Production,24x7
+SRV0667,inventory-service,Payments,Application Support,High,48,Production,24x7
+SRV0668,inventory-service,Data,Security,Critical,4,Development,24x7
+SRV0669,data-platform,Commerce,SRE,High,1,Production,Extended Hours
+SRV0670,order-service,Data,Application Support,Critical,1,Production,24x7
+SRV0671,customer-portal,Payments,Network,High,8,Production,Business Hours
+SRV0672,payment-api,Infrastructure,SRE,Medium,1,Staging,24x7
+SRV0673,inventory-service,Commerce,DBA,High,1,Production,Business Hours
+SRV0674,notification-service,Commerce,Platform,Medium,2,Production,Extended Hours
+SRV0675,customer-portal,Infrastructure,Network,Low,8,Development,Business Hours
+SRV0676,notification-service,Data,Network,Medium,4,Production,24x7
+SRV0677,vpn-service,Payments,SRE,Medium,8,Production,Extended Hours
+SRV0678,auth-service,Data,Application Support,Medium,8,Development,Business Hours
+SRV0679,inventory-service,Data,DBA,Critical,48,Production,24x7
+SRV0680,notification-service,Identity,Application Support,High,2,Production,Extended Hours
+SRV0681,payment-api,Identity,Network,Medium,4,Production,Extended Hours
+SRV0682,auth-service,Payments,DBA,Medium,8,Staging,Business Hours
+SRV0683,order-service,Customer Experience,Security,Medium,2,Development,24x7
+SRV0684,auth-service,Payments,Platform,Medium,2,Production,Business Hours
+SRV0685,customer-portal,Data,Application Support,Medium,1,Production,Business Hours
+SRV0686,auth-service,Customer Experience,Platform,Medium,2,Production,Extended Hours
+SRV0687,vpn-service,Commerce,Application Support,Medium,2,Production,Extended Hours
+SRV0688,inventory-service,Identity,DBA,Low,2,Production,24x7
+SRV0689,customer-portal,Infrastructure,DBA,Medium,2,Production,Business Hours
+SRV0690,data-platform,Data,Platform,Low,24,Production,24x7
+SRV0691,payment-api,Payments,DBA,Low,24,Staging,Business Hours
+SRV0692,inventory-service,Data,DBA,Medium,8,Production,Business Hours
+SRV0693,notification-service,Payments,Application Support,Critical,1,Production,Business Hours
+SRV0694,data-platform,Commerce,Application Support,High,24,Production,Business Hours
+SRV0695,auth-service,Identity,Network,Medium,1,Production,Business Hours
+SRV0696,inventory-service,Customer Experience,Network,Critical,1,Production,Extended Hours
+SRV0697,data-platform,Customer Experience,Network,Medium,8,Production,Business Hours
+SRV0698,data-platform,Infrastructure,Network,Medium,4,Production,24x7
+SRV0699,auth-service,Infrastructure,SRE,Low,2,Production,Extended Hours
+SRV0700,vpn-service,Payments,SRE,Medium,48,Staging,Business Hours
+SRV0701,customer-portal,Payments,Security,Medium,1,Development,Extended Hours
+SRV0702,order-service,Infrastructure,Platform,High,1,Staging,Extended Hours
+SRV0703,auth-service,Commerce,Network,Critical,8,Production,24x7
+SRV0704,auth-service,Data,Security,Medium,4,Development,Extended Hours
+SRV0705,customer-portal,Infrastructure,DBA,High,24,Production,Extended Hours
+SRV0706,auth-service,Commerce,Network,Medium,1,Production,24x7
+SRV0707,notification-service,Infrastructure,Security,Low,4,Production,24x7
+SRV0708,inventory-service,Infrastructure,SRE,Medium,1,Production,24x7
+SRV0709,order-service,Identity,Network,Medium,1,Production,Extended Hours
+SRV0710,inventory-service,Infrastructure,SRE,Medium,4,Production,Extended Hours
+SRV0711,inventory-service,Identity,DBA,Medium,24,Staging,24x7
+SRV0712,auth-service,Identity,SRE,High,1,Production,Business Hours
+SRV0713,customer-portal,Infrastructure,Application Support,Medium,48,Staging,24x7
+SRV0714,vpn-service,Customer Experience,DBA,High,8,Development,24x7
+SRV0715,payment-api,Payments,Platform,Medium,4,Production,24x7
+SRV0716,vpn-service,Data,DBA,High,48,Production,24x7
+SRV0717,vpn-service,Data,Network,Medium,2,Production,Extended Hours
+SRV0718,customer-portal,Data,DBA,Medium,2,Production,Extended Hours
+SRV0719,customer-portal,Infrastructure,Platform,Critical,24,Development,24x7
+SRV0720,auth-service,Payments,DBA,Medium,1,Staging,Business Hours
+SRV0721,inventory-service,Infrastructure,SRE,High,48,Staging,24x7
+SRV0722,auth-service,Identity,SRE,High,24,Production,Business Hours
+SRV0723,data-platform,Payments,DBA,Critical,48,Staging,Extended Hours
+SRV0724,order-service,Commerce,DBA,High,4,Staging,Extended Hours
+SRV0725,vpn-service,Payments,Platform,Low,8,Production,Extended Hours
+SRV0726,data-platform,Data,SRE,Low,48,Production,24x7
+SRV0727,order-service,Data,Network,Medium,1,Production,24x7
+SRV0728,inventory-service,Data,Application Support,Medium,2,Production,24x7
+SRV0729,payment-api,Payments,Security,Medium,4,Development,24x7
+SRV0730,payment-api,Infrastructure,SRE,Low,8,Production,Business Hours
+SRV0731,inventory-service,Payments,Application Support,Medium,24,Production,Business Hours
+SRV0732,order-service,Identity,Network,Critical,48,Development,Extended Hours
+SRV0733,order-service,Commerce,DBA,Medium,4,Production,24x7
+SRV0734,payment-api,Infrastructure,SRE,Low,2,Production,24x7
+SRV0735,data-platform,Commerce,Platform,High,2,Development,Extended Hours
+SRV0736,order-service,Infrastructure,Security,Medium,24,Development,Extended Hours
+SRV0737,order-service,Customer Experience,Platform,High,4,Staging,Business Hours
+SRV0738,order-service,Infrastructure,SRE,High,8,Production,24x7
+SRV0739,order-service,Payments,SRE,Medium,8,Development,Business Hours
+SRV0740,notification-service,Infrastructure,Application Support,High,24,Staging,24x7
+SRV0741,data-platform,Identity,Security,Low,2,Staging,Business Hours
+SRV0742,inventory-service,Customer Experience,SRE,Medium,2,Production,Extended Hours
+SRV0743,auth-service,Customer Experience,Application Support,Critical,24,Production,24x7
+SRV0744,data-platform,Payments,Security,Medium,4,Staging,24x7
+SRV0745,customer-portal,Payments,Network,Medium,24,Development,Extended Hours
+SRV0746,payment-api,Infrastructure,DBA,Medium,1,Production,24x7
+SRV0747,payment-api,Payments,Platform,Medium,2,Production,Extended Hours
+SRV0748,data-platform,Customer Experience,Platform,Medium,48,Staging,Extended Hours
+SRV0749,order-service,Data,Security,High,48,Production,Business Hours
+SRV0750,payment-api,Data,Platform,High,1,Production,Business Hours
+SRV0751,data-platform,Customer Experience,Network,High,24,Production,Business Hours
+SRV0752,customer-portal,Identity,Network,High,1,Production,Business Hours
+SRV0753,vpn-service,Data,SRE,Medium,1,Staging,Extended Hours
+SRV0754,vpn-service,Customer Experience,Security,High,48,Production,Extended Hours
+SRV0755,payment-api,Payments,Security,Medium,1,Production,24x7
+SRV0756,notification-service,Identity,Application Support,Medium,2,Development,24x7
+SRV0757,inventory-service,Payments,DBA,Medium,1,Staging,Business Hours
+SRV0758,auth-service,Commerce,Platform,Medium,8,Production,Business Hours
+SRV0759,customer-portal,Payments,Platform,Low,1,Production,Extended Hours
+SRV0760,order-service,Identity,Network,Low,2,Staging,24x7
+SRV0761,auth-service,Customer Experience,Application Support,High,2,Production,Business Hours
+SRV0762,notification-service,Commerce,Platform,Medium,8,Production,24x7
+SRV0763,customer-portal,Commerce,Security,High,4,Production,Business Hours
+SRV0764,vpn-service,Commerce,SRE,Medium,2,Production,Extended Hours
+SRV0765,data-platform,Customer Experience,Application Support,Medium,4,Staging,24x7
+SRV0766,notification-service,Commerce,DBA,High,4,Production,24x7
+SRV0767,payment-api,Commerce,Network,High,4,Production,Business Hours
+SRV0768,payment-api,Customer Experience,Network,High,8,Production,Extended Hours
+SRV0769,auth-service,Payments,Network,Medium,2,Production,Business Hours
+SRV0770,order-service,Commerce,Platform,Medium,4,Production,Extended Hours
+SRV0771,data-platform,Infrastructure,DBA,Critical,24,Development,24x7
+SRV0772,auth-service,Data,Application Support,High,2,Production,Extended Hours
+SRV0773,notification-service,Customer Experience,Platform,High,2,Production,24x7
+SRV0774,payment-api,Customer Experience,Security,Medium,1,Production,24x7
+SRV0775,customer-portal,Commerce,DBA,Critical,24,Staging,Business Hours
+SRV0776,inventory-service,Infrastructure,Security,High,24,Production,24x7
+SRV0777,data-platform,Identity,Security,Low,24,Development,Extended Hours
+SRV0778,data-platform,Identity,SRE,Medium,2,Staging,Extended Hours
+SRV0779,inventory-service,Customer Experience,SRE,Medium,4,Production,Business Hours
+SRV0780,payment-api,Payments,Application Support,Medium,2,Staging,Business Hours
+SRV0781,customer-portal,Commerce,SRE,Medium,24,Production,Extended Hours
+SRV0782,data-platform,Data,DBA,Medium,4,Development,Extended Hours
+SRV0783,payment-api,Commerce,Security,High,4,Development,Business Hours
+SRV0784,notification-service,Customer Experience,DBA,High,4,Production,Extended Hours
+SRV0785,notification-service,Identity,SRE,Low,24,Production,24x7
+SRV0786,data-platform,Data,SRE,Low,24,Production,24x7
+SRV0787,auth-service,Payments,Security,Medium,24,Production,24x7
+SRV0788,auth-service,Identity,Application Support,Critical,4,Staging,24x7
+SRV0789,auth-service,Identity,Network,Critical,24,Development,24x7
+SRV0790,order-service,Infrastructure,DBA,High,48,Production,Business Hours
+SRV0791,inventory-service,Identity,Application Support,Low,8,Staging,Extended Hours
+SRV0792,payment-api,Infrastructure,Security,Medium,24,Staging,Business Hours
+SRV0793,inventory-service,Commerce,DBA,Medium,48,Production,Business Hours
+SRV0794,auth-service,Data,DBA,Low,48,Production,24x7
+SRV0795,inventory-service,Customer Experience,Application Support,Critical,2,Staging,24x7
+SRV0796,customer-portal,Customer Experience,Security,Medium,24,Staging,Business Hours
+SRV0797,vpn-service,Payments,Network,High,4,Development,24x7
+SRV0798,customer-portal,Infrastructure,Security,High,1,Production,Extended Hours
+SRV0799,data-platform,Customer Experience,Platform,Low,4,Production,Business Hours
+SRV0800,auth-service,Infrastructure,Application Support,Low,48,Production,Business Hours
+SRV0801,payment-api,Identity,SRE,Critical,48,Production,24x7
+SRV0802,auth-service,Data,Platform,High,24,Production,24x7
+SRV0803,order-service,Data,Network,Medium,48,Development,24x7
+SRV0804,vpn-service,Data,Platform,Critical,8,Production,Extended Hours
+SRV0805,auth-service,Commerce,DBA,Medium,24,Staging,Business Hours
+SRV0806,data-platform,Data,Security,Medium,1,Production,Extended Hours
+SRV0807,notification-service,Data,Application Support,High,2,Production,Business Hours
+SRV0808,customer-portal,Commerce,DBA,High,2,Staging,Extended Hours
+SRV0809,customer-portal,Infrastructure,DBA,High,48,Staging,Extended Hours
+SRV0810,vpn-service,Infrastructure,DBA,Low,8,Production,24x7
+SRV0811,notification-service,Identity,SRE,High,48,Development,24x7
+SRV0812,auth-service,Data,Security,Medium,4,Production,Extended Hours
+SRV0813,vpn-service,Infrastructure,SRE,High,4,Production,24x7
+SRV0814,order-service,Commerce,DBA,Medium,24,Production,Extended Hours
+SRV0815,payment-api,Infrastructure,Application Support,Critical,8,Staging,Business Hours
+SRV0816,data-platform,Payments,Security,Critical,4,Production,Extended Hours
+SRV0817,data-platform,Commerce,DBA,Medium,2,Staging,24x7
+SRV0818,order-service,Infrastructure,Platform,Medium,8,Production,24x7
+SRV0819,notification-service,Customer Experience,Application Support,High,1,Production,Business Hours
+SRV0820,auth-service,Data,Application Support,High,2,Development,24x7
+SRV0821,data-platform,Data,Network,Low,1,Production,24x7
+SRV0822,customer-portal,Commerce,SRE,Critical,1,Production,Business Hours
+SRV0823,customer-portal,Infrastructure,DBA,High,2,Production,24x7
+SRV0824,inventory-service,Commerce,DBA,High,1,Production,24x7
+SRV0825,customer-portal,Payments,Application Support,High,1,Production,Extended Hours
+SRV0826,inventory-service,Identity,Application Support,Medium,24,Production,24x7
+SRV0827,notification-service,Data,Platform,Medium,2,Production,Extended Hours
+SRV0828,order-service,Customer Experience,Platform,Medium,8,Production,Extended Hours
+SRV0829,data-platform,Commerce,Application Support,Medium,1,Production,Extended Hours
+SRV0830,order-service,Customer Experience,Platform,High,48,Production,24x7
+SRV0831,vpn-service,Infrastructure,Network,Medium,2,Production,24x7
+SRV0832,customer-portal,Data,Platform,Critical,24,Production,Extended Hours
+SRV0833,notification-service,Infrastructure,Network,High,8,Staging,24x7
+SRV0834,inventory-service,Commerce,DBA,Medium,24,Production,Business Hours
+SRV0835,vpn-service,Commerce,Platform,High,8,Production,Business Hours
+SRV0836,auth-service,Infrastructure,Network,Critical,8,Production,Extended Hours
+SRV0837,auth-service,Data,Network,High,24,Production,Extended Hours
+SRV0838,data-platform,Data,SRE,Medium,24,Production,24x7
+SRV0839,vpn-service,Commerce,Security,Critical,4,Staging,Business Hours
+SRV0840,notification-service,Customer Experience,Application Support,Medium,48,Production,Business Hours
+SRV0841,order-service,Payments,Network,Medium,48,Production,Extended Hours
+SRV0842,order-service,Payments,Platform,Medium,24,Development,Business Hours
+SRV0843,notification-service,Commerce,DBA,High,48,Production,24x7
+SRV0844,notification-service,Payments,DBA,Medium,1,Development,Extended Hours
+SRV0845,customer-portal,Commerce,DBA,High,8,Staging,Business Hours
+SRV0846,payment-api,Data,DBA,Low,8,Production,24x7
+SRV0847,payment-api,Commerce,Security,Medium,48,Production,24x7
+SRV0848,customer-portal,Identity,SRE,Critical,1,Production,24x7
+SRV0849,notification-service,Identity,SRE,Medium,24,Development,Extended Hours
+SRV0850,order-service,Data,SRE,Medium,1,Production,Extended Hours
+SRV0851,inventory-service,Customer Experience,SRE,Medium,4,Development,Business Hours
+SRV0852,order-service,Infrastructure,Application Support,High,24,Production,24x7
+SRV0853,customer-portal,Data,Security,Medium,2,Production,Extended Hours
+SRV0854,notification-service,Payments,DBA,Medium,48,Production,Business Hours
+SRV0855,notification-service,Identity,Security,Low,48,Production,Business Hours
+SRV0856,vpn-service,Commerce,SRE,High,1,Production,24x7
+SRV0857,data-platform,Identity,Platform,Medium,2,Development,Extended Hours
+SRV0858,order-service,Infrastructure,Security,Medium,1,Production,24x7
+SRV0859,notification-service,Commerce,Network,Medium,24,Development,Business Hours
+SRV0860,customer-portal,Customer Experience,DBA,Medium,48,Development,Business Hours
+SRV0861,data-platform,Identity,Security,High,8,Production,Business Hours
+SRV0862,inventory-service,Commerce,SRE,Medium,1,Production,Business Hours
+SRV0863,data-platform,Infrastructure,Security,High,2,Production,Business Hours
+SRV0864,customer-portal,Identity,Security,High,1,Production,Business Hours
+SRV0865,payment-api,Infrastructure,Network,Medium,4,Development,Business Hours
+SRV0866,auth-service,Data,Network,High,24,Development,Business Hours
+SRV0867,inventory-service,Data,SRE,Critical,1,Development,Extended Hours
+SRV0868,vpn-service,Commerce,Platform,Critical,48,Production,Extended Hours
+SRV0869,notification-service,Customer Experience,Platform,Medium,2,Production,24x7
+SRV0870,data-platform,Infrastructure,Application Support,Low,8,Production,Extended Hours
+SRV0871,order-service,Identity,SRE,Medium,24,Development,24x7
+SRV0872,vpn-service,Data,Platform,Critical,8,Production,24x7
+SRV0873,vpn-service,Customer Experience,SRE,Medium,4,Production,Business Hours
+SRV0874,auth-service,Identity,Platform,High,4,Production,24x7
+SRV0875,data-platform,Data,SRE,Low,4,Production,Business Hours
+SRV0876,payment-api,Infrastructure,Platform,Medium,2,Production,24x7
+SRV0877,inventory-service,Identity,Security,High,2,Production,Business Hours
+SRV0878,order-service,Data,Security,Medium,24,Development,Extended Hours
+SRV0879,customer-portal,Data,Network,High,48,Staging,Extended Hours
+SRV0880,vpn-service,Identity,Security,Medium,48,Production,Business Hours
+SRV0881,notification-service,Identity,DBA,Critical,2,Staging,24x7
+SRV0882,auth-service,Data,Application Support,Low,2,Production,Extended Hours
+SRV0883,auth-service,Identity,Security,Medium,1,Staging,24x7
+SRV0884,payment-api,Customer Experience,Platform,Low,2,Production,Business Hours
+SRV0885,customer-portal,Data,DBA,Low,8,Production,24x7
+SRV0886,payment-api,Infrastructure,Security,High,2,Production,Business Hours
+SRV0887,customer-portal,Commerce,Platform,Medium,24,Production,24x7
+SRV0888,data-platform,Identity,DBA,Medium,1,Production,Extended Hours
+SRV0889,data-platform,Commerce,Network,High,4,Staging,24x7
+SRV0890,data-platform,Infrastructure,Platform,Critical,2,Staging,Business Hours
+SRV0891,order-service,Commerce,Platform,High,4,Production,Business Hours
+SRV0892,notification-service,Identity,SRE,High,1,Production,Business Hours
+SRV0893,vpn-service,Payments,Security,Low,4,Staging,Business Hours
+SRV0894,payment-api,Data,Security,Medium,24,Production,24x7
+SRV0895,vpn-service,Infrastructure,DBA,Medium,48,Production,Extended Hours
+SRV0896,notification-service,Data,Platform,Low,2,Production,Business Hours
+SRV0897,order-service,Identity,SRE,High,4,Production,24x7
+SRV0898,order-service,Identity,DBA,Medium,24,Production,24x7
+SRV0899,order-service,Commerce,Platform,Critical,4,Production,Business Hours
+SRV0900,auth-service,Commerce,DBA,Critical,8,Production,Extended Hours
+SRV0901,auth-service,Identity,Application Support,High,4,Staging,Extended Hours
+SRV0902,customer-portal,Customer Experience,SRE,High,48,Staging,Business Hours
+SRV0903,payment-api,Identity,DBA,High,8,Staging,Business Hours
+SRV0904,inventory-service,Identity,Application Support,Medium,48,Production,24x7
+SRV0905,order-service,Data,Network,High,24,Development,Business Hours
+SRV0906,customer-portal,Infrastructure,Security,Critical,4,Staging,24x7
+SRV0907,auth-service,Commerce,Security,Medium,2,Production,Extended Hours
+SRV0908,vpn-service,Infrastructure,Network,Critical,1,Production,Business Hours
+SRV0909,notification-service,Payments,Platform,Medium,8,Production,24x7
+SRV0910,order-service,Data,Security,Low,24,Production,Extended Hours
+SRV0911,notification-service,Payments,DBA,Medium,4,Staging,Extended Hours
+SRV0912,customer-portal,Payments,Network,Medium,1,Staging,24x7
+SRV0913,auth-service,Data,Platform,Medium,24,Development,24x7
+SRV0914,notification-service,Identity,Security,Medium,2,Development,24x7
+SRV0915,data-platform,Payments,Platform,Low,8,Production,Business Hours
+SRV0916,notification-service,Identity,SRE,Low,1,Development,Business Hours
+SRV0917,inventory-service,Infrastructure,SRE,High,1,Development,Extended Hours
+SRV0918,payment-api,Data,Network,Medium,48,Production,Extended Hours
+SRV0919,notification-service,Commerce,SRE,Medium,24,Production,Extended Hours
+SRV0920,inventory-service,Customer Experience,Network,Critical,1,Production,Extended Hours
+SRV0921,order-service,Commerce,Platform,Medium,1,Production,24x7
+SRV0922,auth-service,Customer Experience,Network,Medium,4,Production,24x7
+SRV0923,vpn-service,Commerce,Security,Medium,24,Production,Extended Hours
+SRV0924,order-service,Payments,Network,High,4,Production,Business Hours
+SRV0925,customer-portal,Payments,DBA,High,48,Production,24x7
+SRV0926,notification-service,Identity,SRE,High,8,Production,Extended Hours
+SRV0927,order-service,Identity,SRE,Medium,8,Staging,24x7
+SRV0928,inventory-service,Payments,Application Support,Low,2,Development,Extended Hours
+SRV0929,notification-service,Commerce,DBA,Low,24,Development,Extended Hours
+SRV0930,customer-portal,Customer Experience,SRE,High,48,Production,Business Hours
+SRV0931,auth-service,Identity,DBA,High,1,Production,Business Hours
+SRV0932,auth-service,Identity,SRE,Medium,24,Development,Extended Hours
+SRV0933,vpn-service,Customer Experience,SRE,Medium,48,Production,Extended Hours
+SRV0934,inventory-service,Identity,Network,Medium,4,Development,Business Hours
+SRV0935,order-service,Infrastructure,DBA,High,24,Staging,24x7
+SRV0936,customer-portal,Data,DBA,Critical,4,Production,24x7
+SRV0937,notification-service,Customer Experience,Security,Medium,2,Production,Business Hours
+SRV0938,vpn-service,Data,Platform,Medium,24,Production,24x7
+SRV0939,data-platform,Data,Platform,High,2,Production,Extended Hours
+SRV0940,inventory-service,Identity,DBA,Low,24,Production,Business Hours
+SRV0941,order-service,Data,Application Support,Medium,2,Staging,Extended Hours
+SRV0942,data-platform,Infrastructure,Security,Low,4,Production,24x7
+SRV0943,data-platform,Customer Experience,Security,Medium,24,Production,24x7
+SRV0944,order-service,Payments,SRE,Medium,4,Production,Business Hours
+SRV0945,vpn-service,Payments,Application Support,Low,24,Production,24x7
+SRV0946,data-platform,Payments,Application Support,Low,1,Production,Extended Hours
+SRV0947,data-platform,Infrastructure,DBA,Low,1,Staging,Business Hours
+SRV0948,payment-api,Payments,Network,Medium,1,Production,Extended Hours
+SRV0949,auth-service,Customer Experience,DBA,Medium,2,Staging,Extended Hours
+SRV0950,customer-portal,Commerce,DBA,High,1,Production,24x7
+SRV0951,data-platform,Identity,Application Support,High,4,Production,Extended Hours
+SRV0952,payment-api,Customer Experience,SRE,Low,1,Staging,24x7
+SRV0953,payment-api,Infrastructure,DBA,High,24,Staging,Extended Hours
+SRV0954,payment-api,Data,Security,Medium,1,Staging,Extended Hours
+SRV0955,auth-service,Customer Experience,Network,Low,48,Production,Extended Hours
+SRV0956,vpn-service,Infrastructure,Application Support,Low,48,Development,Business Hours
+SRV0957,notification-service,Data,SRE,Low,24,Production,24x7
+SRV0958,notification-service,Identity,SRE,Medium,24,Production,24x7
+SRV0959,customer-portal,Customer Experience,Security,Medium,24,Staging,24x7
+SRV0960,notification-service,Infrastructure,SRE,Low,48,Production,Extended Hours
+SRV0961,data-platform,Customer Experience,Network,High,8,Staging,Business Hours
+SRV0962,inventory-service,Customer Experience,Platform,High,8,Production,24x7
+SRV0963,data-platform,Data,Security,Low,4,Production,24x7
+SRV0964,inventory-service,Commerce,SRE,Medium,8,Production,24x7
+SRV0965,customer-portal,Customer Experience,Network,Medium,4,Staging,24x7
+SRV0966,notification-service,Customer Experience,Application Support,Critical,1,Staging,Extended Hours
+SRV0967,vpn-service,Payments,Network,Medium,48,Production,Extended Hours
+SRV0968,data-platform,Data,DBA,Low,24,Production,Business Hours
+SRV0969,order-service,Data,Application Support,Medium,24,Production,Extended Hours
+SRV0970,inventory-service,Infrastructure,DBA,High,2,Production,Business Hours
+SRV0971,vpn-service,Customer Experience,Security,Medium,24,Staging,24x7
+SRV0972,notification-service,Identity,Application Support,Low,8,Production,Extended Hours
+SRV0973,inventory-service,Customer Experience,DBA,Low,1,Production,24x7
+SRV0974,customer-portal,Data,Security,High,48,Production,Extended Hours
+SRV0975,vpn-service,Payments,DBA,Medium,48,Production,Extended Hours
+SRV0976,vpn-service,Data,Security,High,48,Staging,24x7
+SRV0977,payment-api,Payments,DBA,Medium,4,Staging,24x7
+SRV0978,payment-api,Customer Experience,Network,High,2,Production,Business Hours
+SRV0979,payment-api,Infrastructure,DBA,Medium,1,Development,Extended Hours
+SRV0980,order-service,Customer Experience,Network,Medium,24,Production,24x7
+SRV0981,auth-service,Data,Network,High,48,Development,Extended Hours
+SRV0982,vpn-service,Commerce,Platform,High,1,Production,Business Hours
+SRV0983,vpn-service,Commerce,Network,High,24,Production,Extended Hours
+SRV0984,auth-service,Customer Experience,Network,Critical,1,Staging,Business Hours
+SRV0985,data-platform,Payments,DBA,Medium,24,Production,Business Hours
+SRV0986,auth-service,Customer Experience,Network,High,1,Staging,Business Hours
+SRV0987,data-platform,Commerce,Network,Critical,48,Production,24x7
+SRV0988,customer-portal,Data,SRE,Low,2,Production,24x7
+SRV0989,payment-api,Infrastructure,Network,High,4,Development,24x7
+SRV0990,order-service,Payments,Network,Low,24,Production,Extended Hours
+SRV0991,data-platform,Payments,Application Support,Medium,48,Production,Business Hours
+SRV0992,vpn-service,Payments,Network,Medium,4,Production,Business Hours
+SRV0993,payment-api,Infrastructure,SRE,Medium,48,Production,Extended Hours
+SRV0994,data-platform,Payments,Platform,High,1,Staging,Extended Hours
+SRV0995,customer-portal,Data,Security,Medium,4,Production,24x7
+SRV0996,order-service,Payments,SRE,Medium,48,Development,Business Hours
+SRV0997,payment-api,Infrastructure,SRE,High,2,Production,Business Hours
+SRV0998,vpn-service,Customer Experience,Network,Medium,8,Production,Extended Hours
+SRV0999,data-platform,Commerce,Network,Medium,4,Production,Extended Hours
+SRV1000,notification-service,Identity,Network,Low,4,Production,Business Hours
